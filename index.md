@@ -1,9 +1,9 @@
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
-# Intro 
+# Introduction
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
 Fast learner，team worker, 8 years in Linux，2 years in management, 1 year entrepreneurship
-##### [Le français](french.md) | [english](index.md) | [中文](chinese.md) | [Deutsch](german.md) | [日本語](japanese.md)
+##### [Le français](f.md) | [english](index.md) | [中文](c.md) | [Deutsch](g.md) | [日本語](j.md)
 
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
@@ -51,11 +51,11 @@ automation，OSI network quality assurance，
 
 ## Skills
 
-- Web development: HTML, CSS, JavaScript
+- Automation: Python, Bash, Cmd
+- Web: HTML, CSS, JavaScript
+- SQL, Office, Linux, CPU, Performance, Trace
+- Server: C, PHP,
 - Network protocol
-- C
-- Python
-- SQL
 - Project Management
 
 <a href="#top">Back to top</a>
