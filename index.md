@@ -3,8 +3,7 @@
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
 Fast learner，team worker, 8 years in Linux，2 years in management, 1 year entrepreneurship
-
-##### [french](french.md) | [english](index.md) | [chinses](chinese.md) | [german](german.md) | [japanese](japanese.md)
+##### [Le français](french.md) | [english](index.md) | [中文](chinese.md) | [Deutsch](german.md) | [日本語](japanese.md)
 
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
