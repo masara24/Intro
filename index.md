@@ -1,15 +1,10 @@
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
-# Intro
-
+# Intro 
+##### [french](french.md) | [english](index.md) | [chinses](chinese.md) | [german](german.md) | [japanese](japanese.md)
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
-- <jianchi23@88.com>
-- (912) 555-4321
-- [french](french.md)
-- [english](english.md)
-- [chinses](chinese.md)
-- [german](german.md)
-- [japanese](japanese.md)
+- <fanqiang320@gmail.com>
+- +14388289640
 - Montreal, QC
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
