@@ -1,74 +1,66 @@
-### 😃
+<!-- The (first) h1 will be used as the <title> of the HTML page -->
+# Intro
 
-What is this?
+<!-- The unordered list immediately after the h1 will be formatted on a single
+line. It is intended to be used for contact details -->
+- <jianchi23@88.com>
+- (912) 555-4321
+- [french](french.md)
+- [english](english.md)
+- [chinses](chinese.md)
+- [german](german.md)
+- [japanese](japanese.md)
+- Montreal, QC
 
-### Emoji 2
+<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
+is intended to be used for a short summary. -->
+Fast learner，team worker, 8 years in Linux，2 years in management, 1 year entrepreneurship
 
-1. Explaination while need
-2. Problem borders clarified
-3. Topics rather than metaphysics
+## Experience
 
-<a name="Menu"></a>
-### Emoji 3
+<!-- You have to wrap the "left" and "right" half of these headings in spans by
+hand -->
+### <span>MANAGER | MANYAN SOFTWARE LTD | 2022 - 2023</span>
 
-The contents are shown as below, select whichever might interest you
+- Developed organization，submitted plans and goals，hired and trained new employee
+- Maintained clients relationship，managed budget and drove investment
+- Based on WX API，steps follows requirement analysis，plan design, contract，code and maintain
 
-1. [Base Enviroment](Base_Enviroment.md)
-2. [Hello World](Hello_World.md)
-3. [String](String.md)
-4. [Number](Number.md)
-5. [👨‍🎓story](History.md)
-6. [Keywrod](Keyword.md)
-7. [Function](Function.md)
-8. [Pointer](Pointer.md)
-9. [Summary](Summary.md)
-10. [⚛️licon](Silicon.md)
-11. [Linux](Kernel.md)
-<br>a. [space](Kernel_space.md)
-<br>b. [process](Kernel_process.md)
-<br>c. [vitual file](Kernel_vfs.md)
-<br>d. [network](Kernel_network.md)
-<br>e. [interconnect](Kernel_ipc.md)
-12. [Embed](Embed.md)
-13. [Build](Build.md)
-14. [System](System.md)
-<br>a. [CPU](Hardware_CPU.md)
-<br>b. [BUS](Hardware_BUS.md)
-<br>c. [QEMU](QEMU_KVM.md)
-<br>d. [IMG](Software_IMG.md)
-<br>e. [FILE](File.md)
-<br>f. [FVP](System_Fvp.md)
-<br>g. [Docker](System_Docker.md)
-<br>h. [Gem5](System_Gem5.md)
-15. [Reverse](Reverse.md)
-16. [Command](Command.md)
-<br>a. [AWK](Command_AWK.md)
-<br>b. [ADB](Command_ADB.md)
-<br>b. [GDB](Command_GDB.md)
-17. [🎵usic](Music.md)
-18. [Server](Server.md)
-19. [Script](Script.md)
-<br>a. [bash](bash.md)
-<br>b. [python](python.md)
-<br>c. [js](js.md)
-20. [Performace](Perf.md)
+### <span>DEVELOPER | HUAWEI | 2018 - 2022</span>
 
-The appendix,
-1. [short name](EF.md)
-2. [equation](EQ.md)
-3. [markdown](EM.md)
-4. [interview](ES.md)
+- Accomplished new features for DPDK，Linux，Uacce，added NIC，ACC，MM，Virt modules
+- Built Hisi CPU development enviroment，assembled FPGA，cut small OS，bring up drivers
+- Led tool team for Kunpeng Server，i.e. toolchain，performance，build system，documentation
+- IL-2 award，2012 Lab Fighter award
 
-### Emoji 4
+### <span>SIT | NOKIA | 2016 - 2018</span>
 
-| Idx |      Own       |                                                   Ref                                                   |
-| --- | -------------- | ------------------------------------------------------------------------------------------------------- |
-| 1   | Dennis Ritchie | [C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628) |
-| 2   | Emoji          | [webfx](webfx.com/tools/emoji-cheat-sheet/)                                                             |
-| 3   | Arch           | [dive](https://diveintosystems.org/book/C5-Arch/hist.html)                                              |
-| 4   | Algorithm      | [algorithm](https://runestone.academy/ns/books/published//pythonds/index.html)                          |
-| 5   | Emoji          | [getemoji](https://getemoji.com/)                                                                       |
-| 6   | Autodraw       | [autodraw](https://www.autodraw.com/)                                                                   |
-| 6   | Autodraw       | [autodraw](https://www.autodraw.com/)                                                                   |
+- In charge of ISAM optic products，40+ carrier field test， Jekins+Python+Robot+Selenium
+automation，OSI network quality assurance，
+- Wrote ONT Configuration Guide, Trained team on packets tools
+- Nokia Innovattion award，FBGN automation pioneer award
+
+### <span>QA | BROADCOMM | 2014 - 2016</span>
+
+- Tested G series FC Switch，port，hot plug，LED，fan，power，TCP/IP，IGMP，VLAN，MAC
+- Automated GTP network test enviroment，Spirent+MLX+Linux+TCL/Python+HAPI
+
+## Education
+
+### <span>MASTER OF EE | BOSTON UNIVERSITY | 2012 - 2014</span>
+- MASTER OF EE | BOSTON UNIVERSITY | 2012 - 2014
+CCNP
+
+- BACHELOR OF EE | UNIVERSITY OF SASKATCHEWAN | 2008 - 2012
+DEAN’s Honor On the Wall，CCNA，Best EE Project(Bluetooth Score Turner
+
+## Skills
+
+- Web development: HTML, CSS, JavaScript
+- Network protocol
+- C
+- Python
+- SQL
+- Project Management
 
 <a href="#top">Back to top</a>
