@@ -44,10 +44,10 @@ automation，OSI network quality assurance，
 
 ### <span>MASTER OF EE | BOSTON UNIVERSITY | 2012 - 2014</span>
 - MASTER OF EE | BOSTON UNIVERSITY | 2012 - 2014
-CCNP
+##### CCNP
 
 - BACHELOR OF EE | UNIVERSITY OF SASKATCHEWAN | 2008 - 2012
-DEAN’s Honor On the Wall，CCNA，Best EE Project(Bluetooth Score Turner
+##### DEAN’s Honor On the Wall，CCNA，Best EE Project(Bluetooth Score Turner
 
 ## Skills
 
