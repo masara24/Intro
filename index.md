@@ -8,7 +8,7 @@ Fast learner，team worker, 8 years in Linux，2 years in management, 1 year ent
 <!-- The unordered list immediately after the h1 will be formatted on a single
 line. It is intended to be used for contact details -->
 - <fanqiang320@gmail.com>
-- +14388289640
+- <font color=#008000>+14388289640</font>
 - Montreal, QC
 
 ## Experience
