@@ -40,7 +40,7 @@ hand -->
 
 ### <span>DÉVELOPPEUR | HUAWEI | 2018 - 2022</span>
 
-- Nouvelles fonctionnalités pour DPDK，Linux，Uacce，added NIC，ACC，MM，Virt modules
+- Nouvelles fonctionnalités pour DPDK，Linux，Uacce，et NIC，ACC，MM，Virt modules ajoutée
 - Création de l'environnement de développement de l'unité centrale Hisi， assemblage du FPGA， découpage d'un petit système d'exploitation， mise en place de pilotes
 - A dirigé l'équipe chargée des outils pour le serveur Kunpeng，i.e. toolchain，performance，build system，documentation
 - Prix IL-2，2012 Lab Fighter award
