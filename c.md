@@ -1,2 +1,3 @@
 - [简介](简历md.pdf)
-- [蓝牙](https://m.ykimg.com/054F040858AB05AA700720021B04413C)
+- [蓝牙](https://m.youku.com/mid_video/id_XMjA1NTUzOTMxNg==.html?scene=short&playMode=pugv&sharekey=5563d53d1c42b7d5fe4b9cd1e4ad49e41)
+- [必剪](https://www.bilibili.com/video/BV1Yh411K79a/?spm_id_from=333.999.0.0)
