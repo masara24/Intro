@@ -1,2 +1,2 @@
 
-[LE COMTE DE MONTE-CRISTO](lcdm/lcdm1.html)
+<a href="lcdm/lcdm1.html">LE COMTE DE MONTE-CRISTO</a>
