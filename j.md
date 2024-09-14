@@ -34,7 +34,7 @@ line. It is intended to be used for contact details -->
 - <a href="#">+14388289640</a>
 - Montréal, QC
 
-<a href="履历.excel">履历</a>
+<a href="履历.xlsx">履历</a>
     ====
   </template>
 </body>
