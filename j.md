@@ -38,7 +38,7 @@ line. It is intended to be used for contact details -->
     ====
   </template>
     <div>
-        <h1>File upload progress</h1>
+        <h3>上传</h3>
         <input type="file" id="file-uploader">
 
         <div id="feedback"></div>
