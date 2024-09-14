@@ -38,29 +38,45 @@ line. It is intended to be used for contact details -->
     ====
   </template>
     <div>
-        <h1>Single File Upload</h1>
+        <h1>File upload progress</h1>
         <input type="file" id="file-uploader">
-        <p>Upload a file and see the output in browser console</p>
 
-        <p id="feedback"></p>
+        <div id="feedback"></div>
+
+        <label id="progress-label" for="progress"></label>
+        <progress id="progress" value="0" max="100"> </progress>
     </div>
-
-    <script>
-        const fileUploader = document.getElementById('file-uploader');
-
-        fileUploader.addEventListener('change', (event) => {
-            const files = event.target.files;
-            console.log('files', files);
-
-            // show the upload feedback
-            const feedback = document.getElementById('feedback');
-            const msg = `File ${files[0].name} uploaded successfully!`;
-            feedback.innerHTML = msg;
-        });
-
-    </script>
- 
+    
 </body>
+
+<script>
+    const fileUploader = document.getElementById('file-uploader');
+    const feedback = document.getElementById('feedback');
+    const progress = document.getElementById('progress');
+
+    const reader = new FileReader();
+
+    fileUploader.addEventListener('change', (event) => {
+        const files = event.target.files;
+        const file = files[0];
+        reader.readAsDataURL(file);
+
+        reader.addEventListener('progress', (event) => {
+            if (event.loaded && event.total) {
+                const percent = (event.loaded / event.total) * 100;
+                progress.value = percent;
+                document.getElementById('progress-label').innerHTML = Math.round(percent) + '%';
+
+                if (percent === 100) {
+                    let msg = `<span style="color:green;">File <u><b>${file.name}</b></u> has been uploaded successfully.</span>`;
+                    feedback.innerHTML = msg;
+                }
+            }
+        });
+    });
+
+</script>
+
 <script src="https://cdn.bootcss.com/marked/0.3.6/marked.min.js" charset="utf-8"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js" charset="utf-8"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/languages/javascript.min.js" charset="utf-8"></script>
