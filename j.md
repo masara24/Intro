@@ -37,6 +37,29 @@ line. It is intended to be used for contact details -->
 ### <a href="履历.xlsx">履历</a>
     ====
   </template>
+    <div>
+        <h1>Single File Upload</h1>
+        <input type="file" id="file-uploader">
+        <p>Upload a file and see the output in browser console</p>
+
+        <p id="feedback"></p>
+    </div>
+
+    <script>
+        const fileUploader = document.getElementById('file-uploader');
+
+        fileUploader.addEventListener('change', (event) => {
+            const files = event.target.files;
+            console.log('files', files);
+
+            // show the upload feedback
+            const feedback = document.getElementById('feedback');
+            const msg = `File ${files[0].name} uploaded successfully!`;
+            feedback.innerHTML = msg;
+        });
+
+    </script>
+ 
 </body>
 <script src="https://cdn.bootcss.com/marked/0.3.6/marked.min.js" charset="utf-8"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js" charset="utf-8"></script>
