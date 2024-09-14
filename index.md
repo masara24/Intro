@@ -42,12 +42,11 @@ automation，OSI network quality assurance，
 
 ## Education
 
-### <span>MASTER OF EE | BOSTON UNIVERSITY | 2012 - 2014</span>
 - MASTER OF EE | BOSTON UNIVERSITY | 2012 - 2014
 ##### CCNP
 
 - BACHELOR OF EE | UNIVERSITY OF SASKATCHEWAN | 2008 - 2012
-##### DEAN’s Honor On the Wall，CCNA，Best EE Project(Bluetooth Score Turner
+##### DEAN’s Honor On the Wall，CCNA，Best EE Project(Bluetooth Score Turner)
 
 ## Skills
 
@@ -55,7 +54,7 @@ automation，OSI network quality assurance，
 - Web: HTML, CSS, JavaScript
 - SQL, Office, Linux, CPU, Performance, Trace
 - Server: C, PHP,
-- Network protocol
+- Network Protocol
 - Project Management
 
 <a href="#top">Back to top</a>
