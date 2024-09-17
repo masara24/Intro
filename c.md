@@ -1,3 +1,23 @@
-- [简介](简历md.pdf)
-- [蓝牙](https://m.youku.com/mid_video/id_XMjA1NTUzOTMxNg==.html?scene=short&playMode=pugv&sharekey=5563d53d1c42b7d5fe4b9cd1e4ad49e41)
-- [必剪](https://www.bilibili.com/video/BV1Yh411K79a/?spm_id_from=333.999.0.0)
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr style="border: 1px solid black;">
+    <th style="border: 1px solid black;">内容</th>
+    <th style="border: 1px solid black;">链接</th>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">1</td>
+    <td style="border: 1px solid black;"><a href="简历md.pdf">简历</a></td>
+  </tr>
+    <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;"></td>
+    <td style="border: 1px solid black;"></td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">2</td>
+    <td style="border: 1px solid black;"><a href="https://m.youku.com/mid_video/id_XMjA1NTUzOTMxNg==.html?scene=short&playMode=pugv&sharekey=5563d53d1c42b7d5fe4b9cd1e4ad49e41">BT</a></td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">3</td>
+    <td style="border: 1px solid black;"><a href="https://www.bilibili.com/video/BV1Yh411K79a/?spm_id_from=333.999.0.0">BJ</a></td>
+  </tr>
+</table>
