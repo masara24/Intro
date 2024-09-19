@@ -22,6 +22,6 @@
   </tr>
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">4</td>
-    <td style="border: 1px solid black;"><a href="xwz.md">xwz</a></td>
+    <td style="border: 1px solid black;"><a href="xwz.html">xwz</a></td>
   </tr>
 </table>
