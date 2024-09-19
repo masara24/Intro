@@ -1,7 +1,6 @@
-<!DOCTYPE HTML>
 <html>
     <head>
-        <title>Learn to use workerman to chat!</title>
+        <title>Smart Content</title>
         <meta charset="utf-8">
         <style>
             .container{
@@ -11,16 +10,16 @@
 
            .left{
                    text-align:center;
-                   background-color: blue;
+                   
                 display:inline-block;
                 width: 50%;
            }
 
            .right{
                    text-align:center;
-                   background-color: red;
+                   
                 display:inline-block;
-                margin-left:-5px;
+                
                 width:50%;
            }
         </style>
@@ -30,8 +29,8 @@
             <div class="left">
                 <table style="border-collapse: collapse; width: 100%;">
   <tr style="border: 1px solid black;">
-    <th style="border: 1px solid black;">内容</th>
-    <th style="border: 1px solid black;">链接</th>
+    <th style="border: 1px solid black;">Content</th>
+    <th style="border: 1px solid black;">Link</th>
   </tr>
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">1</td>
