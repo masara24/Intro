@@ -1,5 +1,34 @@
-<div id='left-div' style="width:50%; display:inline-block">
-<table style="border-collapse: collapse; width: 100%;">
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Learn to use workerman to chat!</title>
+        <meta charset="utf-8">
+        <style>
+            .container{
+                width:100%;
+                height:100%;
+            }
+
+           .left{
+                   text-align:center;
+                   background-color: blue;
+                display:inline-block;
+                width: 50%;
+           }
+
+           .right{
+                   text-align:center;
+                   background-color: red;
+                display:inline-block;
+                margin-left:-5px;
+                width:50%;
+           }
+        </style>
+    </head>
+  <body>
+  <div class="container">
+            <div class="left">
+                <table style="border-collapse: collapse; width: 100%;">
   <tr style="border: 1px solid black;">
     <th style="border: 1px solid black;">内容</th>
     <th style="border: 1px solid black;">链接</th>
@@ -20,11 +49,10 @@
     <td style="border: 1px solid black;">3</td>
     <td style="border: 1px solid black;"><a href="https://www.bilibili.com/video/BV1Yh411K79a/?spm_id_from=333.999.0.0">BJ</a></td>
   </tr>
-
-</div>
- 
-<div id='right-div' style="width: 50%; display:inline-block;vertical-align: top;">
-<table style="border-collapse: collapse; width: 100%;">
+  </table>
+            </div>
+  <div class="right">
+                <table style="border-collapse: collapse; width: 100%;">
   <tr style="border: 1px solid black;">
     <th style="border: 1px solid black;">内容</th>
     <th style="border: 1px solid black;">链接</th>
@@ -42,4 +70,10 @@
     <td style="border: 1px solid black;"><a href="https://www.qianbo.com.cn/Tool/Beautify/Js-Formatter.html">JS格式化</a></td>
   </tr>
 </table>
+            </div>
 </div>
+</body>
+</html>
+
+
+
