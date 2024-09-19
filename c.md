@@ -1,33 +1,9 @@
-<html>
-    <head>
-        <title>Smart Content</title>
-        <meta charset="utf-8">
-        <style>
-            .container{
-                width:100%;
-                height:100%;
-            }
 
-           .left{
-                   text-align:center;
-                   
-                display:inline-block;
-                width: 50%;
-           }
+<body>
+<div class="container">
+<div id='left-div' style="width:50%; display:inline-block">
 
-           .right{
-                   text-align:center;
-                   
-                display:inline-block;
-                
-                width:50%;
-           }
-        </style>
-    </head>
-  <body>
-  <div class="container">
-            <div class="left">
-                <table style="border-collapse: collapse; width: 100%;">
+<table style="border-collapse: collapse; width: 100%;">
   <tr style="border: 1px solid black;">
     <th style="border: 1px solid black;">Content</th>
     <th style="border: 1px solid black;">Link</th>
@@ -50,8 +26,11 @@
   </tr>
   </table>
             </div>
-  <div class="right">
-                <table style="border-collapse: collapse; width: 100%;">
+
+ 
+<div id='right-div' style="width: 50%; display:inline-block;vertical-align: top;">
+
+<table style="border-collapse: collapse; width: 100%;">
   <tr style="border: 1px solid black;">
     <th style="border: 1px solid black;">内容</th>
     <th style="border: 1px solid black;">链接</th>
@@ -72,7 +51,6 @@
             </div>
 </div>
 </body>
-</html>
 
 
 
