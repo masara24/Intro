@@ -45,6 +45,10 @@
     <td style="border: 1px solid black;">4</td>
     <td style="border: 1px solid black;"><a href="https://www.qianbo.com.cn/Tool/Beautify/Js-Formatter.html">JS Format</a></td>
   </tr>
+    <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">5</td>
+    <td style="border: 1px solid black;"><a href="c/split.js">split.js</a></td>
+  </tr>
 </table>
             </div>
 </div>
