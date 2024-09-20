@@ -1,1013 +1,5066 @@
-| French       | >                                                                                                   |                                                                   |
-| ------------ | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| [être]       | to be; being                                                                                        | verb, auxiliary verb, noun                                        |
-| [avoir]      | to have                                                                                             | verb, auxiliary verb                                              |
-| [je]         | I                                                                                                   | personal pronoun                                                  |
-| [de]         | of, from, by, than, in, with (see #28)                                                              | preposition                                                       |
-| ne           | not                                                                                                 | adverb                                                            |
-| pas          | not; step, pace                                                                                     | adverb, noun                                                      |
-| le           | the; him, it (refering to a masculine singular noun) (see #8, 15, 18)                               | definite article, personal pronoun                                |
-| la           | the; her, it (refering to a feminine singular noun) (see #7, 15, 18)                                | definite article, personal pronoun                                |
-| tu           | you                                                                                                 | personal pronoun                                                  |
-| [vous]       | you, yourself                                                                                       | personal pronoun                                                  |
-| il           | he, it                                                                                              | personal pronoun                                                  |
-| et           | and                                                                                                 | conjunction                                                       |
-| à            | in, to, with                                                                                        | preposition                                                       |
-| un           | a, an; one (used before a masculine singular noun) (see #26, 31)                                    | indefinite article                                                |
-| l'           | the (used instead of ''le'' or ''la'' before nouns that begin with a vowel) (see #7, 8, 18)         | definite article, personal pronoun                                |
-| qui          | who, whom; that, which                                                                              | relative pronoun, interrogative pronoun                           |
-| aller        | to go                                                                                               | verb                                                              |
-| les          | the; them (referring to a plural noun) (see #7, 8, 15)                                              | definite article, personal pronoun                                |
-| en           | in, into, to, as                                                                                    | preposition, personal pronoun, adverb                             |
-| ça           | this, that (see #203)                                                                               | demonstrative pronoun                                             |
-| faire        | to do, make                                                                                         | verb                                                              |
-| tout         | all, everything, any; very, quite                                                                   | adjective, indefinite adjective, indefinite pronoun, adverb, noun |
-| on           | we, you                                                                                             | personal pronoun                                                  |
-| que          | that; what; which                                                                                   | relative pronoun, interrogative pronoun                           |
-| ce           | this, that (see #73, 99, 201)                                                                       | demonstrative pronoun, demonstrative adjective                    |
-| une          | a, an; one (used before a feminine singular noun); french.languagedaily.com (see #14, 31)           | indefinite article                                                |
-| mes          | my (used before plural nouns) (see #50, 108)                                                        | possessive adjective                                              |
-| d'           | of, from, by, than, in, with (used before a vowel or mute h) (see #4)                               | preposition                                                       |
-| pour         | for                                                                                                 | preposition                                                       |
-| se           | himself, herself, themselves (see #60)                                                              | personal pronoun                                                  |
-| des          | some (used before a plural noun) (see #14, 26)                                                      | indefinite article                                                |
-| dire         | to say, tell                                                                                        | verb, noun                                                        |
-| pouvoir      | can, to be able to                                                                                  | verb, noun                                                        |
-| vouloir      | to want                                                                                             | verb                                                              |
-| mais         | but                                                                                                 | conjunction                                                       |
-| me           | me, myself                                                                                          | personal pronoun                                                  |
-| nous         | we, us                                                                                              | personal pronoun                                                  |
-| dans         | in, into                                                                                            | preposition                                                       |
-| elle         | she, it (refers to a feminine singular noun)                                                        | personal pronoun                                                  |
-| savoir       | to know; languagedaily dot com                                                                      | verb                                                              |
-| du           | (de + le/les) = of the, from the                                                                    | definite article                                                  |
-| où           | where, that                                                                                         | relative pronoun, interrogative pronoun                           |
-| y            | it, there                                                                                           | personal pronoun                                                  |
-| t'           | you, yourself (shortened form used before a vowel)                                                  | personal pronoun                                                  |
-| bien         | well, very; good                                                                                    | adverb, noun                                                      |
-| voir         | to see                                                                                              | verb                                                              |
-| plus         | more                                                                                                | adverb                                                            |
-| non          | no                                                                                                  | adverb                                                            |
-| te           | you, yourself                                                                                       | personal pronoun                                                  |
-| mon          | my (used before a masculine singular noun) (see #27, 108)                                           | possessive adjective                                              |
-|              |                                                                                                     |                                                                   |
-| au           | at the, to the, in the (contraction of à + le; used with a singular masculine noun)                 | definite article                                                  |
-| avec         | with                                                                                                | preposition                                                       |
-| moi          | I, me                                                                                               | personal pronoun                                                  |
-| si           | yes; if; so, such                                                                                   | adverb, conjunction                                               |
-| quoi         | what (exclamatory, interrogative, after preposition)                                                | adjective, relative pronoun, interrogative pronoun                |
-| devoir       | to have to, must; duty, test                                                                        | verb, noun                                                        |
-| oui          | yes                                                                                                 | adverb                                                            |
-| ils          | they (refers to a group of masculine or mixed masculine/feminine nouns)                             | personal pronoun                                                  |
-| comme        | as, like; how, same                                                                                 | conjunction, adverb                                               |
-| s'           | himself, herself, themselves (variation of "se" used before a word starting with a vowel or mute h) | personal pronoun, conjunction                                     |
-| venir        | to come, occur                                                                                      | verb                                                              |
-| sur          | on, upon; over (preposition); sour (adjective)                                                      | preposition, adjective                                            |
-| toi          | you                                                                                                 | personal pronoun                                                  |
-| ici          | here                                                                                                | adverb                                                            |
-| rien         | nothing                                                                                             | indefinite pronoun                                                |
-| lui          | he, him, it, her                                                                                    | personal pronoun                                                  |
-| bon          | good, right, kind; good!; voucher; then; french.languagedaily.com                                   | adjective, onomatopoeia, noun, adverb                             |
-| là           | there, here, then                                                                                   | adverb                                                            |
-| suivre       | to follow                                                                                           | verb                                                              |
-| pourquoi     | why                                                                                                 | adverb, conjunction                                               |
-| parler       | to speak, talk                                                                                      | verb                                                              |
-| prendre      | to take, get                                                                                        | verb                                                              |
-| cette        | this, that (feminine singular)                                                                      | demonstrative adjective                                           |
-| quand        | when, whenever                                                                                      | conjunction                                                       |
-| alors        | then; so; hence                                                                                     | adverb                                                            |
-| une chose    | thing, matter                                                                                       | noun                                                              |
-| par          | per, by, through, out of                                                                            | preposition                                                       |
-| son          | his, her, its (possessive adjective); sound (noun - le son)                                         | possessive adjective                                              |
-| croire       | to believe, think                                                                                   | verb                                                              |
-| aimer        | to love, like, be fond of                                                                           | verb                                                              |
-| falloir      | it is necessary, must, have to                                                                      | verb                                                              |
-| comment      | how; what                                                                                           | adverb, conjunction, onomatopoeia                                 |
-| très         | very                                                                                                | adverb                                                            |
-| ou           | or; either… or                                                                                      | conjunction                                                       |
-| passer       | to pass, go by, cross                                                                               | verb                                                              |
-| penser       | to think                                                                                            | verb                                                              |
-| aussi        | also, too                                                                                           | adverb                                                            |
-| jamais       | never                                                                                               | adverb                                                            |
-| attendre     | to wait for, expect                                                                                 | verb                                                              |
-| trouver      | to find                                                                                             | verb                                                              |
-| laisser      | to leave                                                                                            | verb                                                              |
-| petit        | small, little, young (adjective); languagedaily dot com; kid, child (masculine noun)                | adjective, noun                                                   |
-| merci        | thanks, thank you                                                                                   | onomatopoeia, noun                                                |
-| même         | same; even, so much as, as                                                                          | adverb, adjective                                                 |
-| sa           | his, her, its (feminine)                                                                            | possessive adjective                                              |
-| ta           | your (reminine)                                                                                     | possessive adjective                                              |
-| autre        | other, another, different (singular)                                                                | adjective, indefinite pronoun                                     |
-| arriver      | to arrive                                                                                           | verb                                                              |
-| ces          | these, those (plural form of masculine "ce" and feminine "cette")                                   | demonstrative adjective                                           |
-| donner       | to give, give away                                                                                  | verb                                                              |
-|              |                                                                                                     |                                                                   |
-| regarder     | to look at, watch                                                                                   | verb                                                              |
-| encore       | again, over again, even, still                                                                      | adverb                                                            |
-| appeler      | to call, ring                                                                                       | verb                                                              |
-| est-ce que   | is it                                                                                               | adverb                                                            |
-| peu          | not much, not very, few; bit                                                                        | noun, adverb                                                      |
-| homme        | man                                                                                                 | noun                                                              |
-| partir       | to go, leave, go away                                                                               | verb                                                              |
-| ma           | my (used before a feminine singular noun) (see #27, 50)                                             | possessive adjective                                              |
-| toujours     | always, still                                                                                       | adverb                                                            |
-| jour         | day, daytime                                                                                        | noun                                                              |
-| femme        | woman, wife                                                                                         | noun                                                              |
-| temps        | weather; time; times                                                                                | noun                                                              |
-| maintenant   | now, nowadays                                                                                       | adverb                                                            |
-| notre        | our (singular) (see #192)                                                                           | possessive adjective                                              |
-| vie          | life, lifetime, existence                                                                           | noun                                                              |
-| deux         | two                                                                                                 | numerical adjective                                               |
-| mettre       | to put, put on, wear; languagedaily dot com                                                         | verb                                                              |
-| rester       | to stay, remain                                                                                     | verb                                                              |
-| sans         | without                                                                                             | preposition                                                       |
-| seul         | alone                                                                                               | adjective, noun                                                   |
-| arrêter      | to stop                                                                                             | verb                                                              |
-| vraiment     | really, truly                                                                                       | adverb                                                            |
-| connaître    | to know, experience                                                                                 | verb                                                              |
-| quelque      | some, a few, any                                                                                    | indefinite adjective, adverb                                      |
-| sûr          | on, over                                                                                            | adjective                                                         |
-| tuer         | to kill                                                                                             | verb                                                              |
-| mourir       | to die, pass away                                                                                   | verb                                                              |
-| demander     | to ask, ask for, be looking for                                                                     | verb                                                              |
-| juste        | just, fair; just, right, accurate; french.languagedaily.com                                         | adjective, adverb                                                 |
-| peut-être    | perhaps, maybe                                                                                      | adverb                                                            |
-| dieu         | god                                                                                                 | noun                                                              |
-| fois         | time                                                                                                | noun                                                              |
-| oh           | oh!                                                                                                 | onomatopoeia                                                      |
-| père         | father                                                                                              | noun                                                              |
-| comprendre   | to understand                                                                                       | verb                                                              |
-| sortir       | to go out; take out                                                                                 | verb                                                              |
-| personne     | anyone, anybody; person, individual                                                                 | indefinite pronoun, noun                                          |
-| an           | year                                                                                                | noun                                                              |
-| trop         | too much, too (excessively)                                                                         | adverb                                                            |
-| chez         | at, to, in                                                                                          | preposition                                                       |
-| fille        | daughter, girl, gal                                                                                 | noun                                                              |
-| aux          | (à + les) = of the                                                                                  | definite article                                                  |
-| monde        | world, people                                                                                       | noun                                                              |
-| ami          | friend; friendly                                                                                    | noun, adjective                                                   |
-| vrai         | true, real, genuine                                                                                 | adjective                                                         |
-| après        | after, afterwards, later                                                                            | preposition, adverb                                               |
-| mal          | trouble, difficulty; badly, wrongly                                                                 | adverb, noun                                                      |
-| besoin       | need, demand, necessity                                                                             | noun                                                              |
-| accord       | agreement, accord, harmony                                                                          | noun                                                              |
-| ses          | his, her, its (plural)                                                                              | possessive adjective                                              |
-|              |                                                                                                     |                                                                   |
-| avant        | before                                                                                              | preposition, adverb                                               |
-| monsieur     | gentleman, Mr                                                                                       | noun                                                              |
-| enfant       | child, infant                                                                                       | noun                                                              |
-| grand        | big, large, tall, great; big boy, big girl                                                          | adjective, noun                                                   |
-| entendre     | to hear, listen to, understand                                                                      | verb                                                              |
-| voilà        | there is, there are                                                                                 | preposition                                                       |
-| chercher     | to look for, seek                                                                                   | verb                                                              |
-| heure        | hour; time; age                                                                                     | noun                                                              |
-| mieux        | better, utmost, best; improvement                                                                   | adverb, noun                                                      |
-| tes          | your (plural)                                                                                       | possessive adjective                                              |
-| aider        | to help, aid                                                                                        | verb                                                              |
-| mère         | mother                                                                                              | noun                                                              |
-| déjà         | already, before                                                                                     | adverb                                                            |
-| beau         | beautiful, lovely, pretty; fine, nice (weather)                                                     | adjective                                                         |
-| essayer      | to try, try out, test                                                                               | verb                                                              |
-| quel         | what, which (interrogative)                                                                         | interrogative adjective                                           |
-| vos          | your (plural, from ''votre'')                                                                       | possessive adjective                                              |
-| depuis       | since, from, for;  french.languagedaily.com                                                         | preposition, adverb                                               |
-| quelqu'un    | someone, somebody                                                                                   | indefinite pronoun                                                |
-| beaucoup     | much, many, a lot                                                                                   | adverb                                                            |
-| revenir      | to come back, return                                                                                | verb                                                              |
-| donc         | so, therefore                                                                                       | conjunction                                                       |
-| plaire       | to be successful                                                                                    | verb                                                              |
-| maison       | house, home                                                                                         | noun                                                              |
-| gens         | people (plural)                                                                                     | noun                                                              |
-| nuit         | night                                                                                               | noun                                                              |
-| ah           | ah!                                                                                                 | onomatopoeia                                                      |
-| soir         | evening, night                                                                                      | noun                                                              |
-| nom          | name; noun                                                                                          | noun                                                              |
-| bonjour      | hello (see #207)                                                                                    | noun                                                              |
-| jouer        | to play                                                                                             | verb                                                              |
-| leur         | their, to them (mas or fem), theirs (masc, fem, plural)                                             | personal pronoun, possessive pronoun                              |
-| finir        | to finish, end                                                                                      | verb                                                              |
-| peur         | fear, fright                                                                                        | noun                                                              |
-| mort         | death; dead                                                                                         | noun, adjective                                                   |
-| parce que    | because, for                                                                                        | conjunction                                                       |
-| perdre       | to lose, miss                                                                                       | verb                                                              |
-| maman        | mummy, mama, mom                                                                                    | noun                                                              |
-| sentir       | to smell, sniff, feel                                                                               | verb                                                              |
-| ouais        | yeah, yep                                                                                           | adverb                                                            |
-| rentrer      | to bring in, take in; to get in, go in, come home                                                   | verb                                                              |
-| nos          | our (plural) (see #114); languagedaily dot com                                                      | possessive adjective                                              |
-| premier      | first, basic; first floor                                                                           | adjective, noun                                                   |
-| problème     | problem                                                                                             | noun                                                              |
-| argent       | silver, money                                                                                       | noun                                                              |
-| quelle       | who, what, which                                                                                    | interrogative adjective                                           |
-| vivre        | to live, be alive, go through                                                                       | verb                                                              |
-| rendre       | to return, give back, repay                                                                         | verb                                                              |
-| dernier      | last, latest                                                                                        | adjective, noun                                                   |
-| tenir        | to hold, run, keep, last                                                                            | verb                                                              |
-|              |                                                                                                     |                                                                   |
-| cet          | this, that (before vowel and mute h) (see #25, 73, 99)                                              | demonstrative adjective                                           |
-| main         | hand                                                                                                | noun                                                              |
-| cela         | this, that (used in formal contexts and expressions) (see #20)                                      | demonstrative pronoun                                             |
-| vite         | quickly, fast, soon                                                                                 | adverb                                                            |
-| oublier      | to forget, miss                                                                                     | verb                                                              |
-| air          | air; look, appearance, manner                                                                       | noun                                                              |
-| salut        | greeting; Hi!, Hello!, Bye! (see #180)                                                              | noun, onomatopoeia                                                |
-| fils         | son                                                                                                 | noun                                                              |
-| travailler   | to work, work on, practise                                                                          | verb                                                              |
-| moins        | less                                                                                                | adverb                                                            |
-| tête         | head, face                                                                                          | noun                                                              |
-| coup         | blow, shot, kick, punch                                                                             | noun                                                              |
-| écouter      | to listen to                                                                                        | verb                                                              |
-| raison       | reason                                                                                              | noun                                                              |
-| manger       | to eat                                                                                              | verb                                                              |
-| amour        | love, love affair, cupid                                                                            | noun                                                              |
-| entrer       | to go in, enter, come in                                                                            | verb                                                              |
-| dont         | whose, of which                                                                                     | relative pronoun, interrogative pronoun                           |
-| nouveau      | new, fresh                                                                                          | noun, adjective                                                   |
-| devenir      | to become                                                                                           | verb                                                              |
-| hein         | what?, eh?, Huh? (familiar)                                                                         | onomatopoeia                                                      |
-| commencer    | to start, begin                                                                                     | verb                                                              |
-| merde        | shit (vulgar), bull, crap, damn                                                                     | onomatopoeia, noun                                                |
-| moment       | moment, while, point                                                                                | noun                                                              |
-| voiture      | car, coach, carriage                                                                                | noun                                                              |
-| vieux        | old; old man, old woman                                                                             | adjective, noun                                                   |
-| demain       | tomorrow                                                                                            | adverb                                                            |
-| revoir       | to see again, review; goodbye; french.languagedaily.com                                             | noun, verb                                                        |
-| elles        | they (refers to a group of feminine nouns or females)                                               | personal pronoun                                                  |
-| payer        | to pay                                                                                              | verb                                                              |
-| fou          | mad, crazy; madman, fool                                                                            | adjective, noun                                                   |
-| tirer        | to pull, draw                                                                                       | verb                                                              |
-| ouvrir       | to open                                                                                             | verb                                                              |
-| oeil         | eye, view (= œil) (plural is yeux)                                                                  | noun                                                              |
-| fait         | event, fact                                                                                         | noun                                                              |
-| changer      | to change, exchange                                                                                 | verb                                                              |
-| question     | question, matter                                                                                    | noun                                                              |
-| tomber       | to fall                                                                                             | verb                                                              |
-| assez        | enough, quite, fairly                                                                               | adverb                                                            |
-| foutre       | (slang) to do, give, put on; (vulgar) to have sex, to masturbate                                    | verb                                                              |
-| excuser      | to forgive, pardon, excuse                                                                          | verb                                                              |
-| affaire      | affiar, business                                                                                    | noun                                                              |
-| dormir       | to sleep; to lie idle                                                                               | verb                                                              |
-| combien      | how much, how many                                                                                  | adverb                                                            |
-| frère        | brother                                                                                             | noun                                                              |
-| travail      | wor, labor, employment                                                                              | noun                                                              |
-| idée         | idea, opinion                                                                                       | noun                                                              |
-| eh           | hey!                                                                                                | onomatopoeia                                                      |
-| puis         | next, then, besides, plus (in addition)                                                             | conjunction, adverb                                               |
-| famille      | family; languagedaily dot com                                                                       | noun                                                              |
-| truc         | trick, knack, thing                                                                                 | noun                                                              |
-| trois        | three                                                                                               | numerical adjective                                               |
-| tant         | much, so much                                                                                       | adverb                                                            |
-| souvenir     | memory, souvenir; to remember                                                                       | verb, noun                                                        |
-| ni           | nor, or (negative)                                                                                  | conjunction                                                       |
-| tous         | everything, all (plural)                                                                            | indefinite pronoun                                                |
-| occuper      | to occupy, live in, take up                                                                         | verb                                                              |
-| entre        | between, among                                                                                      | preposition                                                       |
-| ok           | OK; okay (satisfactory)                                                                             | adjective, adverb                                                 |
-| marcher      | to walk, march, go                                                                                  | verb                                                              |
-| chance       | luck, fortune, chance                                                                               | noun                                                              |
-| aujourd'hui  | today, nowadays                                                                                     | adverb                                                            |
-| envoyer      | to send, throw, dispatch, refer                                                                     | verb                                                              |
-| histoire     | history, story                                                                                      | noun                                                              |
-| jeune        | young, youthful; young person                                                                       | adjective, noun                                                   |
-| tard         | late                                                                                                | adverb                                                            |
-| apprendre    | to learn, to hear (about)                                                                           | verb                                                              |
-| minute       | minute                                                                                              | noun                                                              |
-| boire        | to drink (consume alcohol), to soak up                                                              | verb                                                              |
-| garder       | to keep, to look after, to guard                                                                    | verb                                                              |
-| quelques     | some (quantity), small number, a few                                                                | indefinite adjective                                              |
-| type         | type, kind; guy (colloquial)                                                                        | noun                                                              |
-| porte        | gate, door                                                                                          | noun                                                              |
-| montrer      | to show, point out                                                                                  | verb                                                              |
-| mec          | guy, bloke                                                                                          | noun                                                              |
-| asseoir      | to sit down, sit up                                                                                 | verb                                                              |
-| porter       | to carry, wear                                                                                      | verb                                                              |
-| attention    | attention                                                                                           | onomatopoeia, noun                                                |
-| année        | year                                                                                                | noun                                                              |
-| sous         | under                                                                                               | preposition                                                       |
-| prêt         | ready                                                                                               | adjective                                                         |
-| contre       | against                                                                                             | preposition                                                       |
-| prier        | to pray                                                                                             | verb                                                              |
-| pendant      | for, during                                                                                         | preposition                                                       |
-| mois         | month                                                                                               | noun                                                              |
-| meilleur     | better; the best one                                                                                | adjective, noun                                                   |
-| servir       | to serve                                                                                            | verb                                                              |
-| madame       | madam, Mrs                                                                                          | noun                                                              |
-| putain       | whore, hooker                                                                                       | noun                                                              |
-| écrire       | to write                                                                                            | verb                                                              |
-| part         | part, share                                                                                         | noun                                                              |
-| eau          | water                                                                                               | noun                                                              |
-| sang         | blood                                                                                               | noun                                                              |
-| place        | room, square, seat                                                                                  | noun                                                              |
-| espérer      | to hope for                                                                                         | verb                                                              |
-| plein        | full, solid                                                                                         | adjective, preposition                                            |
-| désoler      | to distress, upset                                                                                  | verb                                                              |
-| eux          | them, they                                                                                          | personal pronoun                                                  |
-| retrouver    | to find; to meet                                                                                    | verb                                                              |
-| ville        | town, city                                                                                          | noun                                                              |
-|              |                                                                                                     |                                                                   |
-| terre        | earth, ground                                                                                       | noun                                                              |
-| gagner       | to win, earn                                                                                        | verb                                                              |
-| semaine      | week                                                                                                | noun                                                              |
-| acheter      | to buy                                                                                              | verb                                                              |
-| longtemps    | long, for a long time                                                                               | adverb                                                            |
-| gars         | boy, chap, guy (see #342)                                                                           | noun                                                              |
-| chambre      | bedroom, chamber                                                                                    | noun                                                              |
-| hé           | Hey! (to attract attention)                                                                         | onomatopoeia                                                      |
-| côté         | coast, slope, side                                                                                  | noun                                                              |
-| droit        | law, right; straight                                                                                | noun, adjective                                                   |
-| rappeler     | to remind, remember, call back, be reminiscent of                                                   | verb                                                              |
-| lire         | to read                                                                                             | verb                                                              |
-| cas          | case, instance                                                                                      | noun                                                              |
-| mot          | word                                                                                                | noun                                                              |
-| seulement    | only, solely                                                                                        | adverb                                                            |
-| voici        | here is, here are                                                                                   | preposition                                                       |
-| monter       | to go up, rise, come up                                                                             | verb                                                              |
-| désolé       | contrite, desolate, afraid, sorry                                                                   | adjective                                                         |
-| quitter      | to leave, depart                                                                                    | verb                                                              |
-| police       | police                                                                                              | noun                                                              |
-| suite        | rest, result, continuation french.languagedaily.com                                                 | noun                                                              |
-| matin        | morning                                                                                             | noun                                                              |
-| emmener      | to take (somebody), take along                                                                      | verb                                                              |
-| toucher      | to touch                                                                                            | verb                                                              |
-| continuer    | to continue, go on                                                                                  | verb                                                              |
-| devant       | in front, ahead; in front of, ahead of, past, before                                                | preposition, adverb                                               |
-| fort         | strong, solid; loud, much, most                                                                     | adverb, adjective                                                 |
-| gros         | big, large, thick, heavy                                                                            | adjective                                                         |
-| enfin        | finally, at last                                                                                    | adverb                                                            |
-| pardon       | I'm sorry!, Excuse me!, Pardon?; forgiveness                                                        | onomatopoeia, noun                                                |
-| mari         | husband                                                                                             | noun                                                              |
-| là-bas       | there, over there                                                                                   | adverb                                                            |
-| importer     | to import; to matter                                                                                | verb                                                              |
-| papa         | daddy, dad                                                                                          | noun                                                              |
-| train        | train, pace                                                                                         | noun                                                              |
-| manquer      | to miss, to miss somebody                                                                           | verb                                                              |
-| raconter     | to tell                                                                                             | verb                                                              |
-| ensemble     | together, at once                                                                                   | adverb                                                            |
-| mauvais      | bad, poor, wrong                                                                                    | adjective                                                         |
-| film         | film, movie                                                                                         | noun                                                              |
-| répondre     | to answer, reply                                                                                    | verb                                                              |
-| garçon       | boy, chap, guy (see #306)                                                                           | noun                                                              |
-| chéri        | darling, loved; boyfriend, girlfriend, beloved                                                      | noun, adjective                                                   |
-| corps        | body                                                                                                | noun                                                              |
-| celui        | the one, that one (singular masculine) (see #408, 543)                                              | demonstrative pronoun                                             |
-| autres       | other                                                                                               | indefinite pronoun                                                |
-| heureux      | happy, felicitous                                                                                   | adjective                                                         |
-| loin         | far, a long way off, a long time ago                                                                | adverb                                                            |
-| aucun        | no, not any; none (see #399)                                                                        | indefinite adjective, indefinite pronoun                          |
-| pauvre       | poor; poor person, beggar                                                                           | adjective, noun                                                   |
-| sauver       | to save; languagedaily dot com                                                                      | verb                                                              |
-| chaque       | each, every                                                                                         | indefinite adjective                                              |
-| retourner    | to turn, turn over, return (see #404)                                                               | verb                                                              |
-| leurs        | theirs (3rd person masculine or feminine plural)                                                    | possessive adjective                                              |
-| rencontrer   | to meet, encounter                                                                                  | verb                                                              |
-| coeur        | core, heart                                                                                         | noun                                                              |
-| voler        | to flly; to steal, swipe                                                                            | verb                                                              |
-| fermer       | to close, shut                                                                                      | verb                                                              |
-| car          | because, for (see #186)                                                                             | conjunction                                                       |
-| valoir       | to hold, apply; to be worth                                                                         | verb                                                              |
-| descendre    | to take down, go down, come down                                                                    | verb                                                              |
-| feu          | fire                                                                                                | noun                                                              |
-| docteur      | doctor, physician (see #548)                                                                        | noun                                                              |
-| suffire      | to be enough, suffice                                                                               | verb                                                              |
-| façon        | way, manner, behaviour                                                                              | noun                                                              |
-| important    | important, considerable, sizeable                                                                   | adjective                                                         |
-| sembler      | to seem, appear, look                                                                               | verb                                                              |
-| super        | great, fantastic; high-octane gasoline                                                              | adjective, noun                                                   |
-| compter      | to count                                                                                            | verb                                                              |
-| vers         | towards, near, around, about (time, age)                                                            | preposition                                                       |
-| joli         | nice, tidy, pretty (attractive), lovely (beautiful)                                                 | adjective                                                         |
-| point        | dot, full stop, period                                                                              | noun                                                              |
-| noir         | black; black man/woman                                                                              | adjective, noun                                                   |
-| hier         | yesterday                                                                                           | adverb                                                            |
-| chien        | dog                                                                                                 | noun                                                              |
-| guerre       | war                                                                                                 | noun                                                              |
-| genre        | kind, type, sort                                                                                    | noun                                                              |
-| marier       | to marry, get married                                                                               | verb                                                              |
-| arme         | weapon                                                                                              | noun                                                              |
-| cause        | cause, reason                                                                                       | noun                                                              |
-| endroit      | place                                                                                               | noun                                                              |
-| ordre        | order, command                                                                                      | noun                                                              |
-| poser        | to put down, lay, pose, sit                                                                         | verb                                                              |
-| reste        | the remainder, rest                                                                                 | noun                                                              |
-| pied         | foot; stem, leg, base                                                                               | noun                                                              |
-| envie        | desire, urge, craving                                                                               | noun                                                              |
-| près         | near                                                                                                | preposition, adverb                                               |
-| fin          | end, ending                                                                                         | noun                                                              |
-| tiens        | Why!, Hello! (surprise)                                                                             | onomatopoeia                                                      |
-| inquiéter    | to worry, bother, trouble                                                                           | verb                                                              |
-| d'autres     | others; more                                                                                        | indefinite adjective, indefinite pronoun                          |
-| bouger       | to move                                                                                             | verb                                                              |
-| plutôt       | rather, quite                                                                                       | adverb                                                            |
-| apporter     | to bring, supply                                                                                    | verb                                                              |
-| photo        | photo, photography                                                                                  | noun                                                              |
-| décider      | to decide                                                                                           | verb                                                              |
-| ainsi        | like this, in this way                                                                              | adverb                                                            |
-| certain      | certain, sure                                                                                       | adjective, indefinite adjective                                   |
-| aucune       | no, not any, in no way (see #349)                                                                   | indefinite adjective                                              |
-| vendre       | to sell                                                                                             | verb                                                              |
-|              |                                                                                                     |                                                                   |
-| école        | school                                                                                              | noun                                                              |
-| cher         | dear, beloved, darling, expensive                                                                   | adjective                                                         |
-| chef         | leader, chief, head                                                                                 | noun                                                              |
-| tourner      | to turn, stir, toss, shoot (see #353)                                                               | verb                                                              |
-| cacher       | to hide, conceal                                                                                    | verb                                                              |
-| boulot       | work, job                                                                                           | noun                                                              |
-| pays         | country, nation, land (country)                                                                     | noun                                                              |
-| ceux         | this one, that one (masculine plural) (see #345, 543)                                               | demonstrative pronoun                                             |
-| possible     | possbile                                                                                            | adjective                                                         |
-| expliquer    | to explain, account for                                                                             | verb                                                              |
-| battre       | to beat                                                                                             | verb                                                              |
-| peine        | sorrow, grief, saddness, suffering                                                                  | noun                                                              |
-| livre        | book; pound                                                                                         | noun                                                              |
-| agir         | to act, behave; work, take effect                                                                   | verb                                                              |
-| imaginer     | to imagine, suppose                                                                                 | verb                                                              |
-| tour         | tower, castle, tour, ballot;languagedaily dot com                                                   | noun                                                              |
-| adorer       | to adore, love                                                                                      | verb                                                              |
-| vérité       | truth                                                                                               | noun                                                              |
-| recevoir     | to receive, to get                                                                                  | verb                                                              |
-| gentil       | kind, good, nice                                                                                    | adjective                                                         |
-| jeter        | to throw                                                                                            | verb                                                              |
-| pleurer      | verb                                                                                                |                                                                   |
-| bébé         | baby                                                                                                | noun                                                              |
-| partie       | part; game                                                                                          | noun                                                              |
-| nouvelle     | new, fresh; french.languagedaily.com                                                                | adjective                                                         |
-| jeu          | play, game; hand, deck (cards)                                                                      | noun                                                              |
-| amener       | to bring, take, bring about                                                                         | verb                                                              |
-| instant      | instant, moment                                                                                     | noun                                                              |
-| parent       | relative, relation; parent                                                                          | noun                                                              |
-| dur          | hard, tough, harsh                                                                                  | adjective                                                         |
-| service      | service, favor                                                                                      | noun                                                              |
-| plaisir      | pleasure                                                                                            | noun                                                              |
-| promettre    | to promise                                                                                          | verb                                                              |
-| mentir       | to lie                                                                                              | verb                                                              |
-| soeur (sœur) | sister                                                                                              | noun                                                              |
-| bientôt      | soon, quickly, shortly                                                                              | adverb                                                            |
-| lit          | bed                                                                                                 | noun                                                              |
-| tellement    | so (to such an extent), so (very), so much                                                          | adverb                                                            |
-| utiliser     | to use                                                                                              | verb                                                              |
-| lieu         | place, site                                                                                         | noun                                                              |
-| coucher      | to put to bed, lay down, to sleep                                                                   | verb                                                              |
-| presque      | almost, nearly                                                                                      | adverb                                                            |
-| dehors       | outside, outdoors                                                                                   | adverb                                                            |
-| passé        | past, last; the past, past tense                                                                    | adjective, noun                                                   |
-| préférer     | to prefer                                                                                           | verb                                                              |
-| content      | happy, pleased, glad                                                                                | adjective                                                         |
-| derrière     | behind                                                                                              | preposition, adverb                                               |
-| con          | stupid jerk, bloody idiot; damned, bloody, stupid                                                   | noun, adjective                                                   |
-| offrir       | to offer, give                                                                                      | verb                                                              |
-| roi          | king                                                                                                | noun                                                              |
-| verre        | glass, drink                                                                                        | noun                                                              |
-| réveiller    | to awake, wake (smb.) up                                                                            | verb                                                              |
-| aide         | assistant; help, assistance                                                                         | noun                                                              |
-| d'abord      | foremost (most important), first                                                                    | adverb                                                            |
-| journée      | day                                                                                                 | noun                                                              |
-| préparer     | to prepare, make, get ready                                                                         | verb                                                              |
-| numéro       | number                                                                                              | noun                                                              |
-| permettre    | to allow, permit                                                                                    | verb                                                              |
-| ramener      | to bring back , take back                                                                           | verb                                                              |
-| enlever      | to take (smth.) away, remove, take off                                                              | verb                                                              |
-| calme        | peace, calmness; quiet, calm (see #529)                                                             | noun, adjective                                                   |
-| lâcher       | to let go of, to release                                                                            | verb                                                              |
-| choisir      | to choose                                                                                           | verb                                                              |
-| musique      | music                                                                                               | noun                                                              |
-| conduire     | to drive, lead                                                                                      | verb                                                              |
-| faute        | mistake, error; fault; lack of                                                                      | noun                                                              |
-| calmer       | to calm down, appease, sooth                                                                        | verb                                                              |
-| dîner        | dinner; to have dinner                                                                              | noun, verb                                                        |
-| mariage      | marriage, wedding                                                                                   | noun                                                              |
-| bureau       | writing desk, study (room), office                                                                  | noun                                                              |
-| route        | road, journey, way                                                                                  | noun                                                              |
-| chanter      | to sing                                                                                             | verb                                                              |
-| secret       | secret; secretive                                                                                   | noun, adjective                                                   |
-| disparaître  | to disappear, vanish                                                                                | verb                                                              |
-| lever        | to raise, lift                                                                                      | verb                                                              |
-| dessus       | on top; top                                                                                         | adverb, noun                                                      |
-| présenter    | to introduce, present                                                                               | verb                                                              |
-| accepter     | to accept                                                                                           | verb                                                              |
-| baiser       | kiss; to shag, screw, fuck                                                                          | verb, noun                                                        |
-| sinon        | otherwise, or else, except                                                                          | conjunction                                                       |
-| idiot        | idiot; stupid                                                                                       | noun, adjective                                                   |
-| long         | long, lengthy                                                                                       | adjective                                                         |
-| café         | coffee, café (bar)                                                                                  | noun                                                              |
-| propre       | clean, tidy                                                                                         | adjective                                                         |
-| confiance    | trust, confidence, belief                                                                           | noun                                                              |
-| cinq         | five                                                                                                | numerical adjective                                               |
-| bonsoir      | good evening, good night                                                                            | noun                                                              |
-| compte       | count, number                                                                                       | noun                                                              |
-| téléphone    | telephone, phone                                                                                    | noun                                                              |
-| casser       | to break, shatter                                                                                   | verb                                                              |
-| prochain     | next                                                                                                | adjective                                                         |
-| frapper      | to hit, strike, blow                                                                                | verb                                                              |
-| facile       | easy                                                                                                | adjective                                                         |
-| rêve         | dream                                                                                               | noun                                                              |
-| copain       | friend, boyfriend                                                                                   | noun                                                              |
-| malade       | ill, sick                                                                                           | adjective                                                         |
-| rue          | street                                                                                              | noun                                                              |
-| bas          | low; bottom                                                                                         | adjective, noun                                                   |
-| lettre       | letter                                                                                              | noun                                                              |
-| ignorer      | not to know, to ignore                                                                              | verb                                                              |
-|              |                                                                                                     |                                                                   |
-| fête         | party, celebration                                                                                  | noun                                                              |
-| couper       | to cut, cut off                                                                                     | verb                                                              |
-| esprit       | mind, brain, wit, spirit, esprit                                                                    | noun                                                              |
-| taire        | to be silent, stop talking                                                                          | verb                                                              |
-| seigneur     | lord (e Seigneur = the Lord)                                                                        | noun                                                              |
-| flic         | cop, policeman                                                                                      | noun                                                              |
-| parfois      | sometimes                                                                                           | adverb                                                            |
-| capitaine    | captain                                                                                             | noun                                                              |
-| âge          | age                                                                                                 | noun                                                              |
-| autant       | so much, so many                                                                                    | adverb                                                            |
-| force        | force, strength                                                                                     | noun                                                              |
-| pièce        | room; play; coin; piece                                                                             | noun                                                              |
-| quatre       | four                                                                                                | numerical adjective                                               |
-| cul          | bum, ass                                                                                            | noun                                                              |
-| difficile    | difficult, strenuous, hard                                                                          | adjective                                                         |
-| bras         | arm                                                                                                 | noun                                                              |
-| tromper      | to deceive; to make a mistake                                                                       | verb                                                              |
-| surtout      | above all                                                                                           | adverb                                                            |
-| ressembler   | to look like, to resemble                                                                           | verb                                                              |
-| jurer        | to swear                                                                                            | verb                                                              |
-| plan         | map, plan, layout                                                                                   | noun                                                              |
-| prison       | prison, jail                                                                                        | noun                                                              |
-| sale         | dirty                                                                                               | adjective                                                         |
-| courir       | to run, rush                                                                                        | verb                                                              |
-| haut         | high, elevated; top                                                                                 | noun, adjective                                                   |
-| état         | state                                                                                               | noun                                                              |
-| remettre     | to put back; hand over; postpone; put back on                                                       | verb                                                              |
-| carte        | map, card; french.languagedaily.com                                                                 | noun                                                              |
-| paix         | peace, calmness; quiet, calm (see #461)                                                             | noun                                                              |
-| exactement   | exactly, accurately, precisely                                                                      | adverb                                                            |
-| drôle        | funny, peculiar                                                                                     | adjective                                                         |
-| refuser      | to refuse, turn down                                                                                | verb                                                              |
-| dès          | from                                                                                                | preposition                                                       |
-| président    | president, chairman                                                                                 | noun                                                              |
-| cours        | class, course                                                                                       | noun                                                              |
-| grave        | serious, grave, solemn                                                                              | adjective                                                         |
-| terminer     | to end, finish                                                                                      | verb                                                              |
-| ciel         | sky                                                                                                 | noun                                                              |
-| partout      | everywhere                                                                                          | adverb                                                            |
-| âme          | soul                                                                                                | noun                                                              |
-| patron       | boss, manager, owner                                                                                | noun                                                              |
-| amuser       | to amuse, entertain                                                                                 | verb                                                              |
-| celle        | the one, that one (feminine singular) (see #345, 408)                                               | demonstrative pronoun                                             |
-| visage       | face                                                                                                | noun                                                              |
-| intéresser   | to interest                                                                                         | verb                                                              |
-| reconnaître  | to recognize, acknowledge                                                                           | verb                                                              |
-| rire         | to laugh, have fun, joke                                                                            | verb                                                              |
-| médecin      | doctor, physician, medical practitioner, MD (see #363)                                              | noun                                                              |
-| rapport      | report, connection, link, relationship                                                              | noun                                                              |
-| pardonner    | to forgive, pardon, excuse                                                                          | verb                                                              |
-| avis         | opinion; notice                                                                                     | noun                                                              |
-| embrasser    | to kiss; to embrace, encompass                                                                      | verb                                                              |
-| retour       | return; french.languagedaily.com                                                                    | noun                                                              |
-| laquelle     | which one = (le + quelle) (feminine singular) (see #578)                                            | relative pronoun, interrogative pronoun                           |
-| simple       | simple                                                                                              | adjective                                                         |
-| danser       | to dance                                                                                            | verb                                                              |
-| exister      | to exist                                                                                            | verb                                                              |
-| différent    | different, various, other                                                                           | adjective                                                         |
-| souvent      | often                                                                                               | adverb                                                            |
-| lumière      | light                                                                                               | noun                                                              |
-| génial       | great, brilliant                                                                                    | adjective                                                         |
-| libre        | free, vacant                                                                                        | adjective                                                         |
-| dollar       | dollar                                                                                              | noun                                                              |
-| sûrement     | surely, certainly, most probably                                                                    | adverb                                                            |
-| pareil       | the same                                                                                            | adjective                                                         |
-| hôpital      | hospital                                                                                            | noun                                                              |
-| ceci         | this (formal contexts; refers to nouns that have no specific gender) (see #20, 203)                 | demonstrative pronoun                                             |
-| réussir      | to be successful, succeed                                                                           | verb                                                              |
-| bizarre      | odd, starnge, bizarre                                                                               | adjective                                                         |
-| voix         | voice                                                                                               | noun                                                              |
-| protéger     | to protect                                                                                          | verb                                                              |
-| honneur      | honor (US), honour                                                                                  | noun                                                              |
-| tôt          | early                                                                                               | adverb                                                            |
-| équipe       | team, crew, party                                                                                   | noun                                                              |
-| prévenir     | to tell, inform, prevent                                                                            | verb                                                              |
-| cheval       | horse                                                                                               | noun                                                              |
-| ailleurs     | elsewhere, somewhere else                                                                           | adverb                                                            |
-| lequel       | which one = (le + quel) (masculine singular) (see #554)                                             | relative pronoun, interrogative pronoun                           |
-| maître       | master, ruler, mistress, school teacher                                                             | noun                                                              |
-| avion        | plane                                                                                               | noun                                                              |
-| bout         | bit, tip, end                                                                                       | noun                                                              |
-| habiter      | to live in                                                                                          | verb                                                              |
-| faim         | hunger                                                                                              | noun                                                              |
-| ensuite      | then, next, afterwards                                                                              | adverb                                                            |
-| l'un         | a, an, one (replaces 'un' when 'un' is a pronoun or at the beginning of a sentence) (see #14)       | indefinite pronoun                                                |
-| froid        | cold                                                                                                | adjective                                                         |
-| normal       | normal, usual                                                                                       | adjective                                                         |
-| déranger     | to disturb, upset                                                                                   | verb                                                              |
-| reprendre    | to recapture, take back                                                                             | verb                                                              |
-| oncle        | uncle                                                                                               | noun                                                              |
-| prix         | price; prize                                                                                        | noun                                                              |
-| retard       | delay, lateness                                                                                     | noun                                                              |
-| détruire     | to destroy, ruin                                                                                    | verb                                                              |
-| cadeau       | present, gift                                                                                       | noun                                                              |
-| pousser      | to push, press                                                                                      | verb                                                              |
-| face         | face; heads                                                                                         | noun                                                              |
-| gueule       | mouth                                                                                               | noun                                                              |
-| chemin       | path, way                                                                                           | noun                                                              |
-| vivant       | vibrant, living, alive                                                                              | adjective                                                         |
-| général      | general (military)                                                                                  | noun                                                              |
-|              |                                                                                                     |                                                                   |
-| bateau       | boat, ship                                                                                          | noun                                                              |
-| million      | million                                                                                             | noun                                                              |
-| sac          | bag, sack                                                                                           | noun                                                              |
-| impossible   | impossible                                                                                          | adjective                                                         |
-| seconde      | second, moment                                                                                      | noun                                                              |
-| bête         | stupid, silly                                                                                       | noun, adjective                                                   |
-| découvrir    | to discover, find                                                                                   | verb                                                              |
-| erreur       | error, mistake                                                                                      | noun                                                              |
-| soleil       | sun, sunlight                                                                                       | noun                                                              |
-| voyage       | trip, journey                                                                                       | noun                                                              |
-| sauter       | to jump                                                                                             | verb                                                              |
-| rêver        | to dream                                                                                            | verb                                                              |
-| détester     | to hate, detest                                                                                     | verb                                                              |
-| clair        | clear, apparent                                                                                     | adjective                                                         |
-| faux         | wrong, false, fallacious                                                                            | adjective                                                         |
-| paraître     | to come out, be published                                                                           | verb                                                              |
-| balle        | ball (sports equipment)                                                                             | noun                                                              |
-| empêcher     | to prevent                                                                                          | verb                                                              |
-| maintenir    | to keep, maintain                                                                                   | verb                                                              |
-| cheveu       | a hair                                                                                              | noun                                                              |
-| papier       | paper                                                                                               | noun                                                              |
-| présent      | a present; present, current                                                                         | noun, adjective                                                   |
-| sujet        | subject, topic, theme                                                                               | noun                                                              |
-| supposer     | to suppose, assume                                                                                  | verb                                                              |
-| tranquille   | quiet, calm                                                                                         | adjective                                                         |
-| neuf         | nine; new, unused                                                                                   | numerical adjective, adjective                                    |
-| épouser      | to marry, to espouse                                                                                | verb                                                              |
-| blanc        | white; blank                                                                                        | adjective                                                         |
-| table        | table; french.languagedaily.com                                                                     | noun                                                              |
-| toute        | everything, all (see #22, 256)                                                                      | indefinite adjective                                              |
-| dix          | ten, tenth                                                                                          | numerical adjective                                               |
-| clé          | key; solutioin                                                                                      | noun                                                              |
-| agent        | officer, oficial, agent                                                                             | noun                                                              |
-| approcher    | to approach                                                                                         | verb                                                              |
-| sens         | direction, way; meaning; sense; senses                                                              | noun                                                              |
-| craindre     | to fear, to be afraid of                                                                            | verb                                                              |
-| six          | six                                                                                                 | numerical adjective                                               |
-| message      | message                                                                                             | noun                                                              |
-| crier        | to shout                                                                                            | verb                                                              |
-| salle        | room, hall, audience                                                                                | noun                                                              |
-| inviter      | to invite                                                                                           | verb                                                              |
-| effet        | effect, impression                                                                                  | noun                                                              |
-| réfléchir    | to reflect, think                                                                                   | verb                                                              |
-| espèce       | species, kind                                                                                       | noun                                                              |
-| arranger     | to arrange, to organize                                                                             | verb                                                              |
-| naître       | to be born                                                                                          | verb                                                              |
-| allô         | Hello! (telephone)                                                                                  | onomatopoeia                                                      |
-| bois         | wood; antlers                                                                                       | noun                                                              |
-| propos       | subject, topic, remark, point                                                                       | noun                                                              |
-| camp         | camp                                                                                                | noun                                                              |
-| sorte        | sort, kind                                                                                          | noun                                                              |
-| hôtel        | hotel; french.languagedaily.com                                                                     | noun                                                              |
-| début        | beginning                                                                                           | noun                                                              |
-| souffrir     | to be in pain, suffer                                                                               | verb                                                              |
-| jambe        | leg                                                                                                 | noun                                                              |
-| remercier    | to thank                                                                                            | verb                                                              |
-| choix        | choice, selection                                                                                   | noun                                                              |
-| sécurité     | safety, security                                                                                    | noun                                                              |
-| avocat       | lawyer                                                                                              | noun                                                              |
-| attraper     | to catch                                                                                            | verb                                                              |
-| client       | customer, client, guest                                                                             | noun                                                              |
-| courant      | current, trend                                                                                      | noun                                                              |
-| dépêcher     | to dispatch                                                                                         | verb                                                              |
-| peuple       | people                                                                                              | noun                                                              |
-| dame         | lady, queen                                                                                         | noun                                                              |
-| vérifier     | to check, verify                                                                                    | verb                                                              |
-| abandonner   | to abandon, leave, desert                                                                           | verb                                                              |
-| journal      | newspaper, diary, journal                                                                           | noun                                                              |
-| sérieux      | genuine, serious                                                                                    | adjective                                                         |
-| brûler       | to burn                                                                                             | verb                                                              |
-| or           | gold                                                                                                | noun                                                              |
-| loi          | law, rule                                                                                           | noun                                                              |
-| fond         | bottom, back                                                                                        | noun                                                              |
-| gosse        | kid (colloquial, child, youngster) (see #745)                                                       | noun                                                              |
-| fric         | doug, money, cash                                                                                   | noun                                                              |
-| situation    | situation; job; location                                                                            | noun                                                              |
-| euh          | Er…                                                                                                 | onomatopoeia                                                      |
-| sauf         | except                                                                                              | preposition                                                       |
-| accident     | accident                                                                                            | noun                                                              |
-| doute        | doubt                                                                                               | noun                                                              |
-| scène        | scene                                                                                               | noun                                                              |
-| soldat       | soldier                                                                                             | noun                                                              |
-| amoureux     | loving                                                                                              | adjective                                                         |
-| assurer      | to assure, insure                                                                                   | verb                                                              |
-| preuve       | proof, evidence                                                                                     | noun                                                              |
-| humain       | human                                                                                               | adjective                                                         |
-| mer          | sea, seaside                                                                                        | noun                                                              |
-| silence      | silence                                                                                             | noun                                                              |
-| télé         | TV, telly                                                                                           | noun                                                              |
-| victime      | victim, casualty                                                                                    | noun                                                              |
-| complètement | completely, fully, in depth                                                                         | adverb                                                            |
-| pute         | whore                                                                                               | noun                                                              |
-| garde        | guard; carer, nurse                                                                                 | noun                                                              |
-| meurtre      | murder                                                                                              | noun                                                              |
-| groupe       | group                                                                                               | noun                                                              |
-| crime        | crime                                                                                               | noun                                                              |
-| traiter      | to treat; to deal                                                                                   | verb                                                              |
-| doucement    | gently, softly                                                                                      | adverb                                                            |
-| blesser      | to injure, wound, hurt                                                                              | verb                                                              |
-| colonel      | colonel                                                                                             | noun                                                              |
-|              |                                                                                                     |                                                                   |
-| parole       | speech, word                                                                                        | noun                                                              |
-| triste       | sad                                                                                                 | adjective                                                         |
-| honte        | shame                                                                                               | noun                                                              |
-| rouge        | red                                                                                                 | adjective                                                         |
-| dégager      | to free; to clear; to radiate                                                                       | verb                                                              |
-| soirée       | evening, party                                                                                      | noun                                                              |
-| dangereux    | dangerous                                                                                           | adjective                                                         |
-| armée        | army                                                                                                | noun                                                              |
-| filer        | to spin; to take off; to go off, to leave                                                           | verb                                                              |
-| risquer      | to risk                                                                                             | verb                                                              |
-| dos          | back, spine                                                                                         | noun                                                              |
-| appel        | call, appeal                                                                                        | noun                                                              |
-| visite       | visit                                                                                               | noun                                                              |
-| mener        | to take; to lead, guide, manage                                                                     | verb                                                              |
-| fleur        | flower, blossom                                                                                     | noun                                                              |
-| attaquer     | to attack                                                                                           | verb                                                              |
-| coin         | corner, spot                                                                                        | noun                                                              |
-| prince       | prince                                                                                              | noun                                                              |
-| pire         | worse                                                                                               | adjective                                                         |
-| bordel       | brothel; bloody/gooddamn mess                                                                       | noun                                                              |
-| professeur   | teacher, professor                                                                                  | noun                                                              |
-| fumer        | to smoke                                                                                            | verb                                                              |
-| répéter      | to repeat; to go over, rehearse                                                                     | verb                                                              |
-| habitude     | habit, practice; french.languagedaily.com                                                           | noun                                                              |
-| signer       | to sign                                                                                             | verb                                                              |
-| ficher       | to file, put on file                                                                                | verb                                                              |
-| mériter      | to deserve, be worth; french.languagedaily.com                                                      | verb                                                              |
-| réponse      | response, answer, reply                                                                             | noun                                                              |
-| rejoindre    | to meet up; to join, rejoin; to go back to                                                          | verb                                                              |
-| discuter     | to question, dispute                                                                                | verb                                                              |
-| village      | village                                                                                             | noun                                                              |
-| pourtant     | yet                                                                                                 | adverb                                                            |
-| avancer      | to move forward, advance                                                                            | verb                                                              |
-| connerie     | stupidity                                                                                           | noun                                                              |
-| reposer      | to rest, to have a rest                                                                             | verb                                                              |
-| échapper     | to escape, get away, slip, run away                                                                 | verb                                                              |
-| forme        | form, shape                                                                                         | noun                                                              |
-| bruit        | noise, sound; rumour                                                                                | noun                                                              |
-| chacun       | each, everyone                                                                                      | indefinite pronoun                                                |
-| diable       | devil                                                                                               | noun                                                              |
-| exemple      | example                                                                                             | noun                                                              |
-| charger      | to charge, load                                                                                     | verb                                                              |
-| chat         | cat                                                                                                 | noun                                                              |
-| ennemi       | enemy                                                                                               | noun                                                              |
-| gamin        | kid, child (see #674)                                                                               | noun                                                              |
-| rendez-vous  | appointment                                                                                         | noun                                                              |
-| debout       | standing, standing up                                                                               | adverb                                                            |
-| obliger      | to oblige                                                                                           | verb                                                              |
-| trou         | hole, gap, deficit                                                                                  | noun                                                              |
-| accompagner  | to go with, accompany                                                                               | verb                                                              |
-| fenêtre      | window; languagedaily dot com                                                                       | noun                                                              |
-| oser         | to dare                                                                                             | verb                                                              |
-| impression   | impression                                                                                          | noun                                                              |
-| intérieur    | inside (inner surface), interrior                                                                   | noun                                                              |
-| bouche       | mouth                                                                                               | noun                                                              |
-| ligne        | line, course, service                                                                               | noun                                                              |
-| absolument   | absolutely                                                                                          | adverb                                                            |
-| doux         | soft, mild, gentle                                                                                  | adjective                                                         |
-| regretter    |                                                                                                     | verb                                                              |
-| mur          |                                                                                                     | noun                                                              |
-| enfer        |                                                                                                     | noun                                                              |
-| prouver      |                                                                                                     | verb                                                              |
-| boîte        |                                                                                                     | noun                                                              |
-| santé        |                                                                                                     | noun                                                              |
-| t            |                                                                                                     | personal pronoun                                                  |
-| couvrir      |                                                                                                     | verb                                                              |
-| magnifique   |                                                                                                     | adjective                                                         |
-| obtenir      |                                                                                                     | verb                                                              |
-| cuisine      |                                                                                                     | noun                                                              |
-| vue          |                                                                                                     | noun                                                              |
-| terrible     |                                                                                                     | adjective                                                         |
-| éviter       |                                                                                                     | verb                                                              |
-| peau         |                                                                                                     | noun                                                              |
-| salaud       |                                                                                                     | noun                                                              |
-| conseil      |                                                                                                     | noun                                                              |
-| plaisanter   |                                                                                                     | verb                                                              |
-| autour       |                                                                                                     | adverb                                                            |
-| vin          |                                                                                                     | noun                                                              |
-| exact        |                                                                                                     | adjective                                                         |
-| virer        |                                                                                                     | verb                                                              |
-| supporter    |                                                                                                     | verb                                                              |
-| régler       |                                                                                                     | verb                                                              |
-| doigt        |                                                                                                     | noun                                                              |
-| étrange      |                                                                                                     | adjective                                                         |
-| grâce        |                                                                                                     | preposition                                                       |
-| souhaiter    |                                                                                                     | verb                                                              |
-| mission      |                                                                                                     | noun                                                              |
-| créer        |                                                                                                     | verb                                                              |
-| chanson      |                                                                                                     | noun                                                              |
-| pote         |                                                                                                     | noun                                                              |
-| surveiller   |                                                                                                     | verb                                                              |
-| simplement   |                                                                                                     | adverb                                                            |
-| recommencer  |                                                                                                     | verb                                                              |
-| robe         |                                                                                                     | noun                                                              |
-| chaud        |                                                                                                     | adjective                                                         |
-| billet       |                                                                                                     | noun                                                              |
-| spécial      |                                                                                                     | adjective                                                         |
-| moyen        |                                                                                                     | noun                                                              |
-| sympa        |                                                                                                     | adjective                                                         |
-| vaisseau     |                                                                                                     | noun                                                              |
-|              |                                                                                                     |                                                                   |
-| moi-même     |                                                                                                     | personal pronoun                                                  |
-| coûter       |                                                                                                     | verb                                                              |
-| surprise     |                                                                                                     | noun                                                              |
-| poste        |                                                                                                     | noun                                                              |
-| compris      |                                                                                                     | adjective                                                         |
-| anniversaire |                                                                                                     | noun                                                              |
-| signe        |                                                                                                     | noun                                                              |
-| vol          |                                                                                                     | noun                                                              |
-| couleur      |                                                                                                     | noun                                                              |
-| image        |                                                                                                     | noun                                                              |
-| parier       |                                                                                                     | verb                                                              |
-| est          |                                                                                                     | noun                                                              |
-| arbre        |                                                                                                     | noun                                                              |
-| bière        |                                                                                                     | noun                                                              |
-| mme          |                                                                                                     | noun                                                              |
-| poisson      |                                                                                                     | noun                                                              |
-| selon        |                                                                                                     | preposition                                                       |
-| a            | letter ''a''                                                                                        | noun                                                              |
-| intérêt      |                                                                                                     | noun                                                              |
-| lieutenant   |                                                                                                     | noun                                                              |
-| danger       |                                                                                                     | noun                                                              |
-| appartenir   |                                                                                                     | verb                                                              |
-| remarquer    |                                                                                                     | verb                                                              |
-| animal       |                                                                                                     | noun                                                              |
-| rater        |                                                                                                     | verb                                                              |
-| retirer      |                                                                                                     | verb                                                              |
-| bord         |                                                                                                     | noun                                                              |
-| tenter       |                                                                                                     | verb                                                              |
-| liberté      |                                                                                                     | noun                                                              |
-| règle        |                                                                                                     | noun                                                              |
-| banque       |                                                                                                     | noun                                                              |
-| merveilleux  |                                                                                                     | adjective                                                         |
-| fier         |                                                                                                     | adjective                                                         |
-| partager     |                                                                                                     | verb                                                              |
-| classe       |                                                                                                     | noun                                                              |
-| dossier      |                                                                                                     | noun                                                              |
-| ressentir    |                                                                                                     | verb                                                              |
-| bonheur      |                                                                                                     | noun                                                              |
-| défendre     |                                                                                                     | verb                                                              |
-| but          |                                                                                                     | noun                                                              |
-| bande        |                                                                                                     | noun                                                              |
-| l            |                                                                                                     | definite article                                                  |
-| fatiguer     |                                                                                                     | verb                                                              |
-| radio        |                                                                                                     | noun                                                              |
-| prévoir      |                                                                                                     | verb                                                              |
-| celui-là     |                                                                                                     | demonstrative pronoun                                             |
-| camarade     |                                                                                                     | noun                                                              |
-| douter       |                                                                                                     | verb                                                              |
-| oiseau       |                                                                                                     | noun                                                              |
-| vent         |                                                                                                     | noun                                                              |
-| recherche    |                                                                                                     | noun                                                              |
-| apprécier    |                                                                                                     | verb                                                              |
-| système      |                                                                                                     | noun                                                              |
-| ferme        |                                                                                                     | noun                                                              |
-| capable      |                                                                                                     | adjective                                                         |
-| fuir         |                                                                                                     | verb                                                              |
-| ennui        |                                                                                                     | noun                                                              |
-| tante        |                                                                                                     | noun                                                              |
-| héros        |                                                                                                     | noun                                                              |
-| dedans       |                                                                                                     | adverb                                                            |
-| excellent    |                                                                                                     | adjective                                                         |
-| pitié        |                                                                                                     | noun                                                              |
-| appartement  |                                                                                                     | noun                                                              |
-| bosser       |                                                                                                     | verb                                                              |
-| respirer     |                                                                                                     | verb                                                              |
-| entier       |                                                                                                     | adjective                                                         |
-| récupérer    |                                                                                                     | verb                                                              |
-| douleur      |                                                                                                     | noun                                                              |
-| libérer      |                                                                                                     | verb                                                              |
-| sentiment    |                                                                                                     | noun                                                              |
-| grand-père   |                                                                                                     | noun                                                              |
-| société      |                                                                                                     | noun                                                              |
-| lancer       |                                                                                                     | verb                                                              |
-| nez          |                                                                                                     | noun                                                              |
-| joie         |                                                                                                     | noun                                                              |
-| relation     |                                                                                                     | noun                                                              |
-| témoin       |                                                                                                     | noun                                                              |
-| acteur       |                                                                                                     | noun                                                              |
-| moitié       |                                                                                                     | noun                                                              |
-| incroyable   |                                                                                                     | adjective                                                         |
-| bain         |                                                                                                     | noun                                                              |
-| durer        |                                                                                                     | verb                                                              |
-| marché       |                                                                                                     | noun                                                              |
-| laver        |                                                                                                     | verb                                                              |
-| dent         |                                                                                                     | noun                                                              |
-| là-dedans    |                                                                                                     | adverb                                                            |
-| mademoiselle |                                                                                                     | noun                                                              |
-| adresse      |                                                                                                     | noun                                                              |
-| cousin       |                                                                                                     | noun                                                              |
-| riche        |                                                                                                     | adjective                                                         |
-| compagnie    |                                                                                                     | noun                                                              |
-| sonner       |                                                                                                     | verb                                                              |
-| chaussure    |                                                                                                     | noun                                                              |
-| oreille      |                                                                                                     | noun                                                              |
-| grand-mère   |                                                                                                     | noun                                                              |
-| ancien       |                                                                                                     | adjective                                                         |
-| art          |                                                                                                     | noun                                                              |
-| deviner      |                                                                                                     | verb                                                              |
-| inutile      |                                                                                                     | adjective                                                         |
-| ravir        |                                                                                                     | verb                                                              |
-|              |                                                                                                     |                                                                   |
-| blague       |                                                                                                     | noun                                                              |
-| avenir       |                                                                                                     | noun                                                              |
-| beauté       |                                                                                                     | noun                                                              |
-| laisse       |                                                                                                     | noun                                                              |
-| course       |                                                                                                     | noun                                                              |
-| manière      |                                                                                                     | noun                                                              |
-| traverser    |                                                                                                     | verb                                                              |
-| expérience   |                                                                                                     | noun                                                              |
-| soin         |                                                                                                     | noun                                                              |
-| hors         |                                                                                                     | preposition                                                       |
-| cour         |                                                                                                     | noun                                                              |
-| gauche       |                                                                                                     | noun                                                              |
-| stupide      |                                                                                                     | adjective                                                         |
-| retenir      |                                                                                                     | verb                                                              |
-| liste        |                                                                                                     | noun                                                              |
-| remonter     |                                                                                                     | verb                                                              |
-| réaliser     |                                                                                                     | verb                                                              |
-| i            |                                                                                                     | noun                                                              |
-| moquer       |                                                                                                     | verb                                                              |
-| étudier      |                                                                                                     | verb                                                              |
-| installer    |                                                                                                     | verb                                                              |
-| courage      |                                                                                                     | noun                                                              |
-| bleu         |                                                                                                     | adjective                                                         |
-| secours      |                                                                                                     | noun                                                              |
-| milieu       |                                                                                                     | noun                                                              |
-| proposer     |                                                                                                     | verb                                                              |
-| m            |                                                                                                     | noun                                                              |
-| contact      |                                                                                                     | noun                                                              |
-| inspecteur   |                                                                                                     | noun                                                              |
-| mignon       |                                                                                                     | adjective                                                         |
-| projet       |                                                                                                     | noun                                                              |
-| probablement |                                                                                                     | adverb                                                            |
-| rôle         |                                                                                                     | noun                                                              |
-| risque       |                                                                                                     | noun                                                              |
-| action       |                                                                                                     | noun                                                              |
-| ange         |                                                                                                     | noun                                                              |
-| avance       |                                                                                                     | noun                                                              |
-| intéressant  |                                                                                                     | adjective                                                         |
-| parmi        |                                                                                                     | preposition                                                       |
-| langue       |                                                                                                     | noun                                                              |
-| emporter     |                                                                                                     | verb                                                              |
-| thé          |                                                                                                     | noun                                                              |
-| colère       |                                                                                                     | noun                                                              |
-| départ       |                                                                                                     | noun                                                              |
-| époque       |                                                                                                     | noun                                                              |
-| engager      |                                                                                                     | verb                                                              |
-| voleur       |                                                                                                     | noun                                                              |
-| cesser       |                                                                                                     | verb                                                              |
-| tort         |                                                                                                     | noun                                                              |
-| vacance      |                                                                                                     | noun                                                              |
-| là-haut      |                                                                                                     | adverb                                                            |
-| machine      |                                                                                                     | noun                                                              |
-| signifier    |                                                                                                     | verb                                                              |
-| réparer      |                                                                                                     | verb                                                              |
-| construire   |                                                                                                     | verb                                                              |
-| pain         |                                                                                                     | noun                                                              |
-| bar          |                                                                                                     | noun                                                              |
-| chier        |                                                                                                     | verb                                                              |
-| club         |                                                                                                     | noun                                                              |
-| été          |                                                                                                     | noun                                                              |
-| horrible     |                                                                                                     | adjective                                                         |
-| profiter     |                                                                                                     | verb                                                              |
-| pierre       |                                                                                                     | noun                                                              |
-| pleuvoir     |                                                                                                     | verb                                                              |
-| plusieurs    |                                                                                                     | indefinite adjective                                              |
-| salope       |                                                                                                     | noun                                                              |
-| tel          |                                                                                                     | indefinite adjective                                              |
-| glace        |                                                                                                     | noun                                                              |
-| décision     |                                                                                                     | noun                                                              |
-| juge         |                                                                                                     | noun                                                              |
-| contrôle     |                                                                                                     | noun                                                              |
-| séparer      |                                                                                                     | verb                                                              |
-| sept         |                                                                                                     | numerical adjective                                               |
-| maladie      |                                                                                                     | noun                                                              |
-| quartier     |                                                                                                     | noun                                                              |
-| désirer      |                                                                                                     | verb                                                              |
-| travers      |                                                                                                     | noun                                                              |
-| dommage      |                                                                                                     | noun                                                              |
-| cigarette    |                                                                                                     | noun                                                              |
-| traîner      |                                                                                                     | verb                                                              |
-| respecter    |                                                                                                     | verb                                                              |
-| époux        |                                                                                                     | noun                                                              |
-| tas          |                                                                                                     | noun                                                              |
-| enfuir       |                                                                                                     | verb                                                              |
-| diriger      |                                                                                                     | verb                                                              |
-| crever       |                                                                                                     | verb                                                              |
-| fil          |                                                                                                     | noun                                                              |
-| combat       |                                                                                                     | noun                                                              |
-| poursuivre   |                                                                                                     | verb                                                              |
-| morceau      |                                                                                                     | noun                                                              |
-| église       |                                                                                                     | noun                                                              |
-| directeur    |                                                                                                     | noun                                                              |
-| demande      |                                                                                                     | noun                                                              |
-| forcer       |                                                                                                     | verb                                                              |
-| bombe        |                                                                                                     | noun                                                              |
-| j            |                                                                                                     | noun                                                              |
-| espoir       |                                                                                                     | noun                                                              |
-| tueur        |                                                                                                     | noun                                                              |
-| grandir      |                                                                                                     | verb                                                              |
-| dimanche     | Sunday                                                                                              | noun                                                              |
+<table>
+<thead>
+<tr>
+<th>French</th>
+<th>&gt;</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[être]</td>
+<td>to be; being</td>
+<td>verb, auxiliary verb, noun</td>
+</tr>
+<tr>
+<td>[avoir]</td>
+<td>to have</td>
+<td>verb, auxiliary verb</td>
+</tr>
+<tr>
+<td>[je]</td>
+<td>I</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>[de]</td>
+<td>of, from, by, than, in, with (see #28)</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>ne</td>
+<td>not</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>pas</td>
+<td>not; step, pace</td>
+<td>adverb, noun</td>
+</tr>
+<tr>
+<td>le</td>
+<td>the; him, it (refering to a masculine singular noun) (see #8, 15, 18)</td>
+<td>definite article, personal pronoun</td>
+</tr>
+<tr>
+<td>la</td>
+<td>the; her, it (refering to a feminine singular noun) (see #7, 15, 18)</td>
+<td>definite article, personal pronoun</td>
+</tr>
+<tr>
+<td>tu</td>
+<td>you</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>[vous]</td>
+<td>you, yourself</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>il</td>
+<td>he, it</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>et</td>
+<td>and</td>
+<td>conjunction</td>
+</tr>
+<tr>
+<td>à</td>
+<td>in, to, with</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>un</td>
+<td>a, an; one (used before a masculine singular noun) (see #26, 31)</td>
+<td>indefinite article</td>
+</tr>
+<tr>
+<td>l&#39;</td>
+<td>the (used instead of &#39;&#39;le&#39;&#39; or &#39;&#39;la&#39;&#39; before nouns that begin with a vowel) (see #7, 8, 18)</td>
+<td>definite article, personal pronoun</td>
+</tr>
+<tr>
+<td>qui</td>
+<td>who, whom; that, which</td>
+<td>relative pronoun, interrogative pronoun</td>
+</tr>
+<tr>
+<td>aller</td>
+<td>to go</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>les</td>
+<td>the; them (referring to a plural noun) (see #7, 8, 15)</td>
+<td>definite article, personal pronoun</td>
+</tr>
+<tr>
+<td>en</td>
+<td>in, into, to, as</td>
+<td>preposition, personal pronoun, adverb</td>
+</tr>
+<tr>
+<td>ça</td>
+<td>this, that (see #203)</td>
+<td>demonstrative pronoun</td>
+</tr>
+<tr>
+<td>faire</td>
+<td>to do, make</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>tout</td>
+<td>all, everything, any; very, quite</td>
+<td>adjective, indefinite adjective, indefinite pronoun, adverb, noun</td>
+</tr>
+<tr>
+<td>on</td>
+<td>we, you</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>que</td>
+<td>that; what; which</td>
+<td>relative pronoun, interrogative pronoun</td>
+</tr>
+<tr>
+<td>ce</td>
+<td>this, that (see #73, 99, 201)</td>
+<td>demonstrative pronoun, demonstrative adjective</td>
+</tr>
+<tr>
+<td>une</td>
+<td>a, an; one (used before a feminine singular noun); french.languagedaily.com (see #14, 31)</td>
+<td>indefinite article</td>
+</tr>
+<tr>
+<td>mes</td>
+<td>my (used before plural nouns) (see #50, 108)</td>
+<td>possessive adjective</td>
+</tr>
+<tr>
+<td>d&#39;</td>
+<td>of, from, by, than, in, with (used before a vowel or mute h) (see #4)</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>pour</td>
+<td>for</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>se</td>
+<td>himself, herself, themselves (see #60)</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>des</td>
+<td>some (used before a plural noun) (see #14, 26)</td>
+<td>indefinite article</td>
+</tr>
+<tr>
+<td>dire</td>
+<td>to say, tell</td>
+<td>verb, noun</td>
+</tr>
+<tr>
+<td>pouvoir</td>
+<td>can, to be able to</td>
+<td>verb, noun</td>
+</tr>
+<tr>
+<td>vouloir</td>
+<td>to want</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>mais</td>
+<td>but</td>
+<td>conjunction</td>
+</tr>
+<tr>
+<td>me</td>
+<td>me, myself</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>nous</td>
+<td>we, us</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>dans</td>
+<td>in, into</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>elle</td>
+<td>she, it (refers to a feminine singular noun)</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>savoir</td>
+<td>to know; languagedaily dot com</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>du</td>
+<td>(de + le/les) = of the, from the</td>
+<td>definite article</td>
+</tr>
+<tr>
+<td>où</td>
+<td>where, that</td>
+<td>relative pronoun, interrogative pronoun</td>
+</tr>
+<tr>
+<td>y</td>
+<td>it, there</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>t&#39;</td>
+<td>you, yourself (shortened form used before a vowel)</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>bien</td>
+<td>well, very; good</td>
+<td>adverb, noun</td>
+</tr>
+<tr>
+<td>voir</td>
+<td>to see</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>plus</td>
+<td>more</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>non</td>
+<td>no</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>te</td>
+<td>you, yourself</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>mon</td>
+<td>my (used before a masculine singular noun) (see #27, 108)</td>
+<td>possessive adjective</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>au</td>
+<td>at the, to the, in the (contraction of à + le; used with a singular masculine noun)</td>
+<td>definite article</td>
+</tr>
+<tr>
+<td>avec</td>
+<td>with</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>moi</td>
+<td>I, me</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>si</td>
+<td>yes; if; so, such</td>
+<td>adverb, conjunction</td>
+</tr>
+<tr>
+<td>quoi</td>
+<td>what (exclamatory, interrogative, after preposition)</td>
+<td>adjective, relative pronoun, interrogative pronoun</td>
+</tr>
+<tr>
+<td>devoir</td>
+<td>to have to, must; duty, test</td>
+<td>verb, noun</td>
+</tr>
+<tr>
+<td>oui</td>
+<td>yes</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>ils</td>
+<td>they (refers to a group of masculine or mixed masculine/feminine nouns)</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>comme</td>
+<td>as, like; how, same</td>
+<td>conjunction, adverb</td>
+</tr>
+<tr>
+<td>s&#39;</td>
+<td>himself, herself, themselves (variation of &quot;se&quot; used before a word starting with a vowel or mute h)</td>
+<td>personal pronoun, conjunction</td>
+</tr>
+<tr>
+<td>venir</td>
+<td>to come, occur</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>sur</td>
+<td>on, upon; over (preposition); sour (adjective)</td>
+<td>preposition, adjective</td>
+</tr>
+<tr>
+<td>toi</td>
+<td>you</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>ici</td>
+<td>here</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>rien</td>
+<td>nothing</td>
+<td>indefinite pronoun</td>
+</tr>
+<tr>
+<td>lui</td>
+<td>he, him, it, her</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>bon</td>
+<td>good, right, kind; good!; voucher; then; french.languagedaily.com</td>
+<td>adjective, onomatopoeia, noun, adverb</td>
+</tr>
+<tr>
+<td>là</td>
+<td>there, here, then</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>suivre</td>
+<td>to follow</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>pourquoi</td>
+<td>why</td>
+<td>adverb, conjunction</td>
+</tr>
+<tr>
+<td>parler</td>
+<td>to speak, talk</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>prendre</td>
+<td>to take, get</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>cette</td>
+<td>this, that (feminine singular)</td>
+<td>demonstrative adjective</td>
+</tr>
+<tr>
+<td>quand</td>
+<td>when, whenever</td>
+<td>conjunction</td>
+</tr>
+<tr>
+<td>alors</td>
+<td>then; so; hence</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>une chose</td>
+<td>thing, matter</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>par</td>
+<td>per, by, through, out of</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>son</td>
+<td>his, her, its (possessive adjective); sound (noun - le son)</td>
+<td>possessive adjective</td>
+</tr>
+<tr>
+<td>croire</td>
+<td>to believe, think</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>aimer</td>
+<td>to love, like, be fond of</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>falloir</td>
+<td>it is necessary, must, have to</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>comment</td>
+<td>how; what</td>
+<td>adverb, conjunction, onomatopoeia</td>
+</tr>
+<tr>
+<td>très</td>
+<td>very</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>ou</td>
+<td>or; either… or</td>
+<td>conjunction</td>
+</tr>
+<tr>
+<td>passer</td>
+<td>to pass, go by, cross</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>penser</td>
+<td>to think</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>aussi</td>
+<td>also, too</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>jamais</td>
+<td>never</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>attendre</td>
+<td>to wait for, expect</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>trouver</td>
+<td>to find</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>laisser</td>
+<td>to leave</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>petit</td>
+<td>small, little, young (adjective); languagedaily dot com; kid, child (masculine noun)</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>merci</td>
+<td>thanks, thank you</td>
+<td>onomatopoeia, noun</td>
+</tr>
+<tr>
+<td>même</td>
+<td>same; even, so much as, as</td>
+<td>adverb, adjective</td>
+</tr>
+<tr>
+<td>sa</td>
+<td>his, her, its (feminine)</td>
+<td>possessive adjective</td>
+</tr>
+<tr>
+<td>ta</td>
+<td>your (reminine)</td>
+<td>possessive adjective</td>
+</tr>
+<tr>
+<td>autre</td>
+<td>other, another, different (singular)</td>
+<td>adjective, indefinite pronoun</td>
+</tr>
+<tr>
+<td>arriver</td>
+<td>to arrive</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>ces</td>
+<td>these, those (plural form of masculine &quot;ce&quot; and feminine &quot;cette&quot;)</td>
+<td>demonstrative adjective</td>
+</tr>
+<tr>
+<td>donner</td>
+<td>to give, give away</td>
+<td>verb</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>regarder</td>
+<td>to look at, watch</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>encore</td>
+<td>again, over again, even, still</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>appeler</td>
+<td>to call, ring</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>est-ce que</td>
+<td>is it</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>peu</td>
+<td>not much, not very, few; bit</td>
+<td>noun, adverb</td>
+</tr>
+<tr>
+<td>homme</td>
+<td>man</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>partir</td>
+<td>to go, leave, go away</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>ma</td>
+<td>my (used before a feminine singular noun) (see #27, 50)</td>
+<td>possessive adjective</td>
+</tr>
+<tr>
+<td>toujours</td>
+<td>always, still</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>jour</td>
+<td>day, daytime</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>femme</td>
+<td>woman, wife</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>temps</td>
+<td>weather; time; times</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>maintenant</td>
+<td>now, nowadays</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>notre</td>
+<td>our (singular) (see #192)</td>
+<td>possessive adjective</td>
+</tr>
+<tr>
+<td>vie</td>
+<td>life, lifetime, existence</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>deux</td>
+<td>two</td>
+<td>numerical adjective</td>
+</tr>
+<tr>
+<td>mettre</td>
+<td>to put, put on, wear; languagedaily dot com</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>rester</td>
+<td>to stay, remain</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>sans</td>
+<td>without</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>seul</td>
+<td>alone</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>arrêter</td>
+<td>to stop</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>vraiment</td>
+<td>really, truly</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>connaître</td>
+<td>to know, experience</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>quelque</td>
+<td>some, a few, any</td>
+<td>indefinite adjective, adverb</td>
+</tr>
+<tr>
+<td>sûr</td>
+<td>on, over</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>tuer</td>
+<td>to kill</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>mourir</td>
+<td>to die, pass away</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>demander</td>
+<td>to ask, ask for, be looking for</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>juste</td>
+<td>just, fair; just, right, accurate; french.languagedaily.com</td>
+<td>adjective, adverb</td>
+</tr>
+<tr>
+<td>peut-être</td>
+<td>perhaps, maybe</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>dieu</td>
+<td>god</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>fois</td>
+<td>time</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>oh</td>
+<td>oh!</td>
+<td>onomatopoeia</td>
+</tr>
+<tr>
+<td>père</td>
+<td>father</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>comprendre</td>
+<td>to understand</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>sortir</td>
+<td>to go out; take out</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>personne</td>
+<td>anyone, anybody; person, individual</td>
+<td>indefinite pronoun, noun</td>
+</tr>
+<tr>
+<td>an</td>
+<td>year</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>trop</td>
+<td>too much, too (excessively)</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>chez</td>
+<td>at, to, in</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>fille</td>
+<td>daughter, girl, gal</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>aux</td>
+<td>(à + les) = of the</td>
+<td>definite article</td>
+</tr>
+<tr>
+<td>monde</td>
+<td>world, people</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ami</td>
+<td>friend; friendly</td>
+<td>noun, adjective</td>
+</tr>
+<tr>
+<td>vrai</td>
+<td>true, real, genuine</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>après</td>
+<td>after, afterwards, later</td>
+<td>preposition, adverb</td>
+</tr>
+<tr>
+<td>mal</td>
+<td>trouble, difficulty; badly, wrongly</td>
+<td>adverb, noun</td>
+</tr>
+<tr>
+<td>besoin</td>
+<td>need, demand, necessity</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>accord</td>
+<td>agreement, accord, harmony</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ses</td>
+<td>his, her, its (plural)</td>
+<td>possessive adjective</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>avant</td>
+<td>before</td>
+<td>preposition, adverb</td>
+</tr>
+<tr>
+<td>monsieur</td>
+<td>gentleman, Mr</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>enfant</td>
+<td>child, infant</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>grand</td>
+<td>big, large, tall, great; big boy, big girl</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>entendre</td>
+<td>to hear, listen to, understand</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>voilà</td>
+<td>there is, there are</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>chercher</td>
+<td>to look for, seek</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>heure</td>
+<td>hour; time; age</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>mieux</td>
+<td>better, utmost, best; improvement</td>
+<td>adverb, noun</td>
+</tr>
+<tr>
+<td>tes</td>
+<td>your (plural)</td>
+<td>possessive adjective</td>
+</tr>
+<tr>
+<td>aider</td>
+<td>to help, aid</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>mère</td>
+<td>mother</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>déjà</td>
+<td>already, before</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>beau</td>
+<td>beautiful, lovely, pretty; fine, nice (weather)</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>essayer</td>
+<td>to try, try out, test</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>quel</td>
+<td>what, which (interrogative)</td>
+<td>interrogative adjective</td>
+</tr>
+<tr>
+<td>vos</td>
+<td>your (plural, from &#39;&#39;votre&#39;&#39;)</td>
+<td>possessive adjective</td>
+</tr>
+<tr>
+<td>depuis</td>
+<td>since, from, for;  french.languagedaily.com</td>
+<td>preposition, adverb</td>
+</tr>
+<tr>
+<td>quelqu&#39;un</td>
+<td>someone, somebody</td>
+<td>indefinite pronoun</td>
+</tr>
+<tr>
+<td>beaucoup</td>
+<td>much, many, a lot</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>revenir</td>
+<td>to come back, return</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>donc</td>
+<td>so, therefore</td>
+<td>conjunction</td>
+</tr>
+<tr>
+<td>plaire</td>
+<td>to be successful</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>maison</td>
+<td>house, home</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>gens</td>
+<td>people (plural)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>nuit</td>
+<td>night</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ah</td>
+<td>ah!</td>
+<td>onomatopoeia</td>
+</tr>
+<tr>
+<td>soir</td>
+<td>evening, night</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>nom</td>
+<td>name; noun</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>bonjour</td>
+<td>hello (see #207)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>jouer</td>
+<td>to play</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>leur</td>
+<td>their, to them (mas or fem), theirs (masc, fem, plural)</td>
+<td>personal pronoun, possessive pronoun</td>
+</tr>
+<tr>
+<td>finir</td>
+<td>to finish, end</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>peur</td>
+<td>fear, fright</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>mort</td>
+<td>death; dead</td>
+<td>noun, adjective</td>
+</tr>
+<tr>
+<td>parce que</td>
+<td>because, for</td>
+<td>conjunction</td>
+</tr>
+<tr>
+<td>perdre</td>
+<td>to lose, miss</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>maman</td>
+<td>mummy, mama, mom</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>sentir</td>
+<td>to smell, sniff, feel</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>ouais</td>
+<td>yeah, yep</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>rentrer</td>
+<td>to bring in, take in; to get in, go in, come home</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>nos</td>
+<td>our (plural) (see #114); languagedaily dot com</td>
+<td>possessive adjective</td>
+</tr>
+<tr>
+<td>premier</td>
+<td>first, basic; first floor</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>problème</td>
+<td>problem</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>argent</td>
+<td>silver, money</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>quelle</td>
+<td>who, what, which</td>
+<td>interrogative adjective</td>
+</tr>
+<tr>
+<td>vivre</td>
+<td>to live, be alive, go through</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>rendre</td>
+<td>to return, give back, repay</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>dernier</td>
+<td>last, latest</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>tenir</td>
+<td>to hold, run, keep, last</td>
+<td>verb</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>cet</td>
+<td>this, that (before vowel and mute h) (see #25, 73, 99)</td>
+<td>demonstrative adjective</td>
+</tr>
+<tr>
+<td>main</td>
+<td>hand</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>cela</td>
+<td>this, that (used in formal contexts and expressions) (see #20)</td>
+<td>demonstrative pronoun</td>
+</tr>
+<tr>
+<td>vite</td>
+<td>quickly, fast, soon</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>oublier</td>
+<td>to forget, miss</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>air</td>
+<td>air; look, appearance, manner</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>salut</td>
+<td>greeting; Hi!, Hello!, Bye! (see #180)</td>
+<td>noun, onomatopoeia</td>
+</tr>
+<tr>
+<td>fils</td>
+<td>son</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>travailler</td>
+<td>to work, work on, practise</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>moins</td>
+<td>less</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>tête</td>
+<td>head, face</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>coup</td>
+<td>blow, shot, kick, punch</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>écouter</td>
+<td>to listen to</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>raison</td>
+<td>reason</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>manger</td>
+<td>to eat</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>amour</td>
+<td>love, love affair, cupid</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>entrer</td>
+<td>to go in, enter, come in</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>dont</td>
+<td>whose, of which</td>
+<td>relative pronoun, interrogative pronoun</td>
+</tr>
+<tr>
+<td>nouveau</td>
+<td>new, fresh</td>
+<td>noun, adjective</td>
+</tr>
+<tr>
+<td>devenir</td>
+<td>to become</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>hein</td>
+<td>what?, eh?, Huh? (familiar)</td>
+<td>onomatopoeia</td>
+</tr>
+<tr>
+<td>commencer</td>
+<td>to start, begin</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>merde</td>
+<td>shit (vulgar), bull, crap, damn</td>
+<td>onomatopoeia, noun</td>
+</tr>
+<tr>
+<td>moment</td>
+<td>moment, while, point</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>voiture</td>
+<td>car, coach, carriage</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>vieux</td>
+<td>old; old man, old woman</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>demain</td>
+<td>tomorrow</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>revoir</td>
+<td>to see again, review; goodbye; french.languagedaily.com</td>
+<td>noun, verb</td>
+</tr>
+<tr>
+<td>elles</td>
+<td>they (refers to a group of feminine nouns or females)</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>payer</td>
+<td>to pay</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>fou</td>
+<td>mad, crazy; madman, fool</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>tirer</td>
+<td>to pull, draw</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>ouvrir</td>
+<td>to open</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>oeil</td>
+<td>eye, view (= œil) (plural is yeux)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>fait</td>
+<td>event, fact</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>changer</td>
+<td>to change, exchange</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>question</td>
+<td>question, matter</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>tomber</td>
+<td>to fall</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>assez</td>
+<td>enough, quite, fairly</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>foutre</td>
+<td>(slang) to do, give, put on; (vulgar) to have sex, to masturbate</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>excuser</td>
+<td>to forgive, pardon, excuse</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>affaire</td>
+<td>affiar, business</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>dormir</td>
+<td>to sleep; to lie idle</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>combien</td>
+<td>how much, how many</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>frère</td>
+<td>brother</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>travail</td>
+<td>wor, labor, employment</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>idée</td>
+<td>idea, opinion</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>eh</td>
+<td>hey!</td>
+<td>onomatopoeia</td>
+</tr>
+<tr>
+<td>puis</td>
+<td>next, then, besides, plus (in addition)</td>
+<td>conjunction, adverb</td>
+</tr>
+<tr>
+<td>famille</td>
+<td>family; languagedaily dot com</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>truc</td>
+<td>trick, knack, thing</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>trois</td>
+<td>three</td>
+<td>numerical adjective</td>
+</tr>
+<tr>
+<td>tant</td>
+<td>much, so much</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>souvenir</td>
+<td>memory, souvenir; to remember</td>
+<td>verb, noun</td>
+</tr>
+<tr>
+<td>ni</td>
+<td>nor, or (negative)</td>
+<td>conjunction</td>
+</tr>
+<tr>
+<td>tous</td>
+<td>everything, all (plural)</td>
+<td>indefinite pronoun</td>
+</tr>
+<tr>
+<td>occuper</td>
+<td>to occupy, live in, take up</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>entre</td>
+<td>between, among</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>ok</td>
+<td>OK; okay (satisfactory)</td>
+<td>adjective, adverb</td>
+</tr>
+<tr>
+<td>marcher</td>
+<td>to walk, march, go</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>chance</td>
+<td>luck, fortune, chance</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>aujourd&#39;hui</td>
+<td>today, nowadays</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>envoyer</td>
+<td>to send, throw, dispatch, refer</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>histoire</td>
+<td>history, story</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>jeune</td>
+<td>young, youthful; young person</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>tard</td>
+<td>late</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>apprendre</td>
+<td>to learn, to hear (about)</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>minute</td>
+<td>minute</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>boire</td>
+<td>to drink (consume alcohol), to soak up</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>garder</td>
+<td>to keep, to look after, to guard</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>quelques</td>
+<td>some (quantity), small number, a few</td>
+<td>indefinite adjective</td>
+</tr>
+<tr>
+<td>type</td>
+<td>type, kind; guy (colloquial)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>porte</td>
+<td>gate, door</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>montrer</td>
+<td>to show, point out</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>mec</td>
+<td>guy, bloke</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>asseoir</td>
+<td>to sit down, sit up</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>porter</td>
+<td>to carry, wear</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>attention</td>
+<td>attention</td>
+<td>onomatopoeia, noun</td>
+</tr>
+<tr>
+<td>année</td>
+<td>year</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>sous</td>
+<td>under</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>prêt</td>
+<td>ready</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>contre</td>
+<td>against</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>prier</td>
+<td>to pray</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>pendant</td>
+<td>for, during</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>mois</td>
+<td>month</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>meilleur</td>
+<td>better; the best one</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>servir</td>
+<td>to serve</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>madame</td>
+<td>madam, Mrs</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>putain</td>
+<td>whore, hooker</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>écrire</td>
+<td>to write</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>part</td>
+<td>part, share</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>eau</td>
+<td>water</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>sang</td>
+<td>blood</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>place</td>
+<td>room, square, seat</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>espérer</td>
+<td>to hope for</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>plein</td>
+<td>full, solid</td>
+<td>adjective, preposition</td>
+</tr>
+<tr>
+<td>désoler</td>
+<td>to distress, upset</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>eux</td>
+<td>them, they</td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>retrouver</td>
+<td>to find; to meet</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>ville</td>
+<td>town, city</td>
+<td>noun</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>terre</td>
+<td>earth, ground</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>gagner</td>
+<td>to win, earn</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>semaine</td>
+<td>week</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>acheter</td>
+<td>to buy</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>longtemps</td>
+<td>long, for a long time</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>gars</td>
+<td>boy, chap, guy (see #342)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>chambre</td>
+<td>bedroom, chamber</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>hé</td>
+<td>Hey! (to attract attention)</td>
+<td>onomatopoeia</td>
+</tr>
+<tr>
+<td>côté</td>
+<td>coast, slope, side</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>droit</td>
+<td>law, right; straight</td>
+<td>noun, adjective</td>
+</tr>
+<tr>
+<td>rappeler</td>
+<td>to remind, remember, call back, be reminiscent of</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>lire</td>
+<td>to read</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>cas</td>
+<td>case, instance</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>mot</td>
+<td>word</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>seulement</td>
+<td>only, solely</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>voici</td>
+<td>here is, here are</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>monter</td>
+<td>to go up, rise, come up</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>désolé</td>
+<td>contrite, desolate, afraid, sorry</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>quitter</td>
+<td>to leave, depart</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>police</td>
+<td>police</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>suite</td>
+<td>rest, result, continuation french.languagedaily.com</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>matin</td>
+<td>morning</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>emmener</td>
+<td>to take (somebody), take along</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>toucher</td>
+<td>to touch</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>continuer</td>
+<td>to continue, go on</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>devant</td>
+<td>in front, ahead; in front of, ahead of, past, before</td>
+<td>preposition, adverb</td>
+</tr>
+<tr>
+<td>fort</td>
+<td>strong, solid; loud, much, most</td>
+<td>adverb, adjective</td>
+</tr>
+<tr>
+<td>gros</td>
+<td>big, large, thick, heavy</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>enfin</td>
+<td>finally, at last</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>pardon</td>
+<td>I&#39;m sorry!, Excuse me!, Pardon?; forgiveness</td>
+<td>onomatopoeia, noun</td>
+</tr>
+<tr>
+<td>mari</td>
+<td>husband</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>là-bas</td>
+<td>there, over there</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>importer</td>
+<td>to import; to matter</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>papa</td>
+<td>daddy, dad</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>train</td>
+<td>train, pace</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>manquer</td>
+<td>to miss, to miss somebody</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>raconter</td>
+<td>to tell</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>ensemble</td>
+<td>together, at once</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>mauvais</td>
+<td>bad, poor, wrong</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>film</td>
+<td>film, movie</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>répondre</td>
+<td>to answer, reply</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>garçon</td>
+<td>boy, chap, guy (see #306)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>chéri</td>
+<td>darling, loved; boyfriend, girlfriend, beloved</td>
+<td>noun, adjective</td>
+</tr>
+<tr>
+<td>corps</td>
+<td>body</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>celui</td>
+<td>the one, that one (singular masculine) (see #408, 543)</td>
+<td>demonstrative pronoun</td>
+</tr>
+<tr>
+<td>autres</td>
+<td>other</td>
+<td>indefinite pronoun</td>
+</tr>
+<tr>
+<td>heureux</td>
+<td>happy, felicitous</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>loin</td>
+<td>far, a long way off, a long time ago</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>aucun</td>
+<td>no, not any; none (see #399)</td>
+<td>indefinite adjective, indefinite pronoun</td>
+</tr>
+<tr>
+<td>pauvre</td>
+<td>poor; poor person, beggar</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>sauver</td>
+<td>to save; languagedaily dot com</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>chaque</td>
+<td>each, every</td>
+<td>indefinite adjective</td>
+</tr>
+<tr>
+<td>retourner</td>
+<td>to turn, turn over, return (see #404)</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>leurs</td>
+<td>theirs (3rd person masculine or feminine plural)</td>
+<td>possessive adjective</td>
+</tr>
+<tr>
+<td>rencontrer</td>
+<td>to meet, encounter</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>coeur</td>
+<td>core, heart</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>voler</td>
+<td>to flly; to steal, swipe</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>fermer</td>
+<td>to close, shut</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>car</td>
+<td>because, for (see #186)</td>
+<td>conjunction</td>
+</tr>
+<tr>
+<td>valoir</td>
+<td>to hold, apply; to be worth</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>descendre</td>
+<td>to take down, go down, come down</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>feu</td>
+<td>fire</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>docteur</td>
+<td>doctor, physician (see #548)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>suffire</td>
+<td>to be enough, suffice</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>façon</td>
+<td>way, manner, behaviour</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>important</td>
+<td>important, considerable, sizeable</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>sembler</td>
+<td>to seem, appear, look</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>super</td>
+<td>great, fantastic; high-octane gasoline</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>compter</td>
+<td>to count</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>vers</td>
+<td>towards, near, around, about (time, age)</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>joli</td>
+<td>nice, tidy, pretty (attractive), lovely (beautiful)</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>point</td>
+<td>dot, full stop, period</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>noir</td>
+<td>black; black man/woman</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>hier</td>
+<td>yesterday</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>chien</td>
+<td>dog</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>guerre</td>
+<td>war</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>genre</td>
+<td>kind, type, sort</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>marier</td>
+<td>to marry, get married</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>arme</td>
+<td>weapon</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>cause</td>
+<td>cause, reason</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>endroit</td>
+<td>place</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ordre</td>
+<td>order, command</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>poser</td>
+<td>to put down, lay, pose, sit</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>reste</td>
+<td>the remainder, rest</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>pied</td>
+<td>foot; stem, leg, base</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>envie</td>
+<td>desire, urge, craving</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>près</td>
+<td>near</td>
+<td>preposition, adverb</td>
+</tr>
+<tr>
+<td>fin</td>
+<td>end, ending</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>tiens</td>
+<td>Why!, Hello! (surprise)</td>
+<td>onomatopoeia</td>
+</tr>
+<tr>
+<td>inquiéter</td>
+<td>to worry, bother, trouble</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>d&#39;autres</td>
+<td>others; more</td>
+<td>indefinite adjective, indefinite pronoun</td>
+</tr>
+<tr>
+<td>bouger</td>
+<td>to move</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>plutôt</td>
+<td>rather, quite</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>apporter</td>
+<td>to bring, supply</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>photo</td>
+<td>photo, photography</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>décider</td>
+<td>to decide</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>ainsi</td>
+<td>like this, in this way</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>certain</td>
+<td>certain, sure</td>
+<td>adjective, indefinite adjective</td>
+</tr>
+<tr>
+<td>aucune</td>
+<td>no, not any, in no way (see #349)</td>
+<td>indefinite adjective</td>
+</tr>
+<tr>
+<td>vendre</td>
+<td>to sell</td>
+<td>verb</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>école</td>
+<td>school</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>cher</td>
+<td>dear, beloved, darling, expensive</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>chef</td>
+<td>leader, chief, head</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>tourner</td>
+<td>to turn, stir, toss, shoot (see #353)</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>cacher</td>
+<td>to hide, conceal</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>boulot</td>
+<td>work, job</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>pays</td>
+<td>country, nation, land (country)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ceux</td>
+<td>this one, that one (masculine plural) (see #345, 543)</td>
+<td>demonstrative pronoun</td>
+</tr>
+<tr>
+<td>possible</td>
+<td>possbile</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>expliquer</td>
+<td>to explain, account for</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>battre</td>
+<td>to beat</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>peine</td>
+<td>sorrow, grief, saddness, suffering</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>livre</td>
+<td>book; pound</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>agir</td>
+<td>to act, behave; work, take effect</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>imaginer</td>
+<td>to imagine, suppose</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>tour</td>
+<td>tower, castle, tour, ballot;languagedaily dot com</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>adorer</td>
+<td>to adore, love</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>vérité</td>
+<td>truth</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>recevoir</td>
+<td>to receive, to get</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>gentil</td>
+<td>kind, good, nice</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>jeter</td>
+<td>to throw</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>pleurer</td>
+<td>verb</td>
+<td></td>
+</tr>
+<tr>
+<td>bébé</td>
+<td>baby</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>partie</td>
+<td>part; game</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>nouvelle</td>
+<td>new, fresh; french.languagedaily.com</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>jeu</td>
+<td>play, game; hand, deck (cards)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>amener</td>
+<td>to bring, take, bring about</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>instant</td>
+<td>instant, moment</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>parent</td>
+<td>relative, relation; parent</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>dur</td>
+<td>hard, tough, harsh</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>service</td>
+<td>service, favor</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>plaisir</td>
+<td>pleasure</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>promettre</td>
+<td>to promise</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>mentir</td>
+<td>to lie</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>soeur (sœur)</td>
+<td>sister</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>bientôt</td>
+<td>soon, quickly, shortly</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>lit</td>
+<td>bed</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>tellement</td>
+<td>so (to such an extent), so (very), so much</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>utiliser</td>
+<td>to use</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>lieu</td>
+<td>place, site</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>coucher</td>
+<td>to put to bed, lay down, to sleep</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>presque</td>
+<td>almost, nearly</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>dehors</td>
+<td>outside, outdoors</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>passé</td>
+<td>past, last; the past, past tense</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>préférer</td>
+<td>to prefer</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>content</td>
+<td>happy, pleased, glad</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>derrière</td>
+<td>behind</td>
+<td>preposition, adverb</td>
+</tr>
+<tr>
+<td>con</td>
+<td>stupid jerk, bloody idiot; damned, bloody, stupid</td>
+<td>noun, adjective</td>
+</tr>
+<tr>
+<td>offrir</td>
+<td>to offer, give</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>roi</td>
+<td>king</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>verre</td>
+<td>glass, drink</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>réveiller</td>
+<td>to awake, wake (smb.) up</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>aide</td>
+<td>assistant; help, assistance</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>d&#39;abord</td>
+<td>foremost (most important), first</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>journée</td>
+<td>day</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>préparer</td>
+<td>to prepare, make, get ready</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>numéro</td>
+<td>number</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>permettre</td>
+<td>to allow, permit</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>ramener</td>
+<td>to bring back , take back</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>enlever</td>
+<td>to take (smth.) away, remove, take off</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>calme</td>
+<td>peace, calmness; quiet, calm (see #529)</td>
+<td>noun, adjective</td>
+</tr>
+<tr>
+<td>lâcher</td>
+<td>to let go of, to release</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>choisir</td>
+<td>to choose</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>musique</td>
+<td>music</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>conduire</td>
+<td>to drive, lead</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>faute</td>
+<td>mistake, error; fault; lack of</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>calmer</td>
+<td>to calm down, appease, sooth</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>dîner</td>
+<td>dinner; to have dinner</td>
+<td>noun, verb</td>
+</tr>
+<tr>
+<td>mariage</td>
+<td>marriage, wedding</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>bureau</td>
+<td>writing desk, study (room), office</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>route</td>
+<td>road, journey, way</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>chanter</td>
+<td>to sing</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>secret</td>
+<td>secret; secretive</td>
+<td>noun, adjective</td>
+</tr>
+<tr>
+<td>disparaître</td>
+<td>to disappear, vanish</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>lever</td>
+<td>to raise, lift</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>dessus</td>
+<td>on top; top</td>
+<td>adverb, noun</td>
+</tr>
+<tr>
+<td>présenter</td>
+<td>to introduce, present</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>accepter</td>
+<td>to accept</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>baiser</td>
+<td>kiss; to shag, screw, fuck</td>
+<td>verb, noun</td>
+</tr>
+<tr>
+<td>sinon</td>
+<td>otherwise, or else, except</td>
+<td>conjunction</td>
+</tr>
+<tr>
+<td>idiot</td>
+<td>idiot; stupid</td>
+<td>noun, adjective</td>
+</tr>
+<tr>
+<td>long</td>
+<td>long, lengthy</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>café</td>
+<td>coffee, café (bar)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>propre</td>
+<td>clean, tidy</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>confiance</td>
+<td>trust, confidence, belief</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>cinq</td>
+<td>five</td>
+<td>numerical adjective</td>
+</tr>
+<tr>
+<td>bonsoir</td>
+<td>good evening, good night</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>compte</td>
+<td>count, number</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>téléphone</td>
+<td>telephone, phone</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>casser</td>
+<td>to break, shatter</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>prochain</td>
+<td>next</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>frapper</td>
+<td>to hit, strike, blow</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>facile</td>
+<td>easy</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>rêve</td>
+<td>dream</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>copain</td>
+<td>friend, boyfriend</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>malade</td>
+<td>ill, sick</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>rue</td>
+<td>street</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>bas</td>
+<td>low; bottom</td>
+<td>adjective, noun</td>
+</tr>
+<tr>
+<td>lettre</td>
+<td>letter</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ignorer</td>
+<td>not to know, to ignore</td>
+<td>verb</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>fête</td>
+<td>party, celebration</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>couper</td>
+<td>to cut, cut off</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>esprit</td>
+<td>mind, brain, wit, spirit, esprit</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>taire</td>
+<td>to be silent, stop talking</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>seigneur</td>
+<td>lord (e Seigneur = the Lord)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>flic</td>
+<td>cop, policeman</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>parfois</td>
+<td>sometimes</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>capitaine</td>
+<td>captain</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>âge</td>
+<td>age</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>autant</td>
+<td>so much, so many</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>force</td>
+<td>force, strength</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>pièce</td>
+<td>room; play; coin; piece</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>quatre</td>
+<td>four</td>
+<td>numerical adjective</td>
+</tr>
+<tr>
+<td>cul</td>
+<td>bum, ass</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>difficile</td>
+<td>difficult, strenuous, hard</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>bras</td>
+<td>arm</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>tromper</td>
+<td>to deceive; to make a mistake</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>surtout</td>
+<td>above all</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>ressembler</td>
+<td>to look like, to resemble</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>jurer</td>
+<td>to swear</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>plan</td>
+<td>map, plan, layout</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>prison</td>
+<td>prison, jail</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>sale</td>
+<td>dirty</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>courir</td>
+<td>to run, rush</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>haut</td>
+<td>high, elevated; top</td>
+<td>noun, adjective</td>
+</tr>
+<tr>
+<td>état</td>
+<td>state</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>remettre</td>
+<td>to put back; hand over; postpone; put back on</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>carte</td>
+<td>map, card; french.languagedaily.com</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>paix</td>
+<td>peace, calmness; quiet, calm (see #461)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>exactement</td>
+<td>exactly, accurately, precisely</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>drôle</td>
+<td>funny, peculiar</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>refuser</td>
+<td>to refuse, turn down</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>dès</td>
+<td>from</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>président</td>
+<td>president, chairman</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>cours</td>
+<td>class, course</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>grave</td>
+<td>serious, grave, solemn</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>terminer</td>
+<td>to end, finish</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>ciel</td>
+<td>sky</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>partout</td>
+<td>everywhere</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>âme</td>
+<td>soul</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>patron</td>
+<td>boss, manager, owner</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>amuser</td>
+<td>to amuse, entertain</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>celle</td>
+<td>the one, that one (feminine singular) (see #345, 408)</td>
+<td>demonstrative pronoun</td>
+</tr>
+<tr>
+<td>visage</td>
+<td>face</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>intéresser</td>
+<td>to interest</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>reconnaître</td>
+<td>to recognize, acknowledge</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>rire</td>
+<td>to laugh, have fun, joke</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>médecin</td>
+<td>doctor, physician, medical practitioner, MD (see #363)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>rapport</td>
+<td>report, connection, link, relationship</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>pardonner</td>
+<td>to forgive, pardon, excuse</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>avis</td>
+<td>opinion; notice</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>embrasser</td>
+<td>to kiss; to embrace, encompass</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>retour</td>
+<td>return; french.languagedaily.com</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>laquelle</td>
+<td>which one = (le + quelle) (feminine singular) (see #578)</td>
+<td>relative pronoun, interrogative pronoun</td>
+</tr>
+<tr>
+<td>simple</td>
+<td>simple</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>danser</td>
+<td>to dance</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>exister</td>
+<td>to exist</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>différent</td>
+<td>different, various, other</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>souvent</td>
+<td>often</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>lumière</td>
+<td>light</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>génial</td>
+<td>great, brilliant</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>libre</td>
+<td>free, vacant</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>dollar</td>
+<td>dollar</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>sûrement</td>
+<td>surely, certainly, most probably</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>pareil</td>
+<td>the same</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>hôpital</td>
+<td>hospital</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ceci</td>
+<td>this (formal contexts; refers to nouns that have no specific gender) (see #20, 203)</td>
+<td>demonstrative pronoun</td>
+</tr>
+<tr>
+<td>réussir</td>
+<td>to be successful, succeed</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>bizarre</td>
+<td>odd, starnge, bizarre</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>voix</td>
+<td>voice</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>protéger</td>
+<td>to protect</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>honneur</td>
+<td>honor (US), honour</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>tôt</td>
+<td>early</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>équipe</td>
+<td>team, crew, party</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>prévenir</td>
+<td>to tell, inform, prevent</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>cheval</td>
+<td>horse</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ailleurs</td>
+<td>elsewhere, somewhere else</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>lequel</td>
+<td>which one = (le + quel) (masculine singular) (see #554)</td>
+<td>relative pronoun, interrogative pronoun</td>
+</tr>
+<tr>
+<td>maître</td>
+<td>master, ruler, mistress, school teacher</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>avion</td>
+<td>plane</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>bout</td>
+<td>bit, tip, end</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>habiter</td>
+<td>to live in</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>faim</td>
+<td>hunger</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ensuite</td>
+<td>then, next, afterwards</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>l&#39;un</td>
+<td>a, an, one (replaces &#39;un&#39; when &#39;un&#39; is a pronoun or at the beginning of a sentence) (see #14)</td>
+<td>indefinite pronoun</td>
+</tr>
+<tr>
+<td>froid</td>
+<td>cold</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>normal</td>
+<td>normal, usual</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>déranger</td>
+<td>to disturb, upset</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>reprendre</td>
+<td>to recapture, take back</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>oncle</td>
+<td>uncle</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>prix</td>
+<td>price; prize</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>retard</td>
+<td>delay, lateness</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>détruire</td>
+<td>to destroy, ruin</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>cadeau</td>
+<td>present, gift</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>pousser</td>
+<td>to push, press</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>face</td>
+<td>face; heads</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>gueule</td>
+<td>mouth</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>chemin</td>
+<td>path, way</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>vivant</td>
+<td>vibrant, living, alive</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>général</td>
+<td>general (military)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>bateau</td>
+<td>boat, ship</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>million</td>
+<td>million</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>sac</td>
+<td>bag, sack</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>impossible</td>
+<td>impossible</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>seconde</td>
+<td>second, moment</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>bête</td>
+<td>stupid, silly</td>
+<td>noun, adjective</td>
+</tr>
+<tr>
+<td>découvrir</td>
+<td>to discover, find</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>erreur</td>
+<td>error, mistake</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>soleil</td>
+<td>sun, sunlight</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>voyage</td>
+<td>trip, journey</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>sauter</td>
+<td>to jump</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>rêver</td>
+<td>to dream</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>détester</td>
+<td>to hate, detest</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>clair</td>
+<td>clear, apparent</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>faux</td>
+<td>wrong, false, fallacious</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>paraître</td>
+<td>to come out, be published</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>balle</td>
+<td>ball (sports equipment)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>empêcher</td>
+<td>to prevent</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>maintenir</td>
+<td>to keep, maintain</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>cheveu</td>
+<td>a hair</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>papier</td>
+<td>paper</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>présent</td>
+<td>a present; present, current</td>
+<td>noun, adjective</td>
+</tr>
+<tr>
+<td>sujet</td>
+<td>subject, topic, theme</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>supposer</td>
+<td>to suppose, assume</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>tranquille</td>
+<td>quiet, calm</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>neuf</td>
+<td>nine; new, unused</td>
+<td>numerical adjective, adjective</td>
+</tr>
+<tr>
+<td>épouser</td>
+<td>to marry, to espouse</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>blanc</td>
+<td>white; blank</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>table</td>
+<td>table; french.languagedaily.com</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>toute</td>
+<td>everything, all (see #22, 256)</td>
+<td>indefinite adjective</td>
+</tr>
+<tr>
+<td>dix</td>
+<td>ten, tenth</td>
+<td>numerical adjective</td>
+</tr>
+<tr>
+<td>clé</td>
+<td>key; solutioin</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>agent</td>
+<td>officer, oficial, agent</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>approcher</td>
+<td>to approach</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>sens</td>
+<td>direction, way; meaning; sense; senses</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>craindre</td>
+<td>to fear, to be afraid of</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>six</td>
+<td>six</td>
+<td>numerical adjective</td>
+</tr>
+<tr>
+<td>message</td>
+<td>message</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>crier</td>
+<td>to shout</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>salle</td>
+<td>room, hall, audience</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>inviter</td>
+<td>to invite</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>effet</td>
+<td>effect, impression</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>réfléchir</td>
+<td>to reflect, think</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>espèce</td>
+<td>species, kind</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>arranger</td>
+<td>to arrange, to organize</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>naître</td>
+<td>to be born</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>allô</td>
+<td>Hello! (telephone)</td>
+<td>onomatopoeia</td>
+</tr>
+<tr>
+<td>bois</td>
+<td>wood; antlers</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>propos</td>
+<td>subject, topic, remark, point</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>camp</td>
+<td>camp</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>sorte</td>
+<td>sort, kind</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>hôtel</td>
+<td>hotel; french.languagedaily.com</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>début</td>
+<td>beginning</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>souffrir</td>
+<td>to be in pain, suffer</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>jambe</td>
+<td>leg</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>remercier</td>
+<td>to thank</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>choix</td>
+<td>choice, selection</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>sécurité</td>
+<td>safety, security</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>avocat</td>
+<td>lawyer</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>attraper</td>
+<td>to catch</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>client</td>
+<td>customer, client, guest</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>courant</td>
+<td>current, trend</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>dépêcher</td>
+<td>to dispatch</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>peuple</td>
+<td>people</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>dame</td>
+<td>lady, queen</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>vérifier</td>
+<td>to check, verify</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>abandonner</td>
+<td>to abandon, leave, desert</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>journal</td>
+<td>newspaper, diary, journal</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>sérieux</td>
+<td>genuine, serious</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>brûler</td>
+<td>to burn</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>or</td>
+<td>gold</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>loi</td>
+<td>law, rule</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>fond</td>
+<td>bottom, back</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>gosse</td>
+<td>kid (colloquial, child, youngster) (see #745)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>fric</td>
+<td>doug, money, cash</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>situation</td>
+<td>situation; job; location</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>euh</td>
+<td>Er…</td>
+<td>onomatopoeia</td>
+</tr>
+<tr>
+<td>sauf</td>
+<td>except</td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>accident</td>
+<td>accident</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>doute</td>
+<td>doubt</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>scène</td>
+<td>scene</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>soldat</td>
+<td>soldier</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>amoureux</td>
+<td>loving</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>assurer</td>
+<td>to assure, insure</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>preuve</td>
+<td>proof, evidence</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>humain</td>
+<td>human</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>mer</td>
+<td>sea, seaside</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>silence</td>
+<td>silence</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>télé</td>
+<td>TV, telly</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>victime</td>
+<td>victim, casualty</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>complètement</td>
+<td>completely, fully, in depth</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>pute</td>
+<td>whore</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>garde</td>
+<td>guard; carer, nurse</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>meurtre</td>
+<td>murder</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>groupe</td>
+<td>group</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>crime</td>
+<td>crime</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>traiter</td>
+<td>to treat; to deal</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>doucement</td>
+<td>gently, softly</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>blesser</td>
+<td>to injure, wound, hurt</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>colonel</td>
+<td>colonel</td>
+<td>noun</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>parole</td>
+<td>speech, word</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>triste</td>
+<td>sad</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>honte</td>
+<td>shame</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>rouge</td>
+<td>red</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>dégager</td>
+<td>to free; to clear; to radiate</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>soirée</td>
+<td>evening, party</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>dangereux</td>
+<td>dangerous</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>armée</td>
+<td>army</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>filer</td>
+<td>to spin; to take off; to go off, to leave</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>risquer</td>
+<td>to risk</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>dos</td>
+<td>back, spine</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>appel</td>
+<td>call, appeal</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>visite</td>
+<td>visit</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>mener</td>
+<td>to take; to lead, guide, manage</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>fleur</td>
+<td>flower, blossom</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>attaquer</td>
+<td>to attack</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>coin</td>
+<td>corner, spot</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>prince</td>
+<td>prince</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>pire</td>
+<td>worse</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>bordel</td>
+<td>brothel; bloody/gooddamn mess</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>professeur</td>
+<td>teacher, professor</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>fumer</td>
+<td>to smoke</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>répéter</td>
+<td>to repeat; to go over, rehearse</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>habitude</td>
+<td>habit, practice; french.languagedaily.com</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>signer</td>
+<td>to sign</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>ficher</td>
+<td>to file, put on file</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>mériter</td>
+<td>to deserve, be worth; french.languagedaily.com</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>réponse</td>
+<td>response, answer, reply</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>rejoindre</td>
+<td>to meet up; to join, rejoin; to go back to</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>discuter</td>
+<td>to question, dispute</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>village</td>
+<td>village</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>pourtant</td>
+<td>yet</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>avancer</td>
+<td>to move forward, advance</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>connerie</td>
+<td>stupidity</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>reposer</td>
+<td>to rest, to have a rest</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>échapper</td>
+<td>to escape, get away, slip, run away</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>forme</td>
+<td>form, shape</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>bruit</td>
+<td>noise, sound; rumour</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>chacun</td>
+<td>each, everyone</td>
+<td>indefinite pronoun</td>
+</tr>
+<tr>
+<td>diable</td>
+<td>devil</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>exemple</td>
+<td>example</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>charger</td>
+<td>to charge, load</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>chat</td>
+<td>cat</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ennemi</td>
+<td>enemy</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>gamin</td>
+<td>kid, child (see #674)</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>rendez-vous</td>
+<td>appointment</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>debout</td>
+<td>standing, standing up</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>obliger</td>
+<td>to oblige</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>trou</td>
+<td>hole, gap, deficit</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>accompagner</td>
+<td>to go with, accompany</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>fenêtre</td>
+<td>window; languagedaily dot com</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>oser</td>
+<td>to dare</td>
+<td>verb</td>
+</tr>
+<tr>
+<td>impression</td>
+<td>impression</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>intérieur</td>
+<td>inside (inner surface), interrior</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>bouche</td>
+<td>mouth</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ligne</td>
+<td>line, course, service</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>absolument</td>
+<td>absolutely</td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>doux</td>
+<td>soft, mild, gentle</td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>regretter</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>mur</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>enfer</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>prouver</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>boîte</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>santé</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>t</td>
+<td></td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>couvrir</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>magnifique</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>obtenir</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>cuisine</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>vue</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>terrible</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>éviter</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>peau</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>salaud</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>conseil</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>plaisanter</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>autour</td>
+<td></td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>vin</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>exact</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>virer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>supporter</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>régler</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>doigt</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>étrange</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>grâce</td>
+<td></td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>souhaiter</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>mission</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>créer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>chanson</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>pote</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>surveiller</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>simplement</td>
+<td></td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>recommencer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>robe</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>chaud</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>billet</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>spécial</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>moyen</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>sympa</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>vaisseau</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>moi-même</td>
+<td></td>
+<td>personal pronoun</td>
+</tr>
+<tr>
+<td>coûter</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>surprise</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>poste</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>compris</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>anniversaire</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>signe</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>vol</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>couleur</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>image</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>parier</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>est</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>arbre</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>bière</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>mme</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>poisson</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>selon</td>
+<td></td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>a</td>
+<td>letter &#39;&#39;a&#39;&#39;</td>
+<td>noun</td>
+</tr>
+<tr>
+<td>intérêt</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>lieutenant</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>danger</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>appartenir</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>remarquer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>animal</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>rater</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>retirer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>bord</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>tenter</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>liberté</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>règle</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>banque</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>merveilleux</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>fier</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>partager</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>classe</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>dossier</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ressentir</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>bonheur</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>défendre</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>but</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>bande</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>l</td>
+<td></td>
+<td>definite article</td>
+</tr>
+<tr>
+<td>fatiguer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>radio</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>prévoir</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>celui-là</td>
+<td></td>
+<td>demonstrative pronoun</td>
+</tr>
+<tr>
+<td>camarade</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>douter</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>oiseau</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>vent</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>recherche</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>apprécier</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>système</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ferme</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>capable</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>fuir</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>ennui</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>tante</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>héros</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>dedans</td>
+<td></td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>excellent</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>pitié</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>appartement</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>bosser</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>respirer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>entier</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>récupérer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>douleur</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>libérer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>sentiment</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>grand-père</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>société</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>lancer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>nez</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>joie</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>relation</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>témoin</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>acteur</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>moitié</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>incroyable</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>bain</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>durer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>marché</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>laver</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>dent</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>là-dedans</td>
+<td></td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>mademoiselle</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>adresse</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>cousin</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>riche</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>compagnie</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>sonner</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>chaussure</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>oreille</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>grand-mère</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ancien</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>art</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>deviner</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>inutile</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>ravir</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>blague</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>avenir</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>beauté</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>laisse</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>course</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>manière</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>traverser</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>expérience</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>soin</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>hors</td>
+<td></td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>cour</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>gauche</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>stupide</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>retenir</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>liste</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>remonter</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>réaliser</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>i</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>moquer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>étudier</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>installer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>courage</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>bleu</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>secours</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>milieu</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>proposer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>m</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>contact</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>inspecteur</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>mignon</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>projet</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>probablement</td>
+<td></td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>rôle</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>risque</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>action</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>ange</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>avance</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>intéressant</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>parmi</td>
+<td></td>
+<td>preposition</td>
+</tr>
+<tr>
+<td>langue</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>emporter</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>thé</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>colère</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>départ</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>époque</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>engager</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>voleur</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>cesser</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>tort</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>vacance</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>là-haut</td>
+<td></td>
+<td>adverb</td>
+</tr>
+<tr>
+<td>machine</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>signifier</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>réparer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>construire</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>pain</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>bar</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>chier</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>club</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>été</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>horrible</td>
+<td></td>
+<td>adjective</td>
+</tr>
+<tr>
+<td>profiter</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>pierre</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>pleuvoir</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>plusieurs</td>
+<td></td>
+<td>indefinite adjective</td>
+</tr>
+<tr>
+<td>salope</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>tel</td>
+<td></td>
+<td>indefinite adjective</td>
+</tr>
+<tr>
+<td>glace</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>décision</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>juge</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>contrôle</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>séparer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>sept</td>
+<td></td>
+<td>numerical adjective</td>
+</tr>
+<tr>
+<td>maladie</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>quartier</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>désirer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>travers</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>dommage</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>cigarette</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>traîner</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>respecter</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>époux</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>tas</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>enfuir</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>diriger</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>crever</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>fil</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>combat</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>poursuivre</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>morceau</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>église</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>directeur</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>demande</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>forcer</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>bombe</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>j</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>espoir</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>tueur</td>
+<td></td>
+<td>noun</td>
+</tr>
+<tr>
+<td>grandir</td>
+<td></td>
+<td>verb</td>
+</tr>
+<tr>
+<td>dimanche</td>
+<td>Sunday</td>
+<td>noun</td>
+</tr>
+</tbody>
+</table>
