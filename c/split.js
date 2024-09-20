@@ -2,15 +2,16 @@
 console.log('<< https://github.com/ariya/phantomjs >>');
 console.log('');
 
-var str = "Les grandes personnes m’ont conseillé de laisser de côté les dessins de serpents boas ouverts ou fermés, et de m’intéresser plutôt à la géographie, à l’histoire, au calcul et à la grammaire. C’est ainsi que j’ai abandonné, à l’âge de six ans, une magnifique carrière de peintre. J’avais été découragé par l’insuccès de mon dessin numéro 1 et de mon dessin numéro 2. Les grandes personnes ne comprennent jamais rien toutes seules, et c’est fatigant, pour les enfants, de toujours et toujours leur donner des explications.";
+var str = "Quand j’en rencontrais une qui me paraissait un peu lucide, je faisais l’expérience sur elle de mon dessin numéro 1 que j’ai toujours conservé. Je voulais savoir si elle était vraiment compréhensive. Mais toujours elle me répondait : « C’est un chapeau. » Alors je ne lui parlais ni de serpents boas, ni de forêts vierges, ni d’étoiles. Je me mettais à sa portée. Je lui parlais de bridge, de golf, de politique et de cravates. Et la grande personne était bien contente de connaître un homme aussi raisonnable.";
 var cars = str.split(/[!?.]/);
 
-        var i;
-        for (i=0;i<cars.length;i++){
-            if(cars[i].charAt(0) == " "){
-                cars[i] = cars[i].substring(1, cars[i].length);
-                console.log("<p>"+cars[i]+".</p>");
-                }
+var i;
+for (i=0;i<cars.length;i++){
+    if(cars[i].charAt(0) == " "){
+        cars[i] = cars[i].substring(1, cars[i].length);
+        
         }
+    console.log("<p>"+cars[i]+".</p>");
+}
 
 phantom.exit();
