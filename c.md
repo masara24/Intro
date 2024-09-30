@@ -34,12 +34,17 @@
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">3</td>
     <td style="border: 1px solid black;"><a href="https://www.bilibili.com/video/BV1Yh411K79a/?spm_id_from=333.999.0.0">BJ</a></td>
-    <tr style="border: 1px solid black;">
+  </tr>
+  <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">3</td>
     <td style="border: 1px solid black;"><a href="https://www.skrill.com/fr/crypto/live-cryptocurrency-prices/buy-bitcoin-with-skrill/">BTC Skrill</a></td>
     
   </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">4</td>
+    <td style="border: 1px solid black;"><a href="https://codebeautify.org/python-formatter-beautifier">Python Format</a></td>
   </tr>
+  
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">4</td>
     <td style="border: 1px solid black;"><a href="https://www.qianbo.com.cn/Tool/Beautify/Js-Formatter.html">JS Format</a></td>
