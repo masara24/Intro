@@ -16,7 +16,6 @@
 ### <a href="#">介绍</a>
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-私は赵子肖と申します、35歳，専攻(せんこう)は电子工程(でんしこうがくか)です。
 
 2014年(にせんじゅうよねん)はBoston大学を研究生卒業し卒業てから，San Jose Broadcom，に行きました，働いていました，switchスイッチのtestテストを担当し(たんとう)ていました。
 
@@ -33,6 +32,7 @@ line. It is intended to be used for contact details -->
 - <fanqiang320@gmail.com>
 - <a href="#">+14388289640</a>
 - Montréal, QC
+<!-- 私は赵子肖と申します、35歳，専攻(せんこう)は电子工程(でんしこうがくか)です。 -->
 
 ### <a href="履历.xlsx">履历</a>
     ====
