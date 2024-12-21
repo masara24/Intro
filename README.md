@@ -1,9 +1,9 @@
-# 2U4Again
-- ![#9900c5](https://placehold.it/15/9900c5?text=+) [C2U4Again](https://C2U4Again.github.io/Intro/)
+# masara24
+- ![#9900c5](https://placehold.it/15/9900c5?text=+) [C2U4Again](https://masara24.github.io/Intro/)
 
 # The MIT License (MIT)
 
-Copyright © 2024 <C2U4Again>
+Copyright © 2024 <masara24>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
