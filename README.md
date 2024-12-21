@@ -1,5 +1,5 @@
 # masara24
-- ![#9900c5](https://placehold.it/15/9900c5?text=+) [C2U4Again](https://masara24.github.io/Intro/)
+- ![#9900c5](https://placehold.it/15/9900c5?text=+) [masara24](https://masara24.github.io/Intro/)
 
 # The MIT License (MIT)
 
