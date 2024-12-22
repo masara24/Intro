@@ -30,7 +30,7 @@ line. It is intended to be used for contact details -->
 hand -->
 ### <span>Rédacteur | AMAZON | - - </span>
 
-- <a href="lcdm/index.html">lusuamazon</a>
+- <a href="lcdm/index.html">dumas</a>
   
 ### <span>DIRECTEUR | MANYAN SOFTWARE LTD | 2022 - 2023</span>
 
