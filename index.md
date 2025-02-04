@@ -2,7 +2,7 @@
 # Introduction
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Fast learner，team worker, 8 years in Linux，2 years in management, 1 year entrepreneurship
+Fast learner，team worker, 8 years in Linux，2 years in management, 1 year entrepreneurship, 1 year [writer](https://www.amazon.com/Learn-Bit-Python-ma-sara-ebook/dp/B0DRDG3M3S/ref=sr_1_1?crid=19BQIZHBZW98X&dib=eyJ2IjoiMSJ9.MAZAe85stfhyjazEPzky1VJC4LC3V5q7m9Q14vxrm_ebOuJokCNl67FAlHxAFl-mqJCvICMWC3-gNownUIGTqAV3nDVxW-6_r3zPk1DaPfYXppBktu_vEWGXl1OJYIhzU5x2x5XqnajK7yK0r0o9PdKrvv6MR0unr3jQCLt8KYktnAehDCBB-Pfzgi3d8TolNHIudXQ6h-ql8SZtheJxAQhFVdhXoPkQW5cR3UnkB6w.EE0DQGLHsln07dHuZESjL-kfE-zVDG8AkHzP1a0EJwM&dib_tag=se&keywords=learn+bit+python&qid=1738650950&s=digital-text&sprefix=learn+bit+pytho%2Cdigital-text%2C419&sr=1-1)
 ##### [Le français](f.md) | [English](index.md) | [中文](c.md) | [Deutsch](g.md) | [日本語](j.md)
 
 <!-- The unordered list immediately after the h1 will be formatted on a single
