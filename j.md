@@ -35,7 +35,8 @@ line. It is intended to be used for contact details -->
 <!-- 私は赵子肖と申します、35歳，専攻(せんこう)は电子工程(でんしこうがくか)です。 -->
 
 ### <a href="履历.xlsx">履历</a>
-    ====
+    ==== https://www.kobo.com/hk/en/search?query=%E9%B2%81%E9%80%9F&fclanguages=zh&pagenumber=1&sort=PublicationDateDesc&fcsearchfield=author&ac.author=%E9%B2%81%E9%80%9F
+    
   </template>
     <div>
         <h3>上传</h3>
