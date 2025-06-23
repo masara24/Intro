@@ -12,18 +12,19 @@ line. It is intended to be used for contact details -->
 - <font color=#008000>+14388289640</font>
 - Montreal, QC
 
-## Quantum
-
-- [Trade](https://masara24.github.io/Trade/)
-
-## Writing
-
-- [Learn Bit Python](https://www.amazon.com/Learn-Bit-Python-ma-sara-ebook/dp/B0DRDG3M3S/ref=sr_1_1?crid=19BQIZHBZW98X&dib=eyJ2IjoiMSJ9.MAZAe85stfhyjazEPzky1VJC4LC3V5q7m9Q14vxrm_ebOuJokCNl67FAlHxAFl-mqJCvICMWC3-gNownUIGTqAV3nDVxW-6_r3zPk1DaPfYXppBktu_vEWGXl1OJYIhzU5x2x5XqnajK7yK0r0o9PdKrvv6MR0unr3jQCLt8KYktnAehDCBB-Pfzgi3d8TolNHIudXQ6h-ql8SZtheJxAQhFVdhXoPkQW5cR3UnkB6w.EE0DQGLHsln07dHuZESjL-kfE-zVDG8AkHzP1a0EJwM&dib_tag=se&keywords=learn+bit+python&qid=1738650950&s=digital-text&sprefix=learn+bit+pytho%2Cdigital-text%2C419&sr=1-1)
-
 ## Experience
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
+
+## <span>TRADER | MARKET | 2024 - 2025</span>
+
+- [Trade](https://masara24.github.io/Steps/)
+
+## <span>WRITER | AMAZON | 2023 - 2024</span>
+
+- [Learn Bit Python](https://www.amazon.com/Learn-Bit-Python-ma-sara-ebook/dp/B0DRDG3M3S/ref=sr_1_1?crid=19BQIZHBZW98X&dib=eyJ2IjoiMSJ9.MAZAe85stfhyjazEPzky1VJC4LC3V5q7m9Q14vxrm_ebOuJokCNl67FAlHxAFl-mqJCvICMWC3-gNownUIGTqAV3nDVxW-6_r3zPk1DaPfYXppBktu_vEWGXl1OJYIhzU5x2x5XqnajK7yK0r0o9PdKrvv6MR0unr3jQCLt8KYktnAehDCBB-Pfzgi3d8TolNHIudXQ6h-ql8SZtheJxAQhFVdhXoPkQW5cR3UnkB6w.EE0DQGLHsln07dHuZESjL-kfE-zVDG8AkHzP1a0EJwM&dib_tag=se&keywords=learn+bit+python&qid=1738650950&s=digital-text&sprefix=learn+bit+pytho%2Cdigital-text%2C419&sr=1-1)
+
 ### <span>MANAGER | MANYAN SOFTWARE LTD | 2022 - 2023</span>
 
 - Developed organization，submitted plans and goals，hired and trained new employee
@@ -52,6 +53,7 @@ automation，OSI network quality assurance，
 ## Education
 
 - MASTER OF EE | BOSTON UNIVERSITY | 2012 - 2014
+
 ##### CCNP
 
 - BACHELOR OF EE | UNIVERSITY OF SASKATCHEWAN | 2008 - 2012
