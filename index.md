@@ -19,7 +19,7 @@ hand -->
 
 ## <span>TRADER | MARKET | 2024 - 2025</span>
 
-- [Trade](https://github.com/masara24/Steps)
+- [Trade](t.md)
 
 ## <span>WRITER | AMAZON | 2023 - 2024</span>
 
