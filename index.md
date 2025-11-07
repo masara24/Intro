@@ -19,7 +19,9 @@ hand -->
 
 ## <span>TRADER | MARKET | 2024 - 2025</span>
 
-- [Trade](https://github.com/masara24/Trade/)
+- [Trade](tr.html)
+
+<!-- (https://github.com/masara24/Trade/) -->
 
 ## <span>WRITER | AMAZON | 2023 - 2024</span>
 
@@ -68,6 +70,7 @@ automation，OSI network quality assurance，
 - Project Management
 
 <a href="#top">Back to top</a>
+
 
 
 
