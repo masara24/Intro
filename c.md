@@ -12,8 +12,7 @@
   </tr>
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">2</td>
-    <td style="border: 1px solid black;"><a href="https://www.zhihu.com/people/masara-82/posts
-">quantum investment</a></td>
+    <td style="border: 1px solid black;"><a href="https://zhuanlan.zhihu.com/p/1899046116349150070">quantum investment</a></td>
   </tr>
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;"></td>
@@ -82,6 +81,7 @@
 
 </table>
 </body>
+
 
 
 
