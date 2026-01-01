@@ -19,7 +19,7 @@ hand -->
 
 ## <span>TRADER | MARKET | 2024 - 2025</span>
 
-- [Trade](tr.html)
+- [Trade In Html](tr.html)
 
 <!-- (https://github.com/masara24/Trade/) -->
 
