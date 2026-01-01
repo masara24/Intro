@@ -1,0 +1,154 @@
+<html>
+<head>
+<meta charset="gbk" />
+<title>Highcharts jieduan</title>
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/stock/modules/heikinashi.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://code.highcharts.com/modules/full-screen.js"></script>
+
+<script src="https://code.highcharts.com/stock/indicators/indicators.js"></script>
+<script src="https://code.highcharts.com/stock/indicators/ichimoku-kinko-hyo.js"></script>
+
+<style>
+
+@import url("https://code.highcharts.com/css/stocktools/gui.css");
+@import url("https://code.highcharts.com/css/annotations/popup.css");
+
+:root {
+    --highcharts-neutral-color-3: rgba(0, 0, 0, 0);
+}
+
+#container {
+    height: 600px;
+    min-width: 310px;
+}
+
+.highcharts-menu-item-btn {
+    filter: brightness(2.1);
+}
+
+.highcharts-description {
+    margin: 0.3rem 10px;
+}
+
+</style>
+
+
+</head>
+<body>
+<center><figure>
+    <div id="container" style="height: 700px; min-width: 310px"></div>
+    <p class="highcharts-description">
+        This demo visualizes a data set with irregular time intervals.
+    </p>
+</figure></center>
+
+<script language="JavaScript">
+
+Highcharts.chart('container', {
+
+    title: {
+        text: 'price'
+    },
+    subtitle: {
+        text: 'Irregular time data in Highcharts JS'
+    },
+    xAxis: [{
+        type: 'datetime',
+
+        labels: {
+rotation: -45, // Rotate labels by -45 degrees
+style: {
+fontSize: '13px',
+fontFamily: 'Verdana, sans-serif'
+},
+},
+
+        title: {
+            text: 'Date'
+        }
+    },
+{
+        type: 'index',
+
+opposite: true,
+title: { text: 'index' }
+}],
+
+    yAxis: {
+        title: {
+            text: 'dollar ($)'
+        },
+        min: 0
+    },
+    tooltip: {
+        headerFormat: '<b>{series.name}</b><br>',
+        pointFormat: '{point.x:%A, %b %e, %Y}: {point.y:.2f} $'
+    },
+
+
+    plotOptions: {
+        series: {
+            marker: {
+                symbol: 'circle',
+                fillColor: 'var(--highcharts-background-color, #ffffff)',
+                enabled: true,
+                radius: 2.5,
+                lineWidth: 1,
+                lineColor: null
+            }
+        }
+    },
+
+    //colors: ['#6CF', '#39F', '#06C', '#036', '#000'],
+
+    // Define the data points. All series have a year of 1970/71 in order
+    // to be compared on the same x axis.
+    series: [
+        {
+            type: 'spline',
+            name: 'close',
+            data: [['2025-10-13', 1.3163], ['2025-10-14', 1.2814], ['2025-10-15', 1.3006], ['2025-10-16', 1.2856], ['2025-10-17', 1.2421], ['2025-10-20', 1.2506], ['2025-10-21', 1.2753], ['2025-10-22', 1.2712], ['2025-10-23', 1.2701], ['2025-10-24', 1.2983], ['2025-10-27', 1.3154], ['2025-10-28', 1.2957], ['2025-10-29', 1.3212], ['2025-10-30', 1.311], ['2025-10-31', 1.2941], ['2025-11-03', 1.3028], ['2025-11-04', 1.2828], ['2025-11-05', 1.2946], ['2025-11-06', 1.3124], ['2025-11-07', 1.3051], ['2025-11-10', 1.3], ['2025-11-11', 1.2914], ['2025-11-12', 1.2908], ['2025-11-13', 1.3104], ['2025-11-14', 1.2836], ['2025-11-17', 1.2742], ['2025-11-18', 1.259], ['2025-11-19', 1.2609], ['2025-11-20', 1.2571], ['2025-11-21', 1.2231], ['2025-11-24', 1.2351], ['2025-11-25', 1.2481], ['2025-11-26', 1.2542], ['2025-11-27', 1.2528], ['2025-11-28', 1.2638], ['2025-12-01', 1.2778], ['2025-12-02', 1.2745], ['2025-12-03', 1.2822], ['2025-12-04', 1.2896], ['2025-12-05', 1.311], ['2025-12-08', 1.3155], ['2025-12-09', 1.3005], ['2025-12-10', 1.314], ['2025-12-11', 1.304]]
+        },
+
+        {
+            type: 'scatter',
+            name: 'close bd',
+            data: [['2025-10-13', 1.3163], ['2025-10-14', 1.2814], ['2025-10-17', 1.2421], ['2025-10-29', 1.3212], ['2025-11-21', 1.2231]]
+        },
+
+        {
+            type: 'scatter',
+            name: 'down2',
+            data: [['2025-10-13', 1.3163], ['2025-10-17', 1.2421]]
+        },
+
+        {
+            type: 'scatter',
+            name: 'tempup2',
+            data: []
+        },
+
+        {
+            type: 'scatter',
+            name: 'down6',
+            data: [['2025-10-14', 1.2814], ['2025-11-21', 1.2231]]
+        },
+
+        {
+            type: 'scatter',
+            name: 'tempup6',
+            data: []
+        },
+    ]
+});
+
+</script>
+</body>
+</html>
+
+</script>
+</body>
+</html>

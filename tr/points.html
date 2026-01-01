@@ -1,0 +1,140 @@
+
+
+<html>
+   <head>
+      <title>Highcharts Preditcion</title>
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://code.highcharts.com/stock/modules/drag-panes.js"></script>
+<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
+
+   </head>   
+
+   <body>
+
+<div id="container2" style="height: 700px; min-width: 310px">
+
+</div><script language="JavaScript">
+
+(async () => {
+ 
+
+
+
+  // create the chart2
+  Highcharts.stockChart('container2', {
+     title: {
+      text:  ' BABA1000@330 ' 
+    },
+     xAxis: {
+/*
+    plotBands: [{
+    color: 'yellow', // Color value
+    from: '2025-02-13',
+           to: '2025-03-04',
+                   type: 'datetime'
+  }]
+*/
+
+  plotLines: [{
+    color: 'yellow', // Color value
+    dashStyle: 'longdashdot', // Style of the plot line. Default to solid
+    type: 'datetime',
+
+    value: '2025-02-27', // Value of where the line will appear
+    width: 2, // Width of the line    
+label: { 
+    text: '2025-02-27', // Content of the label. 
+align: 'left'
+  }
+
+  }]
+    },
+
+    yAxis: [{
+      labels: {
+        align: 'right',
+        x: -3
+      },
+      title: {
+        text: '$'
+      },
+      height: '60%',
+      lineWidth: 2,
+      resize: {
+        enabled: true
+      }, plotBands: [ {
+            from: 240,
+            to: 260,
+            color: 'rgba(68, 170, 205, 0.1)',
+            label: {
+                text: 'hell',
+                style: {
+                    color: '#606060'
+                }
+            }
+        }, {
+            from: 260,
+            to: 280,
+            color: 'rgba(68, 170, 215, 0.1)',
+            label: {
+                text: 'dead',
+                style: {
+                    color: '#606060'
+                }
+            }
+        }, {
+            from: 280,
+            to: 300,
+            color: 'rgba(68, 170, 225, 0.1)',
+            label: {
+                text: 'break',
+                style: {
+                    color: '#606060'
+                }
+            }
+        }, { 
+            from: 300,
+            to: 320,
+            color: 'rgba(0, 0, 0, 0)',
+            label: {
+                text: 'support',
+                style: {
+                    color: '#606060'
+                }
+       }
+        }],
+  plotLines: [{
+    color: 'yellow', // Color value
+    //dashStyle: 'longdashdot', 
+    value: 330, // Value of where the line will appear
+    width: 2, // Width of the line    
+label: { 
+    text: 'cost', // Content of the label. 
+    align: 'left', // Positioning of the label. Default to center.
+    x: +10 // Amount of pixels the label will be repositioned according to the alignment. 
+  }
+  }]
+
+    }, {
+      labels: {
+        align: 'right',
+        x: -3
+      },
+      title: {
+        text: '%'
+      },
+      top: '65%',
+      height: '35%',
+      offset: 0,
+      lineWidth: 2
+    }],
+
+    series: [{
+      data: [['2025-12-04', 0.169], ['2025-12-05', 0.205], ['2025-12-08', 0.209], ['2025-12-09', 0.242], ['2025-12-10', 0.27], ['2025-12-11', 0.295], ['2025-12-12', 0.35], ['2025-12-15', 0.35], ['2025-12-16', 0.375], ['2025-12-17', 0.345], ['2025-12-18', 0.249], ['2025-12-19', 0.175], ['2025-12-22', 0.153], ['2025-12-23', 0.135], ['2025-12-24', 0.13]],
+  });
+})();
+
+</script>
+</body>
+</html>
