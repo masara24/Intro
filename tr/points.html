@@ -1,140 +1,180 @@
-
-
 <html>
-   <head>
-      <title>Highcharts Preditcion</title>
+<head>
+<meta charset="UTF-8" />
+<title>Javascript Highcharts</title>
+<script src="https://code.highcharts.com/highcharts.js"></script>
 <script src="https://code.highcharts.com/stock/highstock.js"></script>
-<script src="https://code.highcharts.com/stock/modules/drag-panes.js"></script>
-<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
 
-   </head>   
+<script src="https://code.highcharts.com/modules/full-screen.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://code.highcharts.com/themes/adaptive.js"></script>
 
-   <body>
+<style>
 
-<div id="container2" style="height: 700px; min-width: 310px">
+#container {
+    height: 700px;
+    min-width: 310px;
+    center
+}
+.highcharts-data-table table {
+    min-width: 310px;
+    max-width: 800px;
+    margin: 1em auto;
+}
 
-</div><script language="JavaScript">
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid var(--highcharts-neutral-color-10, #e6e6e6);
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
 
-(async () => {
- 
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: var(--highcharts-neutral-color-60, #666);
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table tbody tr:nth-child(even) {
+    background: var(--highcharts-neutral-color-3, #f7f7f7);
+}
+</style>
+
+</head>
+<body><center>
+
+<div id="container"></div>
 
 
+<script language="JavaScript">
+// Plugin to add a pulsating marker on add point
+Highcharts.addEvent(Highcharts.Series, 'addPoint', e => {
+    const point = e.point,
+        series = e.target;
 
-  // create the chart2
-  Highcharts.stockChart('container2', {
-     title: {
-      text:  ' BABA1000@330 ' 
+    if (!series.pulse) {
+        series.pulse = series.chart.renderer.circle()
+            .add(series.markerGroup);
+    }
+    setTimeout(() => {
+        series.pulse
+            .attr({
+                x: series.xAxis.toPixels(point.x, true),
+                y: series.yAxis.toPixels(point.y, true),
+                r: series.options.marker.radius,
+                opacity: 1,
+                fill: series.color
+            })
+            .animate({
+                r: 20,
+                opacity: 0
+            }, {
+                duration: 1000
+            });
+    }, 1);
+});
+
+Highcharts.chart('container', {
+    chart: {
+        type: 'scatter',
+
+        events: {
+            click: function (e) {
+                // find the clicked values and the series
+                const x = Math.round(e.xAxis[0].value),
+                    //y = Math.round(e.yAxis[0].value),
+                    y = (e.yAxis[0].value),
+
+                    series = this.series[0];
+
+                // Add it
+                series.addPoint([x, y]);
+
+            }
+        }
     },
-     xAxis: {
-/*
-    plotBands: [{
-    color: 'yellow', // Color value
-    from: '2025-02-13',
-           to: '2025-03-04',
-                   type: 'datetime'
-  }]
-*/
-
-  plotLines: [{
-    color: 'yellow', // Color value
-    dashStyle: 'longdashdot', // Style of the plot line. Default to solid
-    type: 'datetime',
-
-    value: '2025-02-27', // Value of where the line will appear
-    width: 2, // Width of the line    
-label: { 
-    text: '2025-02-27', // Content of the label. 
-align: 'left'
-  }
-
-  }]
+    credits: {
+        enabled: false  //去掉hightchats水印
+    },
+    title: {
+        text: 'price'
+    },
+    subtitle: {
+        text: 'Irregular time data in Highcharts JS'
     },
 
-    yAxis: [{
-      labels: {
-        align: 'right',
-        x: -3
-      },
-      title: {
-        text: '$'
-      },
-      height: '60%',
-      lineWidth: 2,
-      resize: {
+    accessibility: {
+        announceNewData: {
+            enabled: true
+        }
+    },
+    xAxis: {
+        gridLineWidth: 1,
+        minPadding: 0.2,
+        maxPadding: 0.2,
+        maxZoom: 60,
+        min: 0
+    },
+    yAxis: {
+        title: {
+            text: 'Value'
+        },
+        minPadding: 0.2,
+        maxPadding: 0.2,
+        maxZoom: 60,
+        min: 0,
+        plotLines: [{
+            value: 0,
+            width: 1,
+            color: '#808080'
+        }]
+    },
+    legend: {
+        enabled: false
+    },
+    exporting: {
         enabled: true
-      }, plotBands: [ {
-            from: 240,
-            to: 260,
-            color: 'rgba(68, 170, 205, 0.1)',
-            label: {
-                text: 'hell',
-                style: {
-                    color: '#606060'
+    },
+    plotOptions: {
+        series: {
+            stickyTracking: false,
+            lineWidth: 3,
+            point: {
+                events: {
+                    click: function () {
+                        if (this.series.data.length > 1) {
+                            this.remove();
+                        }
+                    }
                 }
             }
-        }, {
-            from: 260,
-            to: 280,
-            color: 'rgba(68, 170, 215, 0.1)',
-            label: {
-                text: 'dead',
-                style: {
-                    color: '#606060'
-                }
-            }
-        }, {
-            from: 280,
-            to: 300,
-            color: 'rgba(68, 170, 225, 0.1)',
-            label: {
-                text: 'break',
-                style: {
-                    color: '#606060'
-                }
-            }
-        }, { 
-            from: 300,
-            to: 320,
-            color: 'rgba(0, 0, 0, 0)',
-            label: {
-                text: 'support',
-                style: {
-                    color: '#606060'
-                }
-       }
-        }],
-  plotLines: [{
-    color: 'yellow', // Color value
-    //dashStyle: 'longdashdot', 
-    value: 330, // Value of where the line will appear
-    width: 2, // Width of the line    
-label: { 
-    text: 'cost', // Content of the label. 
-    align: 'left', // Positioning of the label. Default to center.
-    x: +10 // Amount of pixels the label will be repositioned according to the alignment. 
-  }
-  }]
-
-    }, {
-      labels: {
-        align: 'right',
-        x: -3
-      },
-      title: {
-        text: '%'
-      },
-      top: '65%',
-      height: '35%',
-      offset: 0,
-      lineWidth: 2
-    }],
-
+        }
+    },
     series: [{
-      data: [['2025-12-04', 0.169], ['2025-12-05', 0.205], ['2025-12-08', 0.209], ['2025-12-09', 0.242], ['2025-12-10', 0.27], ['2025-12-11', 0.295], ['2025-12-12', 0.35], ['2025-12-15', 0.35], ['2025-12-16', 0.375], ['2025-12-17', 0.345], ['2025-12-18', 0.249], ['2025-12-19', 0.175], ['2025-12-22', 0.153], ['2025-12-23', 0.135], ['2025-12-24', 0.13]],
-  });
-})();
+        data: [
+            [ 0 , 0.0 ], [ 1 , 0.1008384202581046 ], [ 2 , 0.2006488565226854 ], [ 3 , 0.2984138044476411 ], [ 4 , 0.3931366121483298 ], [ 5 , 0.48385164043793466 ], [ 6 , 0.5696341069089657 ], [ 7 , 0.6496095135057065 ], [ 8 , 0.7229625614794605 ], [ 9 , 0.7889454628442574 ], [ 10 , 0.8468855636029834 ], [ 11 , 0.8961922010299563 ], [ 12 , 0.9363627251042848 ], [ 13 , 0.9669876227092996 ], [ 14 , 0.9877546923600838 ],
+        ],
 
-</script>
+        color: Highcharts.getOptions().colors[3],
+        marker: {
+            lineWidth: 2,
+            radius: 6
+        }
+    }]
+});
+
+
+</script></center>
+
 </body>
 </html>
