@@ -13,7 +13,7 @@
 
 
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
-### <a href="#">介绍</a>
+### <a href="#">紹介</a>
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
 
@@ -34,12 +34,12 @@ line. It is intended to be used for contact details -->
 - Montréal, QC
 <!-- 私は赵子肖と申します、35歳，専攻(せんこう)は电子工程(でんしこうがくか)です。 -->
 
-### <a href="履历.xlsx">履历</a>
+### <a href="履历.xlsx">履歴</a>
    <!--  ==== https://www.kobo.com/hk/en/search?query=%E9%B2%81%E9%80%9F&fclanguages=zh&pagenumber=1&sort=PublicationDateDesc&fcsearchfield=author&ac.author=%E9%B2%81%E9%80%9F -->
     
   </template>
     <div>
-        <h3>上传</h3>
+        <h3>連絡</h3>
         <input type="file" id="file-uploader">
 
         <div id="feedback"></div>
@@ -86,5 +86,6 @@ line. It is intended to be used for contact details -->
   markedInHtml.init()
 </script>
 </html>
+
 
 
