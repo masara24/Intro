@@ -28,9 +28,6 @@ line. It is intended to be used for contact details -->
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### <span>Rédacteur | AMAZON | - - </span>
-
-- <a href="lcdm/index.html">dumas</a>
   
 ### <span>DIRECTEUR | MANYAN SOFTWARE LTD | 2022 - 2023</span>
 
@@ -74,6 +71,8 @@ automatisation，OSI assurance qualité du réseau，
 - Protocole réseau
 - Gestion de projet
 
+## <span>Rédacteur | dumas | <a href="lcdm/index.html">LE COMTE DE MONTE-CRISTO</a> </span>
+
 <a href="#top">Haut de page</a>
     ====
   </template>
@@ -86,3 +85,4 @@ automatisation，OSI assurance qualité du réseau，
   markedInHtml.init()
 </script>
 </html>
+
