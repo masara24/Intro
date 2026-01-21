@@ -8,23 +8,50 @@
 <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/stock/modules/accessibility.js"></script>
 
-   </head>   
+<style>
 
-   <body>
+@import url("https://code.highcharts.com/css/stocktools/gui.css");
+@import url("https://code.highcharts.com/css/annotations/popup.css");
 
-<div id="container2" style="height: 700px; min-width: 310px">
+:root {
+    --highcharts-neutral-color-3: rgba(0, 0, 0, 0);
+}
 
-</div><script language="JavaScript">
+#container2 {
+    height: 600px;
+    min-width: 310px;
+}
+
+.highcharts-menu-item-btn {
+    filter: brightness(2.1);
+}
+
+.highcharts-description {
+    margin: 0.3rem 10px;
+}
+
+</style>
+</head>
+<body>
+
+<center><figure>
+    <div id="container2" style="height: 700px; min-width: 310px"></div>
+    <p class="highcharts-description">
+        This demo visualizes a data set with irregular time intervals.
+    </p>
+</figure></center>
+
+<script language="JavaScript">
 
 (async () => {
  
-
-
-
   // create the chart2
   Highcharts.stockChart('container2', {
-     title: {
-      text:  ' BABA1000@330 ' 
+    title: {
+        text: 'price'
+    },
+    subtitle: {
+        text: 'Irregular time data in Highcharts JS'
     },
      xAxis: {
 /*
