@@ -63,7 +63,7 @@ function calculateLinearRegression(data) {
     const n = data.length;
     let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0;
     
-    // 计算所需的总和
+    // 
     for (let i = 0; i < n; i++) {
         sumX += i;
         sumY += data[i];
@@ -71,11 +71,11 @@ function calculateLinearRegression(data) {
         sumXX += i * i;
     }
     
-    // 计算斜率和截距
+    // 
     const slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
     const intercept = (sumY - slope * sumX) / n;
     
-    // 生成趋势线数据点
+    // 
     const trendData = [];
     for (let i = 0; i < n; i++) {
         trendData.push(slope * i + intercept);
@@ -124,7 +124,7 @@ Highcharts.chart('container', {
         min: 0,
     },
     credits: {
-        enabled: false  //去掉hightchats水印
+        enabled: false  //
     },
     legend: {
         enabled: false
@@ -134,7 +134,7 @@ Highcharts.chart('container', {
     },
     yAxis: {
         title: {
-            text: 'Value'//开出个数
+            text: 'Value'//
         },
         min: 0,
         minorGridLineWidth: 0,
@@ -145,7 +145,7 @@ Highcharts.chart('container', {
             to: 1.1098,
             color: 'rgba(0, 0, 0, 0)',
             label: {
-                text: '大冷',
+                text: 'big cold',
                 style: {
                     color: '#606060'
                 }
@@ -155,7 +155,7 @@ Highcharts.chart('container', {
             to: 1.14844,
             color: 'rgba(68, 170, 213, 0.1)',
             label: {
-                text: '小冷',
+                text: 'little cold',
                 style: {
                     color: '#606060'
                 }
@@ -165,7 +165,7 @@ Highcharts.chart('container', {
             to: 1.18708,
             color: 'rgba(0, 255, 0, 0.1)',
             label: {
-                text: '冷',
+                text: 'cold',
                 style: {
                     color: '#606060'
                 }
@@ -175,7 +175,7 @@ Highcharts.chart('container', {
             to: 1.22572,
             color: 'rgba(255, 215, 0, 0.2)',
             label: {
-                text: '热',
+                text: 'hot',
                 style: {
                     color: '#606060'
                 }
@@ -185,7 +185,7 @@ Highcharts.chart('container', {
             to: 1.26436,
             color: 'rgba(255, 106, 106, 0.3)',
             label: {
-                text: '小热',
+                text: 'little hot',
                 style: {
                     color: '#606060'
                 }
@@ -195,7 +195,7 @@ Highcharts.chart('container', {
             to: 1.303,
             color: 'rgba(255, 49, 49, 0.4)',
             label: {
-                text: '大热',
+                text: 'big hot',
                 style: {
                     color: '#606060'
                 }
@@ -234,7 +234,7 @@ Highcharts.chart('container', {
         }
     },
     series: [{
-        name: '价格',
+        name: 'price',
         data: salesData,
         color: '#FF5722',
         lineWidth: 2,
@@ -242,7 +242,7 @@ Highcharts.chart('container', {
             radius: 4
         }
     }, {
-        name: '反转',
+        name: 'trend',
         data: regression.data,
         color: '#2196F3',
         lineWidth: 3,
