@@ -71,7 +71,9 @@ automatisation，OSI assurance qualité du réseau，
 - Protocole réseau
 - Gestion de projet
 
-## <span>Rédacteur | dumas | <a href="lcdm/index.html">LE COMTE DE MONTE-CRISTO</a> </span>
+
+<!-- ## <span>Rédacteur | dumas | <a href="lcdm/index.html">LE COMTE DE MONTE-CRISTO</a> </span> -->
+
 
 <a href="#top">Haut de page</a>
     ====
@@ -85,4 +87,5 @@ automatisation，OSI assurance qualité du réseau，
   markedInHtml.init()
 </script>
 </html>
+
 
