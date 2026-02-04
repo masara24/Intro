@@ -92,8 +92,17 @@
     <td style="border: 1px solid black;">9</td>
     <td style="border: 1px solid black;"><a href="https://eyes.nasa.gov/apps/solar-system/#/home">solar</a></td>
   </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">10</td>
+    <td style="border: 1px solid black;"><a href="https://masara24.github.io/Intro/lcdm/index.html">LE COMTE DE MONTE-CRISTO</a></td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">10</td>
+    <td style="border: 1px solid black;"><a href="https://www.biblegateway.com/passage/?search=Psaumes+18&version=BDS">LA BIBLE DU SEMEUR</a></td>
+  </tr>
 </table>
 </body>
+
 
 
 
