@@ -90,7 +90,7 @@
   </tr>
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">9</td>
-    <td style="border: 1px solid black;"><a href="https://eyes.nasa.gov/apps/solar-system/#/home">solar</a></td>
+    <td style="border: 1px solid black;"><a href="https://eyes.nasa.gov/apps/solar-system/#/home">nasa</a></td>
   </tr>
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">10</td>
@@ -102,10 +102,11 @@
   </tr>
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">10</td>
-    <td style="border: 1px solid black;"><a href="https://masara24.github.io/Intro/univ/index.html">LE UNIV</a></td>
+    <td style="border: 1px solid black;"><a href="https://masara24.github.io/Intro/univ/index.html">univ</a></td>
   </tr>
 </table>
 </body>
+
 
 
 
