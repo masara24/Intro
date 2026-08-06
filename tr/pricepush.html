@@ -1,0 +1,975 @@
+
+<!DOCTYPE html>
+
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>trade, by masara</title>
+<style>
+body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em
+    }
+h1 {
+    font-size: 300%;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.12em;
+    word-spacing: 0.2em;
+    text-indent: 0
+    }
+h2 {
+    font-size: 150%;
+    margin-top: 2em;
+    margin-bottom: 1em
+    }
+h3 {
+    font-size: 130%;
+    margin-top: 1em
+    }
+h4 {
+    font-size: 120%
+    }
+h5 {
+    font-size: 110%
+    }
+.no-break {
+    page-break-before: avoid
+    }
+div.chapter {
+    page-break-before: always;
+    margin-top: 4em
+    }
+hr {
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 2em
+    }
+p {
+    text-indent: 1em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em
+    }
+p.noindent {
+    text-indent: 0%
+    }
+a:link {
+    color: blue;
+    text-decoration: none
+    }
+a:visited {
+    color: blue;
+    text-decoration: none
+    }
+a:hover {
+    color: red
+    }
+        /* Breadcrumb Styles */
+        .breadcrumbs {
+            background: #fdfdfd;
+            border: 1px solid var(--border-color);
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            color: var(--text);
+            box-shadow: var(--shadow);
+            display: flex;
+            align-items: center;
+        }
+
+        .breadcrumbs a {
+            color: #64748b;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .breadcrumbs a:hover {
+            color: var(--navy);
+        }
+
+        .breadcrumbs span {
+            margin: 0 8px;
+            color: #cbd5e1;
+        }
+
+        .breadcrumbs .current {
+            color: var(--navy);
+            font-weight: 600;
+        }
+
+        [data-theme="dark"] .breadcrumbs {
+            background: var(--card-bg);
+            border-color: var(--border-color);
+        }
+
+        /* Custom Dropdown Styling */
+        .custom-dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-btn {
+            background: transparent;
+            color: #fff;
+            border: none;
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 5px 10px;
+            margin-left: 5px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: #fff;
+            min-width: 240px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            border-radius: 8px;
+            padding: 8px 0;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .dropdown-content a {
+            color: var(--text);
+            padding: 10px 16px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            transition: background-color 0.2s;
+            border-left: 3px solid transparent;
+        }
+
+        .dropdown-content a ion-icon {
+            margin-right: 12px;
+            font-size: 18px;
+            color: #64748b;
+        }
+
+        .dropdown-content a:hover {
+            background-color: rgba(79, 70, 229, 0.05);
+            color: var(--navy);
+            border-left-color: var(--navy);
+        }
+
+        .dropdown-content a:hover ion-icon {
+            color: var(--navy);
+        }
+
+        /* Show dropdown when toggled */
+        .show {
+            display: block;
+        }
+
+        [data-theme="dark"] .dropdown-content {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+        }
+
+        /* Search Suggestions Styles */
+        .search-container {
+            position: relative;
+            display: flex;
+        }
+
+        .suggestions-list {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            max-height: 300px;
+            overflow-y: auto;
+            z-index: 1001;
+            display: none;
+            margin-top: 5px;
+        }
+
+        .suggestions-list a {
+            display: block;
+            padding: 10px 16px;
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #f1f5f9;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+
+        .suggestions-list a:last-child {
+            border-bottom: none;
+        }
+
+        .suggestions-list a:hover {
+            background: #f8fafc;
+            color: var(--navy);
+        }
+
+        .suggestions-list a .cat-tag {
+            font-size: 12px;
+            color: #94a3b8;
+            float: right;
+        }
+
+        [data-theme="dark"] .suggestions-list {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+        }
+
+        [data-theme="dark"] .suggestions-list a {
+            color: var(--text);
+            border-bottom-color: var(--border-color);
+        }
+
+        [data-theme="dark"] .suggestions-list a:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        /* Calculator Styles */
+        .calculator-wrapper {
+            background: #f5f5f5;
+            border: 1px solid var(--border-color);
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .calc-grid {
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 30px;
+        }
+
+        @media (max-width: 900px) {
+            .calc-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .input-section h3 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            color: var(--navy);
+            border-bottom: 2px solid var(--navy);
+            padding-bottom: 10px;
+        }
+
+        .input-group {
+            margin-bottom: 18px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            font-size: 15px;
+            color: var(--text);
+        }
+
+        .input-group input,
+        .input-group select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 16px;
+            font-family: inherit;
+            background: var(--card-bg);
+            color: var(--text);
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .input-group input:focus,
+        .input-group select:focus {
+            outline: none;
+            border-color: var(--navy);
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+
+        .calculate-btn {
+            width: 100%;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, var(--navy), #6366f1);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-top: 10px;
+        }
+
+        .calculate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
+        }
+
+        .results-section {
+            background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+            border-radius: 12px;
+            padding: 25px;
+        }
+
+        [data-theme="dark"] .results-section {
+            background: linear-gradient(135deg, #1e293b, #334155);
+        }
+
+        .chart-container {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            min-height: 400px;
+        }
+
+        .chart-container h4 {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            color: var(--navy);
+            text-align: center;
+        }
+
+        /* Fibonacci Levels Table */
+        .fib-levels-container {
+            margin-top: 25px;
+        }
+
+        .fib-levels-container h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: var(--navy);
+        }
+
+        .levels-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .level-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .level-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .level-card .percentage {
+            font-size: 14px;
+            font-weight: 600;
+            color: #64748b;
+            margin-bottom: 5px;
+        }
+
+        .level-card .price {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--navy);
+        }
+
+        .level-card.retracement {
+            border-left: 4px solid #10b981;
+        }
+
+        .level-card.extension {
+            border-left: 4px solid #f59e0b;
+        }
+
+        .level-card.key-level {
+            background: linear-gradient(135deg, #eff6ff, #dbeafe);
+            border-color: var(--navy);
+        }
+
+        [data-theme="dark"] .level-card.key-level {
+            background: linear-gradient(135deg, #1e3a5f, #1e40af);
+        }
+
+        /* Visual Chart Styles */
+        .visual-chart {
+            position: relative;
+            height: 450px;
+            background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+            border-radius: 10px;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        [data-theme="dark"] .visual-chart {
+            background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+        }
+
+        .fib-line {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 15px;
+        }
+
+        .fib-line .label {
+            background: white;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 600;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            white-space: nowrap;
+        }
+
+        [data-theme="dark"] .fib-line .label {
+            background: #334155;
+            color: white;
+        }
+
+        .fib-line .price-label {
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .price-bar {
+            position: absolute;
+            left: 50%;
+            width: 60px;
+            transform: translateX(-50%);
+            background: linear-gradient(180deg, #ef4444 0%, #22c55e 100%);
+            border-radius: 8px;
+            opacity: 0.3;
+        }
+
+        /* Trend indicator */
+        .trend-indicator {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px;
+            background: var(--card-bg);
+            border-radius: 10px;
+            margin-top: 15px;
+            border: 1px solid var(--border-color);
+        }
+
+        .trend-indicator.uptrend {
+            border-left: 4px solid #10b981;
+        }
+
+        .trend-indicator.downtrend {
+            border-left: 4px solid #ef4444;
+        }
+
+        .trend-indicator ion-icon {
+            font-size: 28px;
+        }
+
+        .trend-indicator.uptrend ion-icon {
+            color: #10b981;
+        }
+
+        .trend-indicator.downtrend ion-icon {
+            color: #ef4444;
+        }
+
+        .trend-info h4 {
+            font-size: 16px;
+            margin-bottom: 3px;
+        }
+
+        .trend-info p {
+            font-size: 13px;
+            color: #64748b;
+            margin: 0;
+        }
+
+    </style>
+   
+</head>
+
+<body>
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<meta name="dc.title" content="Le comte de Monte-Cristo, Tome I">
+<meta name="dc.language" content="fr">
+</head>
+
+<body><section class="pg-boilerplate pgheader" id="pg-header" lang="en">
+<div id="pg-start-separator">
+</div></section><div style="margin-top:2em; margin-bottom:4em"></div>
+<hr style="width: 65%;">
+<h1>Trade</h1>
+<h2 class="no-break">masara</h2>
+<hr style="width: 65%;">
+<center>
+    <main>
+
+        <!-- Calculator Section -->
+        <section class="calc-container">
+            <h1>Fibonacci Retracement Calculator</h1>
+            <p>Calculate Fibonacci retracement and extension levels for technical analysis. Identify potential support and resistance levels, set stop-loss orders, and determine profit targets based on Fibonacci ratios.</p>
+
+            <div class="calculator-wrapper">
+                <div class="calc-grid">
+                    <!-- Input Section -->
+                    <div class="input-section">
+                        <h3>Price Data</h3>
+
+                        <div class="input-group">
+                            <label for="highPrice">High Price ($)</label>
+                            <input type="number" id="highPrice" value="150" min="0" step="0.01">
+                            <div class="input-hint">The highest price point in the trend</div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="lowPrice">Low Price ($)</label>
+                            <input type="number" id="lowPrice" value="100" min="0" step="0.01">
+                            <div class="input-hint">The lowest price point in the trend</div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="trendDirection">Trend Direction</label>
+                            <select id="trendDirection">
+                                <option value="uptrend">Uptrend (Price moving up)</option>
+                                <option value="downtrend">Downtrend (Price moving down)</option>
+                            </select>
+                            <div class="input-hint">The direction of the primary trend</div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="customLevel">Custom Level (%)</label>
+                            <input type="number" id="customLevel" value="" min="0" max="500" step="0.1" placeholder="Optional">
+                            <div class="input-hint">Add a custom Fibonacci level (optional)</div>
+                        </div>
+
+                        <button class="calculate-btn" onclick="calculateFibonacci()">
+                            <ion-icon name="calculator-outline" color="green"></ion-icon> Calculate Levels
+                        </button>
+
+                        <!-- Trend Indicator -->
+                        <div class="trend-indicator uptrend" id="trendIndicator">
+                            <ion-icon name="trending-up-outline"></ion-icon>
+                            <div class="trend-info">
+                                <h4>Uptrend Analysis</h4>
+                                <p>Retracement levels show potential support during pullbacks</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Visual Chart Section -->
+                    <div class="chart-container">
+                        <h4>Fibonacci Levels Visualization</h4>
+                        <div class="visual-chart" id="fibChart">
+                            <!-- Fibonacci lines will be generated here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fibonacci Levels Cards -->
+                <div class="fib-levels-container">
+                    <h3>Retracement Levels</h3>
+                    <div class="levels-grid" id="retracementLevels">
+                        <!-- Levels will be generated here -->
+                    </div>
+
+                    <h3 style="margin-top: 30px;">Extension Levels</h3>
+                    <div class="levels-grid" id="extensionLevels">
+                        <!-- Extension levels will be generated here -->
+                    </div>
+                </div>
+
+                <!-- Complete Levels Table -->
+                <div style="margin-top: 30px;">
+                    <h3 style="color: var(--navy); margin-bottom: 15px;">Complete Fibonacci Levels Table</h3>
+                    <div style="overflow-x: auto;">
+                        <table class="levels-table" id="levelsTable">
+                            <thead>
+                                <tr>
+                                    <th>Level</th>
+                                    <th>Percentage</th>
+                                    <th>Price</th>
+                                    <th>Type</th>
+                                    <th>Significance</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+      
+
+    <!-- Scripts -->
+    <script src="https://ezcalculator.net/UI/English UI/projects.js"></script>
+    <script>
+        // Fibonacci levels configuration
+        const fibLevels = {
+            retracement: [
+                { ratio: 0, label: '0%', significance: 'Start of move' },
+                { ratio: 0.236, label: '23.6%', significance: 'Shallow retracement' },
+                { ratio: 0.382, label: '38.2%', significance: 'Common retracement' },
+                { ratio: 0.5, label: '50%', significance: 'Midpoint' },
+                { ratio: 0.618, label: '61.8%', significance: 'Golden ratio - Key level', key: true },
+                { ratio: 0.786, label: '78.6%', significance: 'Deep retracement' },
+                { ratio: 1, label: '100%', significance: 'Full retracement' }
+            ],
+            extension: [
+                { ratio: 1.272, label: '127.2%', significance: 'First extension' },
+                { ratio: 1.382, label: '138.2%', significance: 'Conservative target' },
+                { ratio: 1.618, label: '161.8%', significance: 'Golden extension', key: true },
+                { ratio: 2, label: '200%', significance: 'Double move' },
+                { ratio: 2.618, label: '261.8%', significance: 'Extended target' }
+            ]
+        };
+
+        // Color mapping for levels
+        const levelColors = {
+            0: '#94a3b8',
+            0.236: '#22c55e',
+            0.382: '#10b981',
+            0.5: '#3b82f6',
+            0.618: '#8b5cf6',
+            0.786: '#f59e0b',
+            1: '#ef4444',
+            1.272: '#f97316',
+            1.382: '#ec4899',
+            1.618: '#a855f7',
+            2: '#6366f1',
+            2.618: '#14b8a6'
+        };
+
+        function formatPrice(price) {
+            if (price >= 1000) {
+                return '$' + price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            }
+            return '$' + price.toFixed(4);
+        }
+
+        function calculateFibonacci() {
+            const highPrice = parseFloat(document.getElementById('highPrice').value) || 0;
+            const lowPrice = parseFloat(document.getElementById('lowPrice').value) || 0;
+            const trend = document.getElementById('trendDirection').value;
+            const customLevel = parseFloat(document.getElementById('customLevel').value) || null;
+
+            if (highPrice <= lowPrice) {
+                alert('High price must be greater than low price');
+                return;
+            }
+
+            const priceDiff = highPrice - lowPrice;
+
+            // Calculate all levels
+            const allLevels = [];
+
+            // Add retracement levels
+            fibLevels.retracement.forEach(level => {
+                let price;
+                if (trend === 'uptrend') {
+                    price = highPrice - (priceDiff * level.ratio);
+                } else {
+                    price = lowPrice + (priceDiff * level.ratio);
+                }
+                allLevels.push({
+                    ...level,
+                    price: price,
+                    type: 'retracement'
+                });
+            });
+
+            // Add extension levels
+            fibLevels.extension.forEach(level => {
+                let price;
+                if (trend === 'uptrend') {
+                    price = lowPrice + (priceDiff * level.ratio);
+                } else {
+                    price = highPrice - (priceDiff * level.ratio);
+                }
+                allLevels.push({
+                    ...level,
+                    price: price,
+                    type: 'extension'
+                });
+            });
+
+            // Add custom level if provided
+            if (customLevel !== null && customLevel > 0) {
+                let customPrice;
+                if (trend === 'uptrend') {
+                    if (customLevel <= 100) {
+                        customPrice = highPrice - (priceDiff * (customLevel / 100));
+                    } else {
+                        customPrice = lowPrice + (priceDiff * (customLevel / 100));
+                    }
+                } else {
+                    if (customLevel <= 100) {
+                        customPrice = lowPrice + (priceDiff * (customLevel / 100));
+                    } else {
+                        customPrice = highPrice - (priceDiff * (customLevel / 100));
+                    }
+                }
+                allLevels.push({
+                    ratio: customLevel / 100,
+                    label: customLevel + '%',
+                    price: customPrice,
+                    type: customLevel <= 100 ? 'retracement' : 'extension',
+                    significance: 'Custom level',
+                    custom: true
+                });
+            }
+
+            // Update trend indicator
+            updateTrendIndicator(trend);
+
+            // Render levels
+            renderLevelCards(allLevels.filter(l => l.type === 'retracement'), 'retracementLevels');
+            renderLevelCards(allLevels.filter(l => l.type === 'extension'), 'extensionLevels');
+            renderVisualChart(allLevels, highPrice, lowPrice, trend);
+            renderLevelsTable(allLevels);
+        }
+
+        function updateTrendIndicator(trend) {
+            const indicator = document.getElementById('trendIndicator');
+            if (trend === 'uptrend') {
+                indicator.className = 'trend-indicator uptrend';
+                indicator.innerHTML = `
+                    <ion-icon name="trending-up-outline"></ion-icon>
+                    <div class="trend-info">
+                        <h4>Uptrend Analysis</h4>
+                        <p>Retracement levels show potential support during pullbacks</p>
+                    </div>
+                `;
+            } else {
+                indicator.className = 'trend-indicator downtrend';
+                indicator.innerHTML = `
+                    <ion-icon name="trending-down-outline"></ion-icon>
+                    <div class="trend-info">
+                        <h4>Downtrend Analysis</h4>
+                        <p>Retracement levels show potential resistance during bounces</p>
+                    </div>
+                `;
+            }
+        }
+
+        function renderLevelCards(levels, containerId) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = levels.map(level => {
+                let className = 'level-card';
+                if (level.type === 'retracement') className += ' retracement';
+                else className += ' extension';
+                if (level.key) className += ' key-level';
+                if (level.custom) className += ' key-level';
+
+                return `
+                    <div class="${className}">
+                        <div class="percentage">${level.label}</div>
+                        <div class="price">${formatPrice(level.price)}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function renderVisualChart(levels, high, low, trend) {
+            const container = document.getElementById('fibChart');
+
+            // Get all prices for scaling
+            const allPrices = levels.map(l => l.price);
+            allPrices.push(high, low);
+            const minPrice = Math.min(...allPrices);
+            const maxPrice = Math.max(...allPrices);
+            const priceRange = maxPrice - minPrice;
+
+            // Calculate positions (as percentage from top)
+            const getTopPosition = (price) => {
+                return ((maxPrice - price) / priceRange) * 100;
+            };
+
+            // Create price bar
+            const barTop = getTopPosition(high);
+            const barBottom = getTopPosition(low);
+            const barHeight = barBottom - barTop;
+
+            let html = `<div class="price-bar" style="top: ${barTop}%; height: ${barHeight}%;"></div>`;
+
+            // Create Fibonacci lines
+            levels.forEach(level => {
+                const top = getTopPosition(level.price);
+                const color = levelColors[level.ratio] || '#64748b';
+
+                html += `
+                    <div class="fib-line" style="top: ${top}%; background-color: ${color};">
+                        <span class="label" style="color: ${color};">${level.label}</span>
+                        <span class="price-label" style="color: ${color};">${formatPrice(level.price)}</span>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        function renderLevelsTable(levels) {
+            const tbody = document.querySelector('#levelsTable tbody');
+            tbody.innerHTML = levels.map(level => {
+                const typeClass = level.type === 'retracement' ? 'color: #10b981;' : 'color: #f59e0b;';
+                return `
+                    <tr>
+                        <td><strong>${level.label}</strong></td>
+                        <td>${(level.ratio * 100).toFixed(1)}%</td>
+                        <td><strong>${formatPrice(level.price)}</strong></td>
+                        <td style="${typeClass}">${level.type.charAt(0).toUpperCase() + level.type.slice(1)}</td>
+                        <td>${level.significance}${level.key ? ' <strong>(Key Level)</strong>' : ''}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        // Auto-calculate on input change
+        document.querySelectorAll('#highPrice, #lowPrice, #trendDirection, #customLevel').forEach(el => {
+            el.addEventListener('input', calculateFibonacci);
+        });
+
+        // Initialize calculation
+        document.addEventListener('DOMContentLoaded', function() {
+            calculateFibonacci();
+        });
+
+        // --- Theme Logic ---
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        let isDarkMode = false;
+
+        function initTheme() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                toggleTheme(true);
+            }
+        }
+
+        if (themeToggle) {
+            themeToggle.addEventListener('click', () => toggleTheme(!isDarkMode));
+        }
+
+        function toggleTheme(dark) {
+            isDarkMode = dark;
+            document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+            if (themeIcon) {
+                themeIcon.setAttribute('name', dark ? 'sunny-outline' : 'moon-outline');
+                if (themeToggle) themeToggle.setAttribute('aria-label', dark ? 'Switch to Light Mode' : 'Switch to Dark Mode');
+            }
+            localStorage.setItem('theme', dark ? 'dark' : 'light');
+        }
+
+        // --- Search & Autocomplete Logic ---
+        function handleSearch(event) {
+            event.preventDefault();
+            const query = document.querySelector('input[name="q"]').value.toLowerCase().trim();
+            if (!query) return;
+
+            if (typeof projects === 'undefined') {
+                window.location.href = `https://www.google.com/search?q=site:ezcalculator.net+${encodeURIComponent(query)}`;
+                return;
+            }
+
+            const match = projects.find(p => p.name.toLowerCase() === query);
+            if (match) {
+                window.location.href = getProjectUrl(match);
+            } else {
+                const partial = projects.find(p => p.name.toLowerCase().includes(query));
+                if (partial) {
+                    window.location.href = getProjectUrl(partial);
+                } else {
+                    window.location.href = `https://www.google.com/search?q=site:ezcalculator.net+${encodeURIComponent(query)}`;
+                }
+            }
+        }
+
+        function getProjectUrl(project) {
+            return `https://ezcalculator.net/${project.path}`;
+        }
+
+        // --- Dropdown Logic ---
+        function toggleDropdown() {
+            const dropdown = document.getElementById("myDropdown");
+            if (dropdown) dropdown.classList.toggle("show");
+        }
+
+        // --- Initialization & Events ---
+        document.addEventListener('DOMContentLoaded', () => {
+            // Autocomplete
+            const input = document.getElementById('searchInput');
+            const suggestionsBox = document.getElementById('suggestions');
+
+            if (input && suggestionsBox) {
+                input.addEventListener('input', (e) => {
+                    const val = e.target.value.toLowerCase().trim();
+                    suggestionsBox.style.display = 'none';
+                    suggestionsBox.innerHTML = '';
+
+                    if (val.length < 1 || typeof projects === 'undefined') return;
+
+                    const matches = projects.filter(p => p.name.toLowerCase().includes(val)).slice(0, 8);
+
+                    if (matches.length > 0) {
+                        suggestionsBox.style.display = 'block';
+                        const html = matches.map(p => {
+                            const url = getProjectUrl(p);
+                            return `<a href="${url}">${p.name} <span class="cat-tag">${p.category}</span></a>`;
+                        }).join('');
+                        suggestionsBox.innerHTML = html;
+                    }
+                });
+
+                document.addEventListener('click', (e) => {
+                    if (!input.contains(e.target) && !suggestionsBox.contains(e.target)) {
+                        suggestionsBox.style.display = 'none';
+                    }
+                });
+            }
+
+            // Close Dropdown on Click Outside
+            window.onclick = function (event) {
+                if (!event.target.matches('.dropdown-btn') && !event.target.closest('.dropdown-btn')) {
+                    const dropdowns = document.getElementsByClassName("dropdown-content");
+                    for (let i = 0; i < dropdowns.length; i++) {
+                        const openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            };
+        });
+
+        // Run Theme Init
+        initTheme();
+    </script>
+</body>
+
+</html>
