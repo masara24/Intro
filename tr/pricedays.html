@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>trade, by masara</title>
+<style>
+body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em
+    }
+h1 {
+    font-size: 300%;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.12em;
+    word-spacing: 0.2em;
+    text-indent: 0
+    }
+h2 {
+    font-size: 150%;
+    margin-top: 2em;
+    margin-bottom: 1em
+    }
+h3 {
+    font-size: 130%;
+    margin-top: 1em
+    }
+h4 {
+    font-size: 120%
+    }
+h5 {
+    font-size: 110%
+    }
+.no-break {
+    page-break-before: avoid
+    }
+div.chapter {
+    page-break-before: always;
+    margin-top: 4em
+    }
+hr {
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 2em
+    }
+p {
+    text-indent: 1em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em
+    }
+p.noindent {
+    text-indent: 0%
+    }
+a:link {
+    color: blue;
+    text-decoration: none
+    }
+a:visited {
+    color: blue;
+    text-decoration: none
+    }
+a:hover {
+    color: red
+    }
+	
+.container {
+      background: #f5f5f5;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .input-group {
+      margin-bottom: 1rem;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+    input[type="date"] {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    button {
+      width: 100%;
+      padding: 1rem;
+      background: #2c3e50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #34495e;
+    }
+    #result {
+      margin-top: 1.5rem;
+      padding: 1rem;
+      border-radius: 4px;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+</style>
+<link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<meta name="dc.title" content="Le comte de Monte-Cristo, Tome I">
+<meta name="dc.language" content="fr">
+</head>
+
+<body><section class="pg-boilerplate pgheader" id="pg-header" lang="en">
+<div id="pg-start-separator">
+</div></section><div style="margin-top:2em; margin-bottom:4em"></div>
+<hr style="width: 65%;">
+<h1>Trade</h1>
+<h2 class="no-break">masara</h2>
+<hr style="width: 65%;">
+<center>
+<main>
+
+<div class="container">
+    <h1>Calculate Nights Between Dates</h1>
+    <div class="input-group">
+      <label for="date1">Start Date:</label>
+      <input type="date" id="date1" required>
+    </div>
+    <div class="input-group">
+      <label for="date2">End Date:</label>
+      <input type="date" id="date2" required>
+    </div>
+    <button id="calculateBtn">Calculate Nights</button>
+    <div id="result"></div>
+  </div>
+ 
+  <script>
+    // Get DOM elements
+    const date1Input = document.getElementById("date1");
+    const date2Input = document.getElementById("date2");
+    const calculateBtn = document.getElementById("calculateBtn");
+    const resultDiv = document.getElementById("result");
+ 
+    // Manual date parser (avoids time zone issues)
+    function parseDate(dateStr) {
+      const [year, month, day] = dateStr.split("-").map(Number);
+      return new Date(year, month - 1, day); // Month is 0-based
+    }
+ 
+    // Calculate
+    function dateDiffInDays(date1, date2) {
+      const timeDiff = Math.abs(date2.getTime() - date1.getTime());
+      return Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+    }
+ 
+    // Handle button click
+    function calculateDays() {
+      const date1Str = date1Input.value;
+      const date2Str = date2Input.value;
+ 
+      // Validate input presence
+      if (!date1Str || !date2Str) {
+        resultDiv.textContent = "Error: Please select both dates.";
+        resultDiv.style.color = "red";
+        return;
+      }
+ 
+      // Parse dates
+      const date1 = parseDate(date1Str);
+      const date2 = parseDate(date2Str);
+ 
+      // Validate date objects
+      if (isNaN(date1.getTime()) || isNaN(date2.getTime())) {
+        resultDiv.textContent = "Error: Invalid date format.";
+        resultDiv.style.color = "red";
+        return;
+      }
+ 
+      // Calculate and display result
+      const days = dateDiffInDays(date1, date2);
+      resultDiv.textContent = `Nights between dates: ${days}`;
+      resultDiv.style.color = "green";
+    }
+ 
+    // Add event listener
+    calculateBtn.addEventListener("click", calculateDays);
+  </script>
+</body>		
+</html>
