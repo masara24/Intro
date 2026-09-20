@@ -1,0 +1,584 @@
+<head>
+    <link rel="stylesheet" href="https://www.moshuyuan.com/css/style.css?v=305.0">
+    <link rel="stylesheet" href="https://www.moshuyuan.com/css/dark-mode.css?v=110.0">
+    <link rel="stylesheet" href="https://www.moshuyuan.com/css/guoxue-style.css?v=98.3">
+</head>
+<body>
+           
+<section class="book-front-block book-meta-card book-author" id="bookAuthor" aria-labelledby="bookAuthorHeading">
+    <h2 class="book-front-label" id="bookAuthorHeading">作者简介</h2>
+    
+    <p class="book-author-name">鲁速</p>
+    
+    
+    <div class="book-author-bio" data-book-bio="">
+        <div class="book-author-bio-text">番茄作者，乐天作者</div>
+        
+    </div>
+    
+</section>
+
+</div>
+
+
+
+<section class="book-dossier" id="bookDossier" data-book-dossier="" data-default-tab="tiyao" aria-label="卷首解题">
+    
+    <div class="books-grid-container book-section-heading book-dossier-solo-heading">
+        <h2>
+            寒窑简介
+        </h2>
+    </div>
+    
+
+    <div class="book-dossier-panels">
+        
+        
+        <div class="book-dossier-panel book-description book-tiyao is-active" role="tabpanel" id="panel-tiyao" data-book-panel="tiyao" aria-labelledby="tab-tiyao">
+            <p>寒窑</p>
+        </div>
+        
+        
+        
+    </div>
+</section>
+<script>
+(function () {
+  var root = document.getElementById('bookDossier');
+  if (!root) return;
+  var tabs = root.querySelectorAll('[data-book-tab]');
+  var panels = root.querySelectorAll('[data-book-panel]');
+  function activate(id) {
+    tabs.forEach(function (t) {
+      var on = t.getAttribute('data-book-tab') === id;
+      t.classList.toggle('is-active', on);
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    panels.forEach(function (p) {
+      var on = p.getAttribute('data-book-panel') === id;
+      p.classList.toggle('is-active', on);
+      if (on) p.removeAttribute('hidden');
+      else p.setAttribute('hidden', '');
+    });
+  }
+  tabs.forEach(function (t) {
+    t.addEventListener('click', function () {
+      activate(t.getAttribute('data-book-tab'));
+    });
+  });
+  var bio = document.querySelector('[data-book-bio-collapse]');
+  var btn = document.querySelector('[data-book-bio-toggle]');
+  if (bio && btn) {
+    bio.classList.add('is-collapsed');
+    btn.addEventListener('click', function () {
+      var open = bio.classList.toggle('is-collapsed') === false;
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.textContent = open
+        ? ('收起')
+        : ('展开');
+    });
+  }
+})();
+</script>
+
+                
+                <div class="books-grid-container book-toc-card">
+                    <h2>目录</h2>
+                    
+                        
+                        <div class="chapter-list" id="chapterList" data-msy-book-chapter-list="" data-msy-book-path="index.html">
+                        
+                            
+                            
+                            <div class="chapter-item">
+                                <a href="hyf.html">
+                                    寒窑赋第一
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-er-zhang.html">
+                                    老子第二章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-san-zhang.html">
+                                    老子第三章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-si-zhang.html">
+                                    老子第四章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-wu-zhang.html">
+                                    老子第五章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-liu-zhang.html">
+                                    老子第六章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-qi-zhang.html">
+                                    老子第七章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-ba-zhang.html">
+                                    老子第八章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-jiu-zhang.html">
+                                    老子第九章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-shi-zhang.html">
+                                    老子第十章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-shi-yi-zhang.html">
+                                    老子第十一章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-shi-er-zhang.html">
+                                    老子第十二章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-shi-san-zhang.html">
+                                    老子第十三章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-shi-si-zhang.html">
+                                    老子第十四章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-shi-wu-zhang.html">
+                                    老子第十五章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-shi-liu-zhang.html">
+                                    老子第十六章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-shi-qi-zhang.html">
+                                    老子第十七章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-shi-ba-zhang.html">
+                                    老子第十八章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-shi-jiu-zhang.html">
+                                    老子第十九章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-er-shi-zhang.html">
+                                    老子第二十章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-er-shi-yi.html">
+                                    老子第二十一章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-er-shi-er.html">
+                                    老子第二十二章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-er-shi-san.html">
+                                    老子第二十三章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-er-shi-si.html">
+                                    老子第二十四章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-er-shi-wu.html">
+                                    老子第二十五章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-er-shi-liu.html">
+                                    老子第二十六章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-er-shi-qi.html">
+                                    老子第二十七章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-er-shi-ba.html">
+                                    老子第二十八章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-er-shi-jiu.html">
+                                    老子第二十九章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-san-shi-zhang.html">
+                                    老子第三十章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-san-shi-yi.html">
+                                    老子第三十一章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-san-shi-er.html">
+                                    老子第三十二章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-san-shi-san.html">
+                                    老子第三十三章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-san-shi-si.html">
+                                    老子第三十四章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-san-shi-wu.html">
+                                    老子第三十五章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-san-shi-liu.html">
+                                    老子第三十六章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-san-shi-zhang-0037.html">
+                                    老子第三十章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-san-shi-ba.html">
+                                    老子第三十八章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-san-shi-jiu.html">
+                                    老子第三十九章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-si-shi-zhang.html">
+                                    老子第四十章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-si-shi-yi.html">
+                                    老子第四十一章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-si-shi-er.html">
+                                    老子第四十二章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-si-shi-san.html">
+                                    老子第四十三章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-si-shi-si.html">
+                                    老子第四十四章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-si-shi-wu.html">
+                                    老子第四十五章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-si-shi-liu.html">
+                                    老子第四十六章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-si-shi-qi.html">
+                                    老子第四十七章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-si-shi-ba.html">
+                                    老子第四十八章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-si-shi-jiu.html">
+                                    老子第四十九章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-wu-shi-zhang.html">
+                                    老子第五十章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-wu-shi-yi.html">
+                                    老子第五十一章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-wu-shi-er.html">
+                                    老子第五十二章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-wu-shi-san.html">
+                                    老子第五十三章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-wu-shi-si.html">
+                                    老子第五十四章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-wu-shi-wu.html">
+                                    老子第五十五章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-wu-shi-liu.html">
+                                    老子第五十六章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-wu-shi-qi.html">
+                                    老子第五十七章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-wu-shi-ba.html">
+                                    老子第五十八章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-wu-shi-jiu.html">
+                                    老子第五十九章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-liu-shi-zhang.html">
+                                    老子第六十章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-liu-shi-yi.html">
+                                    老子第六十一章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-liu-shi-er.html">
+                                    老子第六十二章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-liu-shi-san.html">
+                                    老子第六十三章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-liu-shi-si.html">
+                                    老子第六十四章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-liu-shi-wu.html">
+                                    老子第六十五章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-liu-shi-liu.html">
+                                    老子第六十六章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-liu-shi-qi.html">
+                                    老子第六十七章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-liu-shi-ba.html">
+                                    老子第六十八掌
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-liu-shi-jiu.html">
+                                    老子第六十九章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-qi-shi-zhang.html">
+                                    老子第七十章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-qi-shi-yi.html">
+                                    老子第七十一章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-qi-shi-er.html">
+                                    老子第七十二章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-qi-shi-san.html">
+                                    老子第七十三章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-qi-shi-si.html">
+                                    老子第七十四章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-qi-shi-wu.html">
+                                    老子第七十五章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-qi-shi-liu.html">
+                                    老子第七十六章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-qi-shi-qi.html">
+                                    老子第七十七章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-qi-shi-ba.html">
+                                    老子第七十八章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-qi-shi-jiu.html">
+                                    老子第七十九章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-ba-shi-zhang.html">
+                                    老子第八十章
+                                </a>
+                            </div>
+                            
+                            <div class="chapter-item">
+                                <a href="https://www.moshuyuan.com/chapter/zibu/dao-de-jing/lao-zi-di-ba-shi-yi.html">
+                                    老子第八十一章
+                                </a>
+                            </div>
+                            
+                        
+                    </div>
+                    
+                </div>
+
+</body>
