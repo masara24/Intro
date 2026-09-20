@@ -69,7 +69,7 @@
 
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">8</td>
-    <td style="border: 1px solid black;"><a href="https://masara24.github.io/Intro/hyf/index.htm">hanyaofu</a></td>
+    <td style="border: 1px solid black;"><a href="https://masara24.github.io/Intro/hyf/index.html">hanyaofu</a></td>
   </tr>
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">8</td>
