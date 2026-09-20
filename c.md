@@ -1,4 +1,3 @@
-
 <body>
 
 <table style="border-collapse: collapse; width: 100%;">
@@ -70,15 +69,15 @@
 
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">8</td>
-    <td style="border: 1px solid black;"><a href="xwzfr.pdf">prince</a></td>
+    <td style="border: 1px solid black;"><a href="https://masara24.github.io/Intro/hyf/index.htm">hanyaofu</a></td>
   </tr>
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">8</td>
-    <td style="border: 1px solid black;"><a href="https://www.jingdian1.com/sunbinbingfa">sunbin</a></td>
+    <td style="border: 1px solid black;"><a href="https://wenyanguji.com/zi/sunbinbingfa">sunbin</a></td>
   </tr>
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">8</td>
-    <td style="border: 1px solid black;"><a href="http://www.ccamc.co/chinese_historical_map/index_tw.php#atlas_tw/%E6%98%A5%E7%A7%8B%E5%88%97%E5%9B%BD%E5%9B%BE.jpg">chunqiu</a></td>
+    <td style="border: 1px solid black;"><a href="http://www.ccamc.co/chinese_historical_map/?d=ezhou&img=%E6%88%98%E5%9B%BD%E6%97%B6%E6%9C%9F%E5%85%A8%E5%9B%BE">zhanguo</a></td>
   </tr>
   <tr style="border: 1px solid black;">
     <td style="border: 1px solid black;">8</td>
@@ -106,13 +105,3 @@
   </tr>
 </table>
 </body>
-
-
-
-
-
-
-
-
-
-
